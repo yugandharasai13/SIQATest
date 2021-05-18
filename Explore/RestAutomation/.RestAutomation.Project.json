@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "eS6uLNn7d4Ob3ZZiIDBq0l",
+    "name" : "RestAutomation",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "RestAutomation",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
