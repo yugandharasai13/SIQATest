@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "aTsjz32G0E0dJ3rfYhireS",
+    "id" : "1wtO9MRK7PXecnHEj0VTmQ",
     "name" : "TailFileToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "653c2b6e-d642-43e3-a2eb-a3b6a828cd71"
+        "repoHandle" : "aa93524a-e57d-41a9-8bd9-807900c86593"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "g4A5EptSnyegg8yREkB2wB"
+        "value" : "cSIs1mTcNAle9WSp1jwGCn"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "67FmOGq9foMcfBGzt9d4Kr",
-    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011W050B000000000002"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9B26aEZjJ3ukd4HaZXzWOX",
-    "name" : "AgentGroup",
+    "id" : "7ZyELEQeBFzj7qYWoLeYgN",
+    "name" : "pamubuntu2",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011W0525000000000002"
+        "repoHandle" : "01006N25000000000003"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "au2sX87pM1Ij25W3xD3bG1",
-    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
+    "id" : "iuCi7rSuKGOcnP2n7R8rgh",
+    "name" : "SIAutomation_Tailfile_lin",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +56,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011W050B000000000052"
+        "repoHandle" : "01006N0B00000000000C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6x2UWcrHJ0vjbc6jxel5uc",
+    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01006N0B000000000008"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
