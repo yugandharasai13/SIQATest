@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "94jFiolSGxKeSzPfSbOh4K",
+    "id" : "5szbYGYuSzEbbWEnqhI6QI",
     "name" : "TailFileToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "d941b03b-330e-4ed3-9f0a-7c5001e819a9"
+        "repoHandle" : "209a40f8-420b-4538-8798-c873a7d5dc37"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "cSIs1mTcNAle9WSp1jwGCn"
+        "value" : "jOvUZZ4fL44b3xgMHM9QEB"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "7ZyELEQeBFzj7qYWoLeYgN",
-    "name" : "pamubuntu2",
+    "id" : "aMO1ZWavmiZc3531abAtC6",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01006N25000000000003"
+        "repoHandle" : "010SN625000000000006"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "iuCi7rSuKGOcnP2n7R8rgh",
+    "id" : "99XyRIR8X66e20NMtNUtUG",
     "name" : "SIAutomation_Tailfile_lin",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01006N0B00000000000C"
+        "repoHandle" : "010SN60B000000000008"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +67,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "6x2UWcrHJ0vjbc6jxel5uc",
-    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "id" : "ai7NTebuXQflR65xbgK1Ch",
+    "name" : "SIAutomation_Kafka_r37",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01006N0B000000000008"
+        "repoHandle" : "010SN60B0000000000ID"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
