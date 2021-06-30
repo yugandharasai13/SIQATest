@@ -16,10 +16,10 @@
         "value" : "1SZAutxD8e6b0JUfO7HY0s"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : "Edit and deploy",
+        "description" : "Edit and deploy1",
         "contentType" : null,
         "documentState" : "COMPLETE"
       }
