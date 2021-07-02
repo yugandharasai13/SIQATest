@@ -16,10 +16,10 @@
         "value" : "0G9tNJdtGR3deGynKfFyCz"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : "KafkaToKafka_Git",
+        "description" : "KafkaToKafka_Git edit",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
