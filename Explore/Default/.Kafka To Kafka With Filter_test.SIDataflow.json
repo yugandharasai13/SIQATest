@@ -16,10 +16,10 @@
         "value" : "5fBnYjqW0n9cqVa1KydwcF"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "edit and deploy",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
