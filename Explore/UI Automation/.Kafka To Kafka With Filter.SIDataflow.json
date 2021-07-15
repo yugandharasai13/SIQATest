@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "1EjSQL5wWYJhaHNB6Ik5IE",
+    "id" : "8XSHXl41drajtUOFWtYdmR",
     "name" : "Kafka To Kafka With Filter",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,25 +9,25 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "13617ff1-ba81-4dc2-bcae-53f6e4ad50d0"
+        "repoHandle" : "5fade12d-8a0c-4ba8-8974-041588ef0c9a"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "1SZAutxD8e6b0JUfO7HY0s"
+        "value" : "3JUR1P98A8eid16D4WWW6S"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "Edit and deploy1",
-        "contentType" : null,
+        "description" : null,
+        "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "a9lfJhijQyajFzJLoERlQ1",
+    "id" : "fPyISc4WOqRlTVrzZaKDi7",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC25000000000003"
+        "repoHandle" : "011AND25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "6EL3M3UMfs5dOgW5uZcy82",
-    "name" : "SIUIAutomation_Kafka1",
+    "id" : "bKosetHhSIWlPqk0QHfiGr",
+    "name" : "SIUIAutomation_Kafka",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B00000000001J"
+        "repoHandle" : "011AND0B000000000074"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
