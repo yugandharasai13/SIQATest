@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "8n7XZTvq10hi2OfxD1AFIG",
+    "id" : "8L2wl9fBXk6cDkT8WNwkez",
     "name" : "RestAutomation",
     "type" : "Project",
     "metadata" : {
@@ -11,7 +11,7 @@
       "repoInfo" : null,
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "RestAutomation",
+        "description" : "Rest Automation",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
