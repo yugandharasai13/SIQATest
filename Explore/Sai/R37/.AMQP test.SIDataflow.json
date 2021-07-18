@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "1zPqutuNpOOeGtnwwH7lqr",
+    "id" : "44lhnIiYksVeq7iKkNKGsn",
     "name" : "AMQP test",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "6e57ab28-edba-4119-b212-44c8e7e074f0"
+        "repoHandle" : "72dcd581-8476-4105-8e22-ed925e4f18ff"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "1SzA6vFdqUEg89rtqaotuv"
+        "value" : "aP2Eug52ztLekyZmfUQVkJ"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "3FLeMAjL6bUjv6z21kWVkW",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012PUK25000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "5KdVoFSb5m2g4FivPI8k6G",
+    "id" : "2yLiURfTUmxhaBbDKqEvO5",
     "name" : "KafkaConnectionSai",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012PUK0B00000000001G"
+        "repoHandle" : "010AEI0B000000000005"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,7 +47,27 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "5wXFbe5163EeC4VTZkwQyc",
+    "id" : "7dwmmbTcliollRtLa6iEcR",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010AEI25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7OCJpCuXEwkcqmNQ92PyIT",
     "name" : "AMQP SSL",
     "type" : "Connection",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012PUK0B00000000002V"
+        "repoHandle" : "010AEI0B00000000001M"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
