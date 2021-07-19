@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "aKDO0i0qTimdLPDGL8QXyW",
+    "id" : "7tTAUgwH3gMbDroFQRAl6q",
     "name" : "Copy Task",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "6f0a76ba-b91d-4668-a563-d907f3256c5c"
+        "repoHandle" : "76ff92b8-349d-49db-bfbd-3fa71ccbd583"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "aOXRElxe58qj5ezs7g2JG7"
+        "value" : "5fBnYjqW0n9cqVa1KydwcF"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "7ZyELEQeBFzj7qYWoLeYgN",
-    "name" : "pamubuntu2",
+    "id" : "fPyISc4WOqRlTVrzZaKDi7",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01006N25000000000003"
+        "repoHandle" : "011AND25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "2J0QLS8YWKliOABhlEO6ow",
+    "id" : "bKosetHhSIWlPqk0QHfiGr",
     "name" : "SIUIAutomation_Kafka",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01006N0B00000000001T"
+        "repoHandle" : "011AND0B000000000074"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,7 +67,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "dlBnST6klavluNTvfdCqiX",
+    "id" : "0d1CSdyOf4TiQ3a3v0pvUf",
     "name" : "SIUIAutomation_Tailfile",
     "type" : "Connection",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01006N0B00000000001V"
+        "repoHandle" : "011AND0B0000000000CN"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
