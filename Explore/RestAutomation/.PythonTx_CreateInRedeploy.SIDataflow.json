@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "10YBBnbzYNtj1p9Qs9qnYD",
+    "name" : "PythonTx_CreateInRedeploy",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4013c584-02d9-447e-b587-39d896062cd2"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "aSRrrxPGN3cfl317DnaU8R"
+      }, {
+        "name" : "version",
+        "value" : "2"
+      } ],
+      "additionalInfo" : {
+        "description" : "PythonTx_CreateInRedeploy",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "fPyISc4WOqRlTVrzZaKDi7",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "1zrUH1zRQVzf40DIlMslmB",
+    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND0B00000000009N"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
