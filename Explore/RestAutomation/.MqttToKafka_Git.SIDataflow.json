@@ -16,7 +16,7 @@
         "value" : "aSRrrxPGN3cfl317DnaU8R"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : "MqttToKafka_Git",
