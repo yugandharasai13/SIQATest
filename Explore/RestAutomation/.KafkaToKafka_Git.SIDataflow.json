@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "cJYVWVsUvSvbA1zJewYigT",
+    "id" : "btAb3Ftf9yOcXef5NqbLYn",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "b6cd1c37-b11a-4ed6-b4b8-3e154f2c86b3"
+        "repoHandle" : "dd8e3e1b-e863-4077-81f0-0f38b31fcb6c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,6 +27,26 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "3jNkhoxaBtGiOQBXPenzSv",
+    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012XML0B00000000002D"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "eKqOMfHn422fjmdKxuKGMa",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
