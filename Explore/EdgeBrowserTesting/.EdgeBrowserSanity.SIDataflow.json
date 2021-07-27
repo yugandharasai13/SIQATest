@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "lmWg4crRPkQdZ5ilzX916E",
-    "name" : "EdgeBrowserSanity edit",
+    "id" : "grUgfIq5pW5fSJdbXHXZwH",
+    "name" : "EdgeBrowserSanity",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "65e17289-ee7c-4c91-9ebd-c33a6af7e344"
+        "repoHandle" : "f44a260f-f6f4-4a5b-b88c-8942b9019e5d"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "kl7iP6YWB2uhVNWl1p1D6J"
       }, {
         "name" : "version",
-        "value" : "5"
+        "value" : "3"
       } ],
       "additionalInfo" : {
         "description" : null,
