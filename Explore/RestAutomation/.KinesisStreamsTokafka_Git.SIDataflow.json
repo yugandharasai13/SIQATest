@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "1mJ2b9auXnag5OefpebI6Y",
+    "id" : "kFNmMTByAWsdDxDzJuWRMh",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "aa6c8a33-356d-4705-b278-5df8215db50d"
+        "repoHandle" : "3b74eff5-01c1-4879-80d2-5ef224cf05ce"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "2Bl89rPwyxtlaQna6oVrac"
+        "value" : "cOyMFIYLD0zclkxaWfmUUC"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "0YMcnTGAeqVjdwUjpuOVMh",
-    "name" : "AgentGroup",
+    "id" : "54pJ8IX8vdsisKZAFd5qqD",
+    "name" : "invw19pam02",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CX325000000000002"
+        "repoHandle" : "0103UX25000000000003"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "acA7JGeONKLlzcpiMoCH0Y",
+    "id" : "2UpitDobMANiA2oUkSnLWz",
     "name" : "SIAutomation_KinesisStreams_r36_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CX30B000000000008"
+        "repoHandle" : "0103UX0B000000000073"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,7 +67,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "lPN7y1SSR0adPGTVau52C0",
+    "id" : "cjS0B5CnY4ijyUVIX8acS9",
     "name" : "SIAutomation_Kafka_SSL_r36_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CX30B00000000000F"
+        "repoHandle" : "0103UX0B0000000000CM"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
