@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "2iBRmGNCX4LjILhzkan5kk",
+    "id" : "hHDQBycnwodh08SlNND0KS",
     "name" : "KafkaToFlatfileTarget",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "9400e23d-d8a1-413e-8422-a2a3173e98cb"
+        "repoHandle" : "18258a37-c2a1-403a-b359-51cdd9fb9db7"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "lIkAfLW25mSc67IELu8Qit"
+        "value" : "6o9B54T7uANiRoYfAtXJUf"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "aMO1ZWavmiZc3531abAtC6",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010SN625000000000006"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "7arcXNwPjsVj1NKMcok9oX",
-    "name" : "FlatfileTarget",
+    "id" : "18Auf3GIB6wfYagK6nsQAB",
+    "name" : "kafkaConnectionSai",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN60B0000000000KI"
+        "repoHandle" : "0113OO0B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,28 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0GlRe6gQ8zkeHcj8jFYL2u",
-    "name" : "KafkaConnectionDRSai",
+    "id" : "hWHL6n5ahWmdCuN4Rvk0oa",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO25000000000004"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0IvU5ngDgaLjdx2R9GmcIW",
+    "name" : "Flatfile Target",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN60B0000000000C5"
+        "repoHandle" : "0113OO0B000000000028"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
