@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "hHDQBycnwodh08SlNND0KS",
+    "id" : "3Db6ZWhdcX6hAX921UnxGp",
     "name" : "KafkaToFlatfileTarget",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "18258a37-c2a1-403a-b359-51cdd9fb9db7"
+        "repoHandle" : "9256d38e-0956-4ea1-8c40-3c31feac663a"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "6o9B54T7uANiRoYfAtXJUf"
+        "value" : "lIkAfLW25mSc67IELu8Qit"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "edited",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "18Auf3GIB6wfYagK6nsQAB",
-    "name" : "kafkaConnectionSai",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0113OO0B000000000002"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "hWHL6n5ahWmdCuN4Rvk0oa",
+    "id" : "aMO1ZWavmiZc3531abAtC6",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0113OO25000000000004"
+        "repoHandle" : "010SN625000000000006"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0IvU5ngDgaLjdx2R9GmcIW",
-    "name" : "Flatfile Target",
+    "id" : "7arcXNwPjsVj1NKMcok9oX",
+    "name" : "FlatfileTarget",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +56,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0113OO0B000000000028"
+        "repoHandle" : "010SN60B0000000000KI"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0GlRe6gQ8zkeHcj8jFYL2u",
+    "name" : "KafkaConnectionDRSai",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN60B0000000000C5"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
