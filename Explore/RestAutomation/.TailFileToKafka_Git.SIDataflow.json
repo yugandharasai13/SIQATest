@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7LVWXZP6eIofBPcP64ffS9",
+    "id" : "9pV29EmtwsvdDmA1920iMo",
     "name" : "TailFileToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "5c344dba-400d-4559-87fc-0481a2a8a1f1"
+        "repoHandle" : "71e62caf-e685-4953-a2ad-b1184d3eedb8"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "2wNVyZmUAxvfy9hF9jGlCI",
-    "name" : "AgentGroup",
+    "id" : "apUHfea4HNMhe3wrFVI88t",
+    "name" : "invs12pam25",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB25000000000002"
+        "repoHandle" : "011ZFB25000000000007"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,7 +67,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "09zkRhL3MWIbfOOk96BQwG",
+    "id" : "3rcq0AeGEG8hzDmorI0Xig",
     "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB0B0000000000DQ"
+        "repoHandle" : "011ZFB0B0000000000GV"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
