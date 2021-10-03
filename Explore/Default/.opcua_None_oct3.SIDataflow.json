@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "3VYGqhtefVgkWnBNj1krQd",
+    "id" : "4mzQB6YVDITcHAWo2pTOWY",
     "name" : "opcua_None_oct3",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "ce267a37-4eee-4a68-9903-50e3319cc0f3"
+        "repoHandle" : "a8e863e3-e9e4-40b2-a8d2-25fd313c9084"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "c2atZbnZh0yf94hwwayQmt"
+        "value" : "cnI7r5p9sETcSQwyyfMCyr"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "74LlKuZr5a2hzkZGujVEGQ",
-    "name" : "Kafka_Alok",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0114O10B000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3emd7sUxQ0NhJ7fbRBPYcn",
+    "id" : "hX5gkJSanUjkh5UQfhf4yJ",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O125000000000005"
+        "repoHandle" : "0102XB25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "2hfCu0eebawjhXzcYLqNA7",
-    "name" : "opc ua connection test",
+    "id" : "7yhHT4A5P30eU2QHCaDJaM",
+    "name" : "SIAutomation_opcua_None_RE_new",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +56,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O10B00000000002R"
+        "repoHandle" : "0102XB0B00000000006B"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8Hq9MHYyYsIh0KMgUMGIO8",
+    "name" : "SIAutomation_EhKafka_r35",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102XB0B00000000000W"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
