@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "6bsm0WlSkuFhSvUI8wnLyS",
+    "id" : "eg4toyt6AGAlACnT4wboyi",
     "name" : "MqttToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "e573c6f7-4071-4ad5-b470-92c685d98ba0"
+        "repoHandle" : "61d5894e-494f-406f-88d3-aeb5b9b66b23"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "0G6eu30W7lGcBopCLj438T"
+        "value" : "7VWx8GPChwwbGd2plAacqM"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "5mv7kqbQ28BkaIVveQOK86",
-    "name" : "SIAutomation_Mqtt_r36_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011ZFB0B0000000000GY"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "apUHfea4HNMhe3wrFVI88t",
-    "name" : "invs12pam25",
+    "id" : "5P8kGjikmdthGf4UzMtUaf",
+    "name" : "invw19pam02",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB25000000000007"
+        "repoHandle" : "011AND25000000000005"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "3rcq0AeGEG8hzDmorI0Xig",
-    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "id" : "4oQpHQ7gvh8ej6WSLo3Ius",
+    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM_win",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +56,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB0B0000000000GV"
+        "repoHandle" : "011AND0B0000000000PF"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6kPVOUq189JhHHk4bcvL6u",
+    "name" : "SIAutomation_Mqtt_r36_Rhel8_PAM_win",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND0B0000000000Q5"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
