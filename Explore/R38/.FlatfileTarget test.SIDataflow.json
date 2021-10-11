@@ -16,10 +16,10 @@
         "value" : "bp3cljifoWQbYejOy2eTQX"
       }, {
         "name" : "version",
-        "value" : "7"
+        "value" : "9"
       } ],
       "additionalInfo" : {
-        "description" : "edited",
+        "description" : "",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -47,6 +47,26 @@
     },
     "path" : "/SYS"
   }, {
+    "id" : "6yqvq3ovSiHc0ZwIyCMYUi",
+    "name" : "invr83pam25",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101WQ25000000000009"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "4TEh81B6JQEdqxwpIPaWIh",
     "name" : "Flatfile Target",
     "type" : "Connection",
@@ -63,26 +83,6 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9ilB05V8EodcGXN0rU6cIn",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0101WQ25000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
