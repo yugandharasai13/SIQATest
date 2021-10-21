@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "jrf9ESdySKGjdA47ec5QgD",
+    "id" : "6RXHrW0f6GdhHE3BsKYnum",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "cbce1799-6147-42e0-b143-203276c8ca95"
+        "repoHandle" : "0841de42-589e-409a-a7b9-e99340143585"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "itQT8NYnfKQeRn24c2nZ4k"
+        "value" : "2QV1ETad43kfzuDBBRo7mz"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "1RYC3dbsBZbb9efrh9i82Q",
+    "id" : "3CBKWS131HfdjnyFZxJV2E",
     "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100040B00000000001B"
+        "repoHandle" : "012CNC0B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0Raq89ooEovhAXsNehvdgK",
-    "name" : "invr74pam01.informatica.com",
+    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01000425000000000003"
+        "repoHandle" : "012CNC2500000000000H"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
