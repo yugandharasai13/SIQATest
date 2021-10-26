@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "ktNmEv98PEDcXlR3xK8mWs",
+    "id" : "3Mr285gbBBvgYtcGSiluW0",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "56a7cee8-3054-4271-beb3-47d03be2344b"
+        "repoHandle" : "945ead47-311b-41a3-a99a-4c3478d0b1d3"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,6 +27,26 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "9z5NGggRu2diTVvWevD4UR",
+    "name" : "SIAutomation_Kafka_SSL_r36_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND0B0000000000W0"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "6S6cu17gN8mkrdfXw6xdKr",
     "name" : "SIAutomation_KinesisStreams",
     "type" : "Connection",
@@ -63,26 +83,6 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "2dfrZTUyXcefkQcuvT8TmV",
-    "name" : "SIAutomation_Kafka_SSL_r36_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011AND0B0000000000V7"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
