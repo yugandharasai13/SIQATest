@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "1FoMKV6SX2Xhps5LvNUAwE",
+    "id" : "ks6zGrpJX4Ukucy08NY7sw",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "06066e44-a67f-4434-9511-c99f362c1c22"
+        "repoHandle" : "001e7323-41ec-402a-85ae-cc1f8cef50c5"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -47,26 +47,6 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "3Cp68c7NXMokzx0F0wfQY1",
-    "name" : "SIAutomation_Jms_r36_RE_Rhel8",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011AND0B0000000000UG"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
     "id" : "1zrUH1zRQVzf40DIlMslmB",
     "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
     "type" : "Connection",
@@ -77,6 +57,26 @@
       },
       "repoInfo" : {
         "repoHandle" : "011AND0B00000000009N"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0svKk4sfiXbjHTTtk5evoZ",
+    "name" : "SIAutomation_Jms_r36_RE_Rhel8",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND0B0000000000V5"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
