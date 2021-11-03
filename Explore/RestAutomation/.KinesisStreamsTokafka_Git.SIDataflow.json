@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "8VtA5V6RYaYflejZSBiyW4",
+    "id" : "5ZsXsixwrLEc2DcMzCHLEW",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "2e928a41-7038-4789-a1fb-b176219b7fa3"
+        "repoHandle" : "c314c77b-bab2-4625-970f-dc29638ab74c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "0CndJZASvephO5ssypsTgd"
+        "value" : "0G6eu30W7lGcBopCLj438T"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "0cgOsgTPF4Llf6kDTLDjWJ",
-    "name" : "SIAutomation_Kafka_SSL_r36_Rhel8_PAM",
+    "id" : "1j5SoV2IlgNjiYROgLw5cb",
+    "name" : "SIAutomation_Kafka_SSL_r38_new",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011AND0B0000000000XC"
+        "repoHandle" : "011ZFB0B0000000000DK"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,28 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "6S6cu17gN8mkrdfXw6xdKr",
-    "name" : "SIAutomation_KinesisStreams",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011AND0B0000000000QS"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "fPyISc4WOqRlTVrzZaKDi7",
-    "name" : "AgentGroup",
+    "id" : "8gNNE8fYnazh70PiebPCqE",
+    "name" : "rhelprodval1",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -76,13 +56,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011AND25000000000002"
+        "repoHandle" : "011ZFB2500000000000C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "hUjb4SeWuiwgYnEQZtrmYd",
+    "name" : "SIAutomation_KinesisStreams_r36_May",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011ZFB0B0000000000IM"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
