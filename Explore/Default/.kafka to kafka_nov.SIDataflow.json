@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "9xNE8ap7PO5hsJV9XPBzkI",
+    "id" : "12GvNCZXjLUeyK3pfLPyYL",
     "name" : "kafka to kafka_nov",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "f9aad79e-b7a2-413f-a42d-fe91b8dbd399"
+        "repoHandle" : "215f0196-04d5-4665-a1dd-306bea83a2fe"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "2BYVuHJAWOGjgCfVrxcZ6g"
+        "value" : "5EZMUSnrZTReyYBDvIwWOr"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "83DdPhHLKuEcuZSXnB2QwI",
-    "name" : "kafkaConnectionSai",
+    "id" : "2yLiURfTUmxhaBbDKqEvO5",
+    "name" : "KafkaConnectionSai",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01039M0B00000000001T"
+        "repoHandle" : "010AEI0B000000000005"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "hqXp4jstp4gebvzY35vegk",
+    "id" : "7dwmmbTcliollRtLa6iEcR",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01039M25000000000002"
+        "repoHandle" : "010AEI25000000000003"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
