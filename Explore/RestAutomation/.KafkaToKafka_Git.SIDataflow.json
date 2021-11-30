@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "drgXEI2ABgTkLbZkVtEPEq",
+    "id" : "khOgXW8aTiagTE3F4A4UeK",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "c6d3de2c-5601-4420-b90c-bb9ab23db974"
+        "repoHandle" : "c076ee08-0277-43ea-868d-46976a11b504"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "04ZMyVkyQcplsdMapgQEiT"
+        "value" : "9vxBBwZJ9MDdHontegvoOC"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "hqXp4jstp4gebvzY35vegk",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01039M25000000000002"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "54E2kPWjbwlgkLeiYIKuyg",
+    "id" : "kVraWn85y2flgjIgpfu7mt",
     "name" : "SIAutomation_Kafka_r36",
     "type" : "Connection",
     "metadata" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01039M0B00000000003F"
+        "repoHandle" : "010AEI0B00000000001V"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7dwmmbTcliollRtLa6iEcR",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010AEI25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
