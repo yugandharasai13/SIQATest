@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "hdBciV5rQsyk2ikhzLgYQ2",
+    "id" : "5nN80QbTKHVhhaupIiesuy",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "e23f7471-783b-47d0-af98-1280523cb3b8"
+        "repoHandle" : "699f39ee-1cec-474e-a8e9-318e192684cb"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "iCwln9apKkabwBuxKNbQu6"
+        "value" : "0TYJTAoeWhdjUN9T6eSGQL"
       }, {
         "name" : "version",
         "value" : "1"
@@ -67,7 +67,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "bxVnPiFuLGwksoZBL30fMs",
+    "id" : "agdMhBZLlMLcgpFckoKpUi",
     "name" : "SIAutomation_KinesisStreams",
     "type" : "Connection",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011AND0B000000000153"
+        "repoHandle" : "011AND0B00000000015Y"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
