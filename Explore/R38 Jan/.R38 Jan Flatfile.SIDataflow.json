@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "55Zwy6wlG4idsK4kDrY3en",
+    "name" : "R38 Jan Flatfile",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9e688d53-a754-4fae-8104-bf4e93082fbd"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "i0KzXfWif6kh30MH5IGlEi"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "aMO1ZWavmiZc3531abAtC6",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN625000000000006"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7arcXNwPjsVj1NKMcok9oX",
+    "name" : "FlatfileTarget",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN60B0000000000KI"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "hK8FHg7M0U4lLnRipj1rYB",
+    "name" : "SaiFlatFileStaging",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN60B0000000000B0"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
