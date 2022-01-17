@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "fxElclRTaEHjTSNwis9zOa",
+    "id" : "0VENcTDgp8ekDga00gdW0o",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "a3ad82c4-9f7d-4507-a715-65e650044ae7"
+        "repoHandle" : "7e64746b-400d-424b-a395-c37c8b184f89"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,6 +27,26 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "1QPYV1qItdcb0kOVgLhgaO",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND0B0000000001CP"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "fPyISc4WOqRlTVrzZaKDi7",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
@@ -47,27 +67,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "1zrUH1zRQVzf40DIlMslmB",
-    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011AND0B00000000009N"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "dJkwaY4C72TclIW2vkicuw",
+    "id" : "1iMJAj3zJgVhuzqPYif0sQ",
     "name" : "SIAutomation_Jms_r36_RE_Rhel8",
     "type" : "Connection",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011AND0B0000000001C6"
+        "repoHandle" : "011AND0B0000000001CQ"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
