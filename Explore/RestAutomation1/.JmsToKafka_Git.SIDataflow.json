@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "0VENcTDgp8ekDga00gdW0o",
+    "id" : "3gKpojsxAYMbsb4rdr23Ya",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "7e64746b-400d-424b-a395-c37c8b184f89"
+        "repoHandle" : "ada8358c-d9eb-42d3-b3a5-9c86d9fb9e72"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "1QPYV1qItdcb0kOVgLhgaO",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011AND0B0000000001CP"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "fPyISc4WOqRlTVrzZaKDi7",
-    "name" : "AgentGroup",
+    "id" : "5P8kGjikmdthGf4UzMtUaf",
+    "name" : "invw19pam02",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011AND25000000000002"
+        "repoHandle" : "011AND25000000000005"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "1iMJAj3zJgVhuzqPYif0sQ",
-    "name" : "SIAutomation_Jms_r36_RE_Rhel8",
+    "id" : "6TN15EQ0dElhgbqYLGvWaL",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM_win",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +56,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011AND0B0000000001CQ"
+        "repoHandle" : "011AND0B0000000001DM"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "588oxcZ4yG9ismVAxKxOuH",
+    "name" : "SIAutomation_Jms_r36_RE_Rhel8_win",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AND0B0000000001E1"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
