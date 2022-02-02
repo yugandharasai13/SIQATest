@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "2ogvZ7vv7jIkWiZSpphWAZ",
+    "id" : "jtlHTVKBOOPkdw6BipiKgy",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "bd1ceff2-6b4a-4ac2-b81b-d5879ebd8a61"
+        "repoHandle" : "852b9e8c-f63e-480a-aec8-4888bffa96d3"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,26 +27,6 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "3uyyHzXEBA7dQkvffhA8iA",
-    "name" : "SIAutomation_Kafka_16qa01kafka",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011ZFB0B0000000000KL"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
     "id" : "9o4gSERnec9eUGGS8Seoy8",
     "name" : "INsiubtu16qa01",
     "type" : "AgentGroup",
@@ -63,6 +43,26 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "82WOuiufTDigj0pzSXtmoi",
+    "name" : "SIAutomation_Kafka_16qa01kafka_1",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011ZFB0B0000000000MU"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
