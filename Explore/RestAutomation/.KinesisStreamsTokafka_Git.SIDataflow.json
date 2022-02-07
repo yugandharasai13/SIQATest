@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "4JrIIeDXWiigiylkHHvTsH",
+    "id" : "eGPhJ53EaADgf3kuSsmSU2",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "b7361862-114f-4b62-b4c6-8f7a2b494a94"
+        "repoHandle" : "18c8e434-ee7e-4cc9-abe0-bff0c2d75e95"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3JqUA5ZLu0mlP7m4aZD9We"
+        "value" : "2QV1ETad43kfzuDBBRo7mz"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "1j5SoV2IlgNjiYROgLw5cb",
-    "name" : "SIAutomation_Kafka_SSL_r38_new",
+    "id" : "1jaBN75lVOkek5m0uQLm0l",
+    "name" : "SIAutomation_KinesisStreams",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB0B0000000000DK"
+        "repoHandle" : "012CNC0B0000000000H3"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "8gNNE8fYnazh70PiebPCqE",
-    "name" : "rhelprodval1",
+    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB2500000000000C"
+        "repoHandle" : "012CNC2500000000000H"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +67,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "jlH6jyYfFw6hBXPh143EwV",
-    "name" : "SIAutomation_KinesisStreams_R39_automation",
+    "id" : "6JLloyMqeAhbzI58zj5AyK",
+    "name" : "SIAutomation_Kafka_SSL_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB0B0000000000KT"
+        "repoHandle" : "012CNC0B0000000000H0"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
