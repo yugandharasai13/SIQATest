@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "e6zGig8ky2Gk2EtCdhX9qr",
+    "id" : "4DyMsqXT4I4g7dp3eR7P4q",
     "name" : "importTask1",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "786d3d4d-b974-440a-abec-a07c3fa5cc54"
+        "repoHandle" : "9f2a2ca9-033b-477b-9181-dd3557f6fb57"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3d6gGE8HtmrbxduoOUAwmB"
+        "value" : "4T5XWboVqTse5CZP51YWCq"
       }, {
         "name" : "version",
         "value" : "13"
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "8LBCOXnG5jmeFwnFpFQzys",
+    "id" : "04DCCCWKFabjpQV6v6bMk3",
     "name" : "SIUIAutomation_Kafka",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B000000000023"
+        "repoHandle" : "012MGS0B00000000000I"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,27 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "jbems7tfEUdd3ENZKfDwo4",
-    "name" : "SIUIAutomation_Tailfile",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012CNC0B000000000026"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "id" : "jk7iQOJnHa3eMhqVnAPyQF",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -76,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC2500000000000H"
+        "repoHandle" : "012MGS25000000000003"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
