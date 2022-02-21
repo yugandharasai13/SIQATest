@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "66a5FRGcvgFfU86vHq8JAz",
+    "id" : "jD8r0WRNDMVkZhJ2L8yLKT",
     "name" : "SIdeploykafkaGIT",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "67804f76-9a0e-467f-89c5-073bb37f8144"
+        "repoHandle" : "ff0d83e8-9961-4438-afd8-8206919aa0c6"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "gBDbWzKDyC4d4Y326i7ZSi"
+        "value" : "2QV1ETad43kfzuDBBRo7mz"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : "SIdeploykafkaGIT",
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "a5Fkwiw57G7lFQbjMghXGt",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0103UX0B0000000000H2"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "7SpnNlbOYb2j4KoogXSIQg",
+    "id" : "6dSsCKKmZ6minfoqCzaHk6",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX25000000000002"
+        "repoHandle" : "012CNC2500000000000H"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "4GQHlfMoQP2lPOWGwmzD2Y",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012CNC0B0000000000GW"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
