@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "0yW2XdhMo17l71kGw9rooo",
+    "id" : "817zuL1pSLKhi47bX9Ni26",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "aed1dfb0-dbd5-4467-9e08-4b73fe03070e"
+        "repoHandle" : "e466facd-7f23-4bca-9869-001e649981b7"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "36EQX3GuASxbkfBxp1LyAF",
+    "id" : "aQcjHDsbQdobXqE202urkZ",
     "name" : "SIAutomation_Jms_r36_RE_Rhel8",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000IS"
+        "repoHandle" : "012CNC0B0000000000KC"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
