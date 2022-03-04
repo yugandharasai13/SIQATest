@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "10hf2Cuvmg9ekYEdEAwPS6",
+    "id" : "14WrYzscAeUb5VjTeHqJsz",
     "name" : "TailFileToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "bd743a34-34ed-40c3-bc1b-80ec35735b93"
+        "repoHandle" : "3e3a73d0-5808-43b3-999c-d9c2af4bda57"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "2QV1ETad43kfzuDBBRo7mz"
+        "value" : "8dbAx6xceaqkExaznZbQCE"
       }, {
         "name" : "version",
         "value" : "1"
