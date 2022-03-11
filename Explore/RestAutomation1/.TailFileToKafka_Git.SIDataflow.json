@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7d6zb8j3mNui33FsDLBWGm",
+    "id" : "1G9Ru2Zdc6efz8Kai4VwQB",
     "name" : "TailFileToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "dc63d242-9736-47a8-84df-9b46249c8346"
+        "repoHandle" : "f00c55c7-318f-4dc2-9e1e-4bd9cbab5651"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3FRu7htsYJaeD5TeJScukU"
+        "value" : "0vOXjZvKfb7dZ9cB5KjjMz"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "8LjqFDYMUihlT885z5wPWo",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "id" : "9dKnI8YC16xlJbI8JJGuIP",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM_new",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B000000000008"
+        "repoHandle" : "011U5M0B0000000000Q7"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,27 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "889JBIxmLsRbVCnpLlVt4j",
+    "id" : "4J6rRulsI2ykEgNsD5lk4P",
+    "name" : "insiubtu16qa02",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011U5M2500000000000G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6yYTHWDWSAjjmZqkdJK6Gw",
     "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -56,33 +76,13 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B00000000000N"
+        "repoHandle" : "011U5M0B0000000000OO"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "jk7iQOJnHa3eMhqVnAPyQF",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012MGS25000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
