@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "fEo4ZCQ3dCdfqMfwTTIDq3",
+    "id" : "lJeRJYxT66rhOpSYTC06Wp",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "e4e7bc75-722e-400f-a30d-5cb21272331e"
+        "repoHandle" : "14db73d6-80b4-4e02-9440-18f72e3c6b7a"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
