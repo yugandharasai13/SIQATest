@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "gx4It1Gwlo2lvleQyX69mH",
+    "id" : "24yjEm0oUVccSuvRD3wKG7",
     "name" : "k2k",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "62ba975a-d2d6-4e8a-b837-fc66071c1cd0"
+        "repoHandle" : "0c5fe2a1-1908-425a-be83-6dfdbec21f98"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "c2atZbnZh0yf94hwwayQmt"
+        "value" : "3d6gGE8HtmrbxduoOUAwmB"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "cL09AsO47E8kWyMunkRUil",
-    "name" : "KafkaSai",
+    "id" : "kCeuactMIOugluuk83iDu4",
+    "name" : "A_Kafka_SASL_PLAINTEXT_test_new_properties",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O10B00000000007U"
+        "repoHandle" : "012CNC0B0000000000GU"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,27 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "3emd7sUxQ0NhJ7fbRBPYcn",
+    "id" : "8LBCOXnG5jmeFwnFpFQzys",
+    "name" : "SIUIAutomation_Kafka",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012CNC0B000000000023"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6dSsCKKmZ6minfoqCzaHk6",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -56,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O125000000000005"
+        "repoHandle" : "012CNC2500000000000H"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
