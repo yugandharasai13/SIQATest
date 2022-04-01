@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "24yjEm0oUVccSuvRD3wKG7",
+    "id" : "5r4GIlYKYbBhqeXElE1hUu",
     "name" : "k2k",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0c5fe2a1-1908-425a-be83-6dfdbec21f98"
+        "repoHandle" : "90b1916a-6bf9-49cc-856c-688197e9672c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3d6gGE8HtmrbxduoOUAwmB"
+        "value" : "hkdkDv74Yqhen8fChWmpeu"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "kCeuactMIOugluuk83iDu4",
-    "name" : "A_Kafka_SASL_PLAINTEXT_test_new_properties",
+    "id" : "5Ya719ksOyEhXXI1FXwuec",
+    "name" : "KafkaSai",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000GU"
+        "repoHandle" : "0113OO0B000000000046"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,27 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "8LBCOXnG5jmeFwnFpFQzys",
-    "name" : "SIUIAutomation_Kafka",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012CNC0B000000000023"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "id" : "hWHL6n5ahWmdCuN4Rvk0oa",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -76,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC2500000000000H"
+        "repoHandle" : "0113OO25000000000004"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
