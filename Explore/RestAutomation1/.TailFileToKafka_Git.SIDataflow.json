@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7HBWFyfBLvdiJZFl6tfxYL",
+    "id" : "606qBdhw8WhbopoLLEW4In",
     "name" : "TailFileToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "52fc44e9-d802-4d16-b5f3-20cd90544c48"
+        "repoHandle" : "1461ee38-f2d6-44f7-906e-dcccf8d60fad"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3FRu7htsYJaeD5TeJScukU"
+        "value" : "4QRi72jMlaHfNOxJeSNWYp"
       }, {
         "name" : "version",
         "value" : "1"
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "889JBIxmLsRbVCnpLlVt4j",
-    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
+    "id" : "irjaHQSa8Smer9vtMfpR66",
+    "name" : "SIAutomation_Tailfile_r39_RE_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B00000000000N"
+        "repoHandle" : "012MGS0B00000000007G"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
