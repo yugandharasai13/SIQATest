@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "i8x1Zg8hTKekf2crN3SVIw",
+    "id" : "9Nik5b7mDhkbDBHXhWVE2b",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "7c58f8b5-6ad6-411f-8400-7a4b365311b8"
+        "repoHandle" : "44468cee-b7be-4dea-9540-f85084b3853c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "4v0ZGudxHkzbI5I9xekDsM"
+        "value" : "0BnIhGUpuzYlcxCQjUVoqI"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "3q7cFoU2wUofhuaa3F8iE9",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0114O10B00000000008T"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3emd7sUxQ0NhJ7fbRBPYcn",
+    "id" : "hX5gkJSanUjkh5UQfhf4yJ",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O125000000000005"
+        "repoHandle" : "0102XB25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3lgUDATxVFYfMJfCcDD3AI",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102XB0B00000000008I"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
