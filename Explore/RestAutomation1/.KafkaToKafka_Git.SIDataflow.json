@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7VCL7M3SqMthPBf03lutib",
+    "id" : "7wDK7CGKaNniHS73PhgNGK",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "68937233-e092-4931-843f-d87abb2e4fe1"
+        "repoHandle" : "453ce7b4-e5e5-4d42-b7f8-cbcd71ab12e4"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "1qv1lysNpidjX3O89l3z0M",
-    "name" : "invw19pam02",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012MGS25000000000006"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3TODPPDzekIbzsTjO1zSEg",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM_win",
+    "id" : "8LjqFDYMUihlT885z5wPWo",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B00000000009C"
+        "repoHandle" : "012MGS0B000000000008"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "jk7iQOJnHa3eMhqVnAPyQF",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012MGS25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
