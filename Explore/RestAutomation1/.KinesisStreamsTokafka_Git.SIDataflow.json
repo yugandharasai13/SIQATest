@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "6DDNibEaIl2eV0B6EPf7CC",
+    "id" : "99XZhKIWBGSbXFMr1cJPab",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "37b60641-b863-401b-854d-ef1acd23cf4d"
+        "repoHandle" : "dc91b0ef-c3f7-40aa-b19a-56810716ae0b"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "4QRi72jMlaHfNOxJeSNWYp"
+        "value" : "25vxDgFD8wTk9Mf5dbo5Ue"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,7 +27,27 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "6zOvNIOpUYNb6aFEgwT7UO",
+    "id" : "aXWjkkZkSvdjAFsr98Meg6",
+    "name" : "SIAutomation_KinesisStreams_R40",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012MGS0B0000000000BX"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "2hsdURGJ64wjsfDGqyrGk1",
     "name" : "SIAutomation_Kafka_SSL_r36_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B00000000007S"
+        "repoHandle" : "012MGS0B0000000000BW"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -63,26 +83,6 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9DlDDFgPvUagce8LQZDSMH",
-    "name" : "SIAutomation_KinesisStreams",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012MGS0B00000000000F"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
