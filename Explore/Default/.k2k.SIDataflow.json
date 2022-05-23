@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "hQzL1uhQcwVeoiPeN8WSAv",
+    "id" : "5XwFSzM7D9GdQfVnfqkoQp",
     "name" : "k2k",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "1337610f-ec1c-49e4-a46a-77a74b1a4ada"
+        "repoHandle" : "d5181ff5-0da9-48f8-92e9-6b1a7b41a5c7"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "1wj7CA4reiIgKhrHreJMuS"
+        "value" : "1g47C9g826Fj4ps0tYMKMb"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "3Mg58tNGfiLhNCVvAcEQmE",
-    "name" : "invr83pam25",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010LOF25000000000007"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "32ZfTbk47KzbOXTpqDdJyh",
+    "id" : "5zNTFme1mhIeOmL8h4NEQh",
     "name" : "KafkaSai",
     "type" : "Connection",
     "metadata" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010LOF0B00000000003O"
+        "repoHandle" : "011U5M0B0000000000OE"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9cL7dN4xvwRh5J1VBlcR0g",
+    "name" : "invu20b2b01",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011U5M2500000000000K"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
