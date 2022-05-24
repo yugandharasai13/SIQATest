@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "8TnO6h6gfq6cVHWhN0MzU2",
+    "id" : "7uhvGrf4GCVkcSGSAkvs63",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "f3654db3-7c43-4d4a-88cb-12f583b0fb43"
+        "repoHandle" : "7d268fd4-f50f-4601-84ef-230aa4231d7b"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "bosuSh9gZwRkukZTnsSXc9"
+        "value" : "6nZCTU49ALVbkszlD7wZCC"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "a6cyZc6ULl4jExLywKAlSs",
-    "name" : "invw16pam04",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011U5M2500000000000J"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3OC9szsRK5yb7CQ6Ij4vEK",
-    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "id" : "a5Fkwiw57G7lFQbjMghXGt",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011U5M0B0000000000T4"
+        "repoHandle" : "0103UX0B0000000000H2"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7SpnNlbOYb2j4KoogXSIQg",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103UX25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
