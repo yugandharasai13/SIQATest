@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "6D0qTjN6Wa7fXdofZABfku",
+    "name" : "kafka to kafka db split_win",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "db39c7b0-c64b-4139-b3e3-01850898f016"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "bGTruF6vO8ihuQd4Cl2P69"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "eKlbuV6BQikgzYrjGAPai2",
+    "name" : "kafka_win",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN60B0000000000OP"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "1UXIt1WQmZHdkWB5jGi2uX",
+    "name" : "INWPF28BH8X-AAD",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN625000000000017"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
