@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7w1XJ9KNJFKlENeor6p9Qr",
+    "id" : "aIsaFmwEoBUi3wOOp1IHkf",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "e95e1feb-82a9-41e1-a3a1-c1f619af7595"
+        "repoHandle" : "0a52a4a7-8709-4ee2-b84d-7ceeb2fbfc17"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -27,28 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "2nvN35UFhjGhEBTHktUXsT",
-    "name" : "SIAutomation_Kafka_r40_Rhel8_PAM_win",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000U4"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "aP9VYOiQNcBcogLtbulDkr",
-    "name" : "invw19pam02",
+    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC2500000000000R"
+        "repoHandle" : "012CNC2500000000000H"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "4GQHlfMoQP2lPOWGwmzD2Y",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012CNC0B0000000000GW"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
