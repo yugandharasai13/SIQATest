@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "9QCLKrpd79zfpTcsrSVcsy",
+    "name" : "kafk to kafka_may 30_1",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "81ab16e8-60a6-4464-a90e-08eea1955717"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "aHPOc7nq4KUcJCBkJX9Qyz"
+      }, {
+        "name" : "version",
+        "value" : "8"
+      } ],
+      "additionalInfo" : {
+        "description" : "edit and deploy. Edit and deploy",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "glejmql5d0hfJJNgqpuusH",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000425000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6ZWzUohEzjOlWyu7bIwRCf",
+    "name" : "kafka_window",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100040B00000000002V"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
