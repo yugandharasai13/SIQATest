@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "5XwFSzM7D9GdQfVnfqkoQp",
+    "id" : "aiLspVHeYHxcBkIbBebx8s",
     "name" : "k2k",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "d5181ff5-0da9-48f8-92e9-6b1a7b41a5c7"
+        "repoHandle" : "5358a585-a8f7-4d14-94e0-441b0b040fb3"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "1g47C9g826Fj4ps0tYMKMb"
+        "value" : "fnc1wmO8vUGlbQAuPU3L0k"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,7 +27,27 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "5zNTFme1mhIeOmL8h4NEQh",
+    "id" : "0MTIvpvERcUhIqSaOV6ImT",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100EY25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6aq2F0po9ekk6nzHpB6CMf",
     "name" : "KafkaSai",
     "type" : "Connection",
     "metadata" : {
@@ -36,33 +56,13 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011U5M0B0000000000OE"
+        "repoHandle" : "0100EY0B00000000003J"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9cL7dN4xvwRh5J1VBlcR0g",
-    "name" : "invu20b2b01",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011U5M2500000000000K"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
