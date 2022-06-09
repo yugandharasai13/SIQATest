@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "hjhMMsa9OGbkWJcQY5eYiC",
+    "id" : "4idAphbR9vnkSLRPyP0kUJ",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "04bafac6-eb1a-4001-8a0e-dae0811367db"
+        "repoHandle" : "3a018dde-22d2-48c2-a664-4a06c86e7c42"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "1ODtCS8ajDWjEhGtTfATWV"
+        "value" : "6nZCTU49ALVbkszlD7wZCC"
       }, {
         "name" : "version",
         "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "JmsToKafka_Git",
+        "description" : "TestAutomation",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "b8YFjycWqwEhUW9vplgocZ",
+    "id" : "729OzKmolppbfykn0YyCsv",
     "name" : "SIAutomation_Jms_r36_RE_Rhel8",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000W6"
+        "repoHandle" : "0103UX0B0000000000KN"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0x4hButvBWZbNbHommnbqu",
-    "name" : "SIAutomation_Kafka_r40_Rhel8_PAM",
+    "id" : "a5Fkwiw57G7lFQbjMghXGt",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000XH"
+        "repoHandle" : "0103UX0B0000000000H2"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,7 +67,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "id" : "7SpnNlbOYb2j4KoogXSIQg",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC2500000000000H"
+        "repoHandle" : "0103UX25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
