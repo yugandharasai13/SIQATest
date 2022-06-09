@@ -16,10 +16,10 @@
         "value" : "6nZCTU49ALVbkszlD7wZCC"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : "TestAutomation",
+        "description" : null,
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
