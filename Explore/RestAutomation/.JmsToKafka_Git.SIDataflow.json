@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "4idAphbR9vnkSLRPyP0kUJ",
+    "id" : "huVJvb6U96GirmSAabI02G",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "3a018dde-22d2-48c2-a664-4a06c86e7c42"
+        "repoHandle" : "6ee50e18-7197-4c24-916d-f880854f5e2e"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "6nZCTU49ALVbkszlD7wZCC"
+        "value" : "1RWIlbLB8g0kxeywkH23ww"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "729OzKmolppbfykn0YyCsv",
-    "name" : "SIAutomation_Jms_r36_RE_Rhel8",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0103UX0B0000000000KN"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "a5Fkwiw57G7lFQbjMghXGt",
+    "id" : "8l5zb9dgxEMhfKYiwzRNCb",
     "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX0B0000000000H2"
+        "repoHandle" : "0103UU0B00000000004C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +47,28 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "7SpnNlbOYb2j4KoogXSIQg",
-    "name" : "AgentGroup",
+    "id" : "6xG5U2Ez1pnipMSldXZiAL",
+    "name" : "SIAutomation_Jms_r36_RE_Rhel8",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103UU0B000000000061"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "lKmeTxByGeDgMT8tYaRGCt",
+    "name" : "pamhq1.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX25000000000002"
+        "repoHandle" : "0103UU250000000007Q1"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
