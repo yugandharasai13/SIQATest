@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "5W9WHv4Y6QdbpVS6v2HPiR",
+    "id" : "53GGehDXWG4lasRVuSgbIh",
     "name" : "SIdeploykafkaGIT",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "6c11302a-3672-4a03-a11d-d0e57c1035ac"
+        "repoHandle" : "a21e352f-6429-4fc1-8ec9-96ea899e2ea2"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "6nZCTU49ALVbkszlD7wZCC"
+        "value" : "1RWIlbLB8g0kxeywkH23ww"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "TestAutomation",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "a5Fkwiw57G7lFQbjMghXGt",
+    "id" : "8l5zb9dgxEMhfKYiwzRNCb",
     "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX0B0000000000H2"
+        "repoHandle" : "0103UU0B00000000004C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "7SpnNlbOYb2j4KoogXSIQg",
-    "name" : "AgentGroup",
+    "id" : "lKmeTxByGeDgMT8tYaRGCt",
+    "name" : "pamhq1.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX25000000000002"
+        "repoHandle" : "0103UU250000000007Q1"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
