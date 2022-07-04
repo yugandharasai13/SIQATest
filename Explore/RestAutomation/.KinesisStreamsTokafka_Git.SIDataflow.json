@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "l6dQw3nobg8jT0BZWP5cWU",
+    "id" : "7oNbdVGOdZHlTevyLjnBsa",
     "name" : "KinesisStreamsTokafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "eb2442d4-6d51-485e-8252-9577083aa3e3"
+        "repoHandle" : "e0894cf9-55db-406c-acdb-d2c39f96e23e"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "6nZCTU49ALVbkszlD7wZCC"
+        "value" : "1RWIlbLB8g0kxeywkH23ww"
       }, {
         "name" : "version",
         "value" : "1"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "03UG7vqevrrkn8FPnwBQkv",
-    "name" : "SIAutomation_Kafka_SSL_r36_Rhel8_PAM",
+    "id" : "3XxIYtp4GOMcSVuUfXUnWy",
+    "name" : "SIAutomation_Kafka_SSL_r40_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX0B0000000000I3"
+        "repoHandle" : "0103UU0B000000000062"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +47,27 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "kx6UOje0PG8kSC7l6lYu8S",
+    "id" : "lKmeTxByGeDgMT8tYaRGCt",
+    "name" : "pamhq1.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103UU250000000007Q1"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "2e8Fc5Wba2abuGrTRtfV4F",
     "name" : "SIAutomation_KinesisStreams_R40",
     "type" : "Connection",
     "metadata" : {
@@ -56,33 +76,13 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UX0B0000000000K5"
+        "repoHandle" : "0103UU0B000000000060"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "7SpnNlbOYb2j4KoogXSIQg",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0103UX25000000000002"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
