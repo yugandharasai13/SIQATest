@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "2dtqBPvtIxRg1fhtY3ERaK",
+    "id" : "emSrbNcxHiojH6UBTg6yiQ",
     "name" : "MqttToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "4a8334f7-1fe4-4df8-9788-d6d9232ee48f"
+        "repoHandle" : "210763fc-b5f0-4e43-8638-f51a8f9f193f"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "25vxDgFD8wTk9Mf5dbo5Ue"
+        "value" : "8Vbn4aX0azBfcLJ5P3qyw7"
       }, {
         "name" : "version",
         "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "MqttToKafka_Git",
+        "description" : "TestAutomation",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "d8CJmFaXTE0bWH6sbsfu2t",
-    "name" : "SIAutomation_Mqtt_r36_Rhel8_PAM",
+    "id" : "1UiMVEzjckHfUJRGONptix",
+    "name" : "SIAutomation_Mqtt_r36_Rhel8_PAM_new",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B000000000009"
+        "repoHandle" : "012MGS0B0000000000K2"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
