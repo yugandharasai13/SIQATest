@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "9VmL1nWL3QQcsQlJtyc5S3",
+    "id" : "0ZXz1kM2eYakyGl2RJU9sw",
     "name" : "JmsToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "237d55a7-d713-4319-9e8f-1289b1156e65"
+        "repoHandle" : "45860bfc-69d3-4e4f-9c3f-6d4c0fd2b460"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "25vxDgFD8wTk9Mf5dbo5Ue"
+        "value" : "8Vbn4aX0azBfcLJ5P3qyw7"
       }, {
         "name" : "version",
         "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "JmsToKafka_Git",
+        "description" : "TestAutomation",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -47,7 +47,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "9AlPiBvJFRceXF04pk0FQ4",
+    "id" : "8lyNBf95xagb3B8LXis3u5",
     "name" : "SIAutomation_Jms_r38",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012MGS0B0000000000AU"
+        "repoHandle" : "012MGS0B0000000000IH"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
