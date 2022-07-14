@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "4DyMsqXT4I4g7dp3eR7P4q",
+    "id" : "c2E17ifiYUbkjFMYpU0q6b",
     "name" : "importTask1",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "9f2a2ca9-033b-477b-9181-dd3557f6fb57"
+        "repoHandle" : "3619f376-6777-4006-8177-8ce60dd09fab"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "4T5XWboVqTse5CZP51YWCq"
       }, {
         "name" : "version",
-        "value" : "13"
+        "value" : "3"
       } ],
       "additionalInfo" : {
         "description" : "Transform",
@@ -27,6 +27,26 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "8dsiodJppXwlmGckzoL1wm",
+    "name" : "SIUIAutomation_Tailfile",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012MGS0B00000000000H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "04DCCCWKFabjpQV6v6bMk3",
     "name" : "SIUIAutomation_Kafka",
     "type" : "Connection",
