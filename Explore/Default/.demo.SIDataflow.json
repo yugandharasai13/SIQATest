@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7uPPucr8Wd7bSizK12KS2d",
+    "id" : "9o6tGdSrherk57mTqaN0Ms",
     "name" : "demo",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "05061498-7f9c-4c49-9c57-b7ac6b5e4e56"
+        "repoHandle" : "6eb42835-aab9-4cdf-bf8e-6f3c8efdb4a9"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3d6gGE8HtmrbxduoOUAwmB"
+        "value" : "1wj7CA4reiIgKhrHreJMuS"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,48 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "0iUi4D80xMbcoqCljBcaU5",
-    "name" : "azureEventHub345",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012CNC0B00000000001U"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "727c4yJKjbuf1z3EiyAkCZ",
-    "name" : "a_SIAutomation_Kafka_SASL_SSL_r36_Kafka_Latest",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012CNC0B00000000000Q"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "15TP0fofu0ikHEOOwEc8Cc",
-    "name" : "Shared",
+    "id" : "5HhDXgc0N7lgB5UWSLvGM1",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -76,13 +36,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC25000000000005"
+        "repoHandle" : "010LOF25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "hy40dsONqMHjNqNHL9EZ0j",
+    "name" : "kafka_window",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010LOF0B00000000004E"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
