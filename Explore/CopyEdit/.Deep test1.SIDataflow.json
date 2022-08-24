@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "1yMDCktGhBYglDs8F59wgw",
+    "name" : "Deep test1",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2275d975-14f3-483b-b7a7-cc3a7b74754c"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "bSM0ZJ7B1Kcc2JLUeDYcwr"
+      }, {
+        "name" : "version",
+        "value" : "24"
+      } ],
+      "additionalInfo" : {
+        "description" : "Deep test1 df fdg fgfd d dfsg fdg fd gfd g fdg fd gfd gfd g fdg dg fd gd gdf g s  fds df s fd g sf gs gf sf gsf gs g sg sd s dg fs gf  f gfd  fs gs g f gsdg sg sd g sd g sd  sdg sd g dsgd sg sg dg sd gsd f ds sdf sdf ds fds fsd fds fds  ds",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "6ZGxnwSJbUpe6LgMIwiii4",
+    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012CNC0B00000000000G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6dSsCKKmZ6minfoqCzaHk6",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012CNC2500000000000H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
