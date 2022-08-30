@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "izL0A6jTuc4kuhssXi7Rek",
+    "id" : "aznMMp4toiIl4DyF1CNZOS",
     "name" : "Sanity 30 08 2022",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "1c166f70-cdbe-4ce0-9bb9-7bcd3c5abe05"
+        "repoHandle" : "ae007f09-646b-4f5e-962b-659c6dc6dfa1"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "5EZMUSnrZTReyYBDvIwWOr"
+        "value" : "bNfR0uSX1c3iGHkxJ7sZ64"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,27 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "7dwmmbTcliollRtLa6iEcR",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010AEI25000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "6W5RHX6xuqJkMSVsywV4Qy",
+    "id" : "azKm7DdM9cChHof5e1IIO6",
     "name" : "kafka_window",
     "type" : "Connection",
     "metadata" : {
@@ -56,13 +36,53 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010AEI0B00000000003W"
+        "repoHandle" : "0100040B000000000036"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "lkJJjZMNIcNhQvwc7GgSCT",
+    "name" : "Kafkainvr83pam25",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100040B000000000039"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "dGa9HGBffUniBAKqZj0cYX",
+    "name" : "invs12pam25",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000425000000000007"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
