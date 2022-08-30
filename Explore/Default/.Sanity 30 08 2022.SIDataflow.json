@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "aznMMp4toiIl4DyF1CNZOS",
+    "id" : "aaCUXgEldxBb8nU9zIRY8x",
     "name" : "Sanity 30 08 2022",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "ae007f09-646b-4f5e-962b-659c6dc6dfa1"
+        "repoHandle" : "774cf90a-118e-41be-b246-1c3d8c1fd443"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "bNfR0uSX1c3iGHkxJ7sZ64"
+        "value" : "4xuBu7pUeuCcg2o6NOsiS3"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "azKm7DdM9cChHof5e1IIO6",
+    "id" : "cUg86LBKfEhhwHdYROF7AW",
     "name" : "kafka_window",
     "type" : "Connection",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100040B000000000036"
+        "repoHandle" : "010GGF0B00000000004J"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,28 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "lkJJjZMNIcNhQvwc7GgSCT",
-    "name" : "Kafkainvr83pam25",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0100040B000000000039"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "dGa9HGBffUniBAKqZj0cYX",
-    "name" : "invs12pam25",
+    "id" : "8ROLF8sZKOjjJ0f35ms2cD",
+    "name" : "invw19pam02",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01000425000000000007"
+        "repoHandle" : "010GGF2500000000000B"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
