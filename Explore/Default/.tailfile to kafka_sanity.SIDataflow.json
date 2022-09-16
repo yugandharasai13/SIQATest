@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "2Ceo8NZFse7hhOhN7YZhs3",
+    "id" : "3ancFcjDpfxjcLCvqzLciF",
     "name" : "tailfile to kafka_sanity",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "fce2b92b-9601-4bc3-a059-dc357bdf31ac"
+        "repoHandle" : "7a04dd25-c48d-4d5e-ae82-6eb8f9db5584"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "bGTruF6vO8ihuQd4Cl2P69"
+        "value" : "0Sg7SJvNNWNdxitdx8nNiG"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "3"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "edit and deploy",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "jHQXiswyDeHhI3QHZzmy6c",
-    "name" : "TailFileSai",
+    "id" : "h8oyX30KdKQcLaCEypUsQk",
+    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN60B0000000000M9"
+        "repoHandle" : "01006L0B00000000000C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "37Z7xEpUfXGkOo5Ywpp2me",
-    "name" : "kafka_shub",
+    "id" : "279RvFayt5pfXjNCsSmpA8",
+    "name" : "KafkaConnectionSai",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN60B0000000000ME"
+        "repoHandle" : "01006L0B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +67,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "5LX2QjRPMaccz5SYvcl3Gq",
-    "name" : "AgentGroup",
+    "id" : "1eqYcQd8ZQ9hoUeUxR7kSd",
+    "name" : "invr83pam26",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN62500000000000B"
+        "repoHandle" : "01006L25000000000006"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
