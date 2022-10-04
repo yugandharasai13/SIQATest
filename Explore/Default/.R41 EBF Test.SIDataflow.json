@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "eMP1nSYbNuBkSGdf1zjvGw",
+    "id" : "6ipXOqhnNkAbvrcoxWcwCU",
     "name" : "R41 EBF Test",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "f8c789a0-ab59-4b8e-996a-ba8e81ed7ab0"
+        "repoHandle" : "54cffd7b-3f36-4262-b2a6-123b02e21e99"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "bGTruF6vO8ihuQd4Cl2P69"
+        "value" : "dusxhzxb721gdtsaYUu5Qu"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "5LX2QjRPMaccz5SYvcl3Gq",
-    "name" : "AgentGroup",
+    "id" : "1ZzOPhD9cpljuVLgEEF1ud",
+    "name" : "invw10pam02",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN62500000000000B"
+        "repoHandle" : "01000925000000000006"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "a78v3w6jzarixJApL23oKZ",
-    "name" : "Delta SI sql account",
+    "id" : "1A8g7j76FEkeXPZ7giBPia",
+    "name" : "kafka window",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,27 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SN60B0000000000OT"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "lVepTM7Fp4MctRNAbrwiAg",
-    "name" : "Kafkainvr83pam25",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010SN60B0000000000ON"
+        "repoHandle" : "0100090B00000000000N"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
