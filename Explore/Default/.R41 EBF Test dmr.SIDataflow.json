@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "enRxJT8FmyxczWYsmfI50O",
+    "name" : "R41 EBF Test dmr",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "d92ce172-7958-4756-aff0-557fc13ac9bf"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "hkdkDv74Yqhen8fChWmpeu"
+      }, {
+        "name" : "version",
+        "value" : "3"
+      } ],
+      "additionalInfo" : {
+        "description" : "edit",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "iz7UD338dOlineFoKUyGQP",
+    "name" : "AgentGroup1",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO2500000000000D"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8l1RIxtThBulrR3bwvmSCU",
+    "name" : "kafka window",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO0B000000000061"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8tobWxmY2iij2fLKFytaKM",
+    "name" : "Kafkainvr83pam25",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO0B000000000063"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
