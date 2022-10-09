@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "9BicLYvu5Uye47KNFGSc6V",
+    "name" : "R41 delta pod1",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "d6005d1b-9d09-4e34-b2bc-8456f3329c50"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "f6zEHLZPp6WeXMspoJRyMu"
+      }, {
+        "name" : "version",
+        "value" : "2"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "3emd7sUxQ0NhJ7fbRBPYcn",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114O125000000000005"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "4NfNRnxcwQLhy9Yige138q",
+    "name" : "Kafka Shub",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114O10B000000000092"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "71ApizDDqWgbpv8LSB7MSN",
+    "name" : "Delta with SQL",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114O10B000000000096"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
