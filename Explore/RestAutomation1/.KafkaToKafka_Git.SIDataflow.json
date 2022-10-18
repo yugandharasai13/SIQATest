@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "9179dxD8od7lAnWBKUqNwH",
+    "id" : "jSzo3qo12clb07GUB4JTKs",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "a4893e5f-2936-4fe3-8e60-1ecd6d70d7a4"
+        "repoHandle" : "2f894f35-7c29-4215-8ad2-5b18daf847dc"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
