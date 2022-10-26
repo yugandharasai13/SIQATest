@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "5A0lvddWQo5iGMj6539YEo",
+    "id" : "4JwicccplGHe1uXPIX1r4V",
     "name" : "Sanity August Azure pod1 edit",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "f22fd71d-3e7d-4cc0-baa6-c0a639fa1a2b"
+        "repoHandle" : "d04cbbbf-f0e6-47db-953a-151a5349d50c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "6jIJdvx7MZsbflT0HZ7qMS"
+        "value" : "0X6KiozRmbMi88TQ6Aaikf"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "hX5gkJSanUjkh5UQfhf4yJ",
+    "id" : "2wNVyZmUAxvfy9hF9jGlCI",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102XB25000000000002"
+        "repoHandle" : "011ZFB25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "4MpOejRZjTUeQ3Asl2OtSa",
-    "name" : "KafkaConnectionSai",
+    "id" : "8MljOciO5nOgR8bdsq9fW1",
+    "name" : "kafkaConnectionSai",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102XB0B00000000003C"
+        "repoHandle" : "011ZFB0B000000000038"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
