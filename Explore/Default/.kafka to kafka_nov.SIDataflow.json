@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "8RVS1WHStPsdQRIol3kbeG",
+    "id" : "aKYezcUf7l5cRWTDJY9ago",
     "name" : "kafka to kafka_nov",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "bcc86608-53de-49e2-8514-537a9b1ea2c7"
+        "repoHandle" : "068c0268-c056-4652-a46d-3fd82b611c30"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "bNfR0uSX1c3iGHkxJ7sZ64"
+        "value" : "bGTruF6vO8ihuQd4Cl2P69"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "5"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "edit and dep",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "i3t3Xxs9Iuxl992mFvVl0D",
-    "name" : "AgentGroup",
+    "id" : "aMO1ZWavmiZc3531abAtC6",
+    "name" : "AgentGroup2",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01000425000000000005"
+        "repoHandle" : "010SN625000000000006"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "kU8PPCKz0KKc5YggHgYawc",
-    "name" : "kafkaConnectionSai",
+    "id" : "55bP1ZAxmtLcO1gjbvobW1",
+    "name" : "Kafka_Alok",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100040B000000000004"
+        "repoHandle" : "010SN60B00000000005N"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
