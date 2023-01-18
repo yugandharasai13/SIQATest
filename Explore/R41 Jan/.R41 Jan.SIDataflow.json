@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "ks8FjvFwPcLlSouppbGHy8",
+    "name" : "R41 Jan",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "739624dd-9a98-4782-9c8b-83c586d44dda"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "6Kc4WRxlTajfc1q7DuPqer"
+      }, {
+        "name" : "version",
+        "value" : "2"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "7IWa0atXhtNd3JTA8FpNs0",
+    "name" : "invprodcdwdl02.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100032500000000000D"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "4hzMpsBeTHdkMw51I2dbSR",
+    "name" : "Kafka 16qa01",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100030B00000000002Y"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
