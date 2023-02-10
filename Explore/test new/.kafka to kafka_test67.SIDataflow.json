@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "3MK21HbxTaViqRx7vVI1yl",
-    "name" : "kafka to kafka_test67 - Copy 1 - Copy 1 - Copy 1",
+    "id" : "dl2ODNG0jiyfdahxbggGUu",
+    "name" : "kafka to kafka_test67",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "35906a23-63be-4d61-85a7-3a04821a597f"
+        "repoHandle" : "46fe3b5c-1ffe-4950-ac77-55793ab11275"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "05YRSlDegC3gya5HzcyPuj"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : "fgf fghf",

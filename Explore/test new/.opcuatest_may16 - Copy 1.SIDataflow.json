@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "3MK21HbxTaViqRx7vVI1yl",
-    "name" : "kafka to kafka_test67 - Copy 1 - Copy 1 - Copy 1",
+    "id" : "kWavUnpb8qUbAhRN2sPygn",
+    "name" : "opcuatest_may16 - Copy 1",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "35906a23-63be-4d61-85a7-3a04821a597f"
+        "repoHandle" : "9fda7233-f1f5-4844-8ff5-5eb5e340068c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "05YRSlDegC3gya5HzcyPuj"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : "fgf fghf",
+        "description" : "edit and deploy dep",
         "contentType" : null,
         "documentState" : "COMPLETE"
       }
@@ -27,6 +27,26 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "eB4lM7x2LoJhL081KrmXYY",
+    "name" : "SIAutomation_opcua_None_RE_new_R39",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012CNC0B0000000000KI"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "6dSsCKKmZ6minfoqCzaHk6",
     "name" : "AgentGroup",
     "type" : "AgentGroup",
