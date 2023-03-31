@@ -16,7 +16,7 @@
         "value" : "bSM0ZJ7B1Kcc2JLUeDYcwr"
       }, {
         "name" : "version",
-        "value" : "4"
+        "value" : "5"
       } ],
       "additionalInfo" : {
         "description" : "kafka to Event hub_update",

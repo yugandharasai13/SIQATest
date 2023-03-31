@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "1yMDCktGhBYglDs8F59wgw",
-    "name" : "Deep test1",
+    "id" : "5r9ABtJkdsCgNoRDpemc25",
+    "name" : "S3_EC2",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "2275d975-14f3-483b-b7a7-cc3a7b74754c"
+        "repoHandle" : "a91fdcc5-0540-4c89-b1e5-77a402018f9c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "bSM0ZJ7B1Kcc2JLUeDYcwr"
       }, {
         "name" : "version",
-        "value" : "31"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "Deep test1",
+        "description" : null,
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "aBTVxed8zSrcbm1B8Eit4m",
-    "name" : "SIAutomation_Tailfile_r36_RE",
+    "id" : "azmmDFdqFeol34Kdy8N9u5",
+    "name" : "autos3",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,19 +36,19 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000XP"
+        "repoHandle" : "012CNC0B00000000007I"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : null,
+        "description" : "Databricks Delta_new",
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
   }, {
-    "id" : "6ZGxnwSJbUpe6LgMIwiii4",
-    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
+    "id" : "23DzNJkDJSojgiVDNwhiAl",
+    "name" : "jms",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B00000000000G"
+        "repoHandle" : "012CNC0B0000000000SY"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

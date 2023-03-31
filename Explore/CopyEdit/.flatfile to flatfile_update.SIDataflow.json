@@ -16,10 +16,10 @@
         "value" : "bSM0ZJ7B1Kcc2JLUeDYcwr"
       }, {
         "name" : "version",
-        "value" : "9"
+        "value" : "13"
       } ],
       "additionalInfo" : {
-        "description" : "flatfile to flatfile_update",
+        "description" : "flatfile to flatfile_update_checkin",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }

@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "1yMDCktGhBYglDs8F59wgw",
-    "name" : "Deep test1",
+    "id" : "48xfw3CstEBf3H7fKBfl84",
+    "name" : "flatfile to s3_update",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "2275d975-14f3-483b-b7a7-cc3a7b74754c"
+        "repoHandle" : "41a3ae4c-fae8-4a29-ae92-f912f2c91088"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "bSM0ZJ7B1Kcc2JLUeDYcwr"
       }, {
         "name" : "version",
-        "value" : "31"
+        "value" : "9"
       } ],
       "additionalInfo" : {
-        "description" : "Deep test1",
+        "description" : "flatfile to s3_update",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "aBTVxed8zSrcbm1B8Eit4m",
-    "name" : "SIAutomation_Tailfile_r36_RE",
+    "id" : "8R56LwadynJitrJ9WB81Wh",
+    "name" : "SIAutomation_S3_r40",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CNC0B0000000000XP"
+        "repoHandle" : "012CNC0B0000000000PI"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
