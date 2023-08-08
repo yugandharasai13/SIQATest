@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "0djoBwoORsbckh9cU2BW6A",
+    "name" : "Pod_Verification",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Imported Dataflows",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-08-08T18:40:49.203Z",
+  "objectRefs" : [ ]
+}
