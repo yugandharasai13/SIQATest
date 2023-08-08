@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "3n69fxini2ibG6ZyWTtT6j",
+    "name" : "Rest V2 with swagger in agent location",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "11d917d3-4e5c-4a50-9d20-11f9c987100e"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "0UQVwNzI6Mpcyr54fRMIS6"
+      }, {
+        "name" : "version",
+        "value" : "5"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2023-08-08T18:27:24.401Z",
+  "objectRefs" : [ {
+    "id" : "1J1JozUGq7SceGJyTbYpUG",
+    "name" : "Rest v2 with swagger in agent location",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO0B000000000069"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9IkdmkPIVK2c5SqiatmiGT",
+    "name" : "invprodcdwdl01.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO2500000000000H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7nYYTWGV3eYiWJh48SHsmv",
+    "name" : "SIAutomation_Kafka_2023.04.M",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0113OO0B00000000006G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
