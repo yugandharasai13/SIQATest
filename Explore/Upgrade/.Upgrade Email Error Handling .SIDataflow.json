@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "2Bdx0Jw8EosdcxRmyKnJcG",
+    "id" : "aiqP3kdF70flMQCZIS2esH",
     "name" : "Upgrade Email Error Handling ",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "d8520ed5-3edf-4525-b824-d93be7beb8ca"
+        "repoHandle" : "1b54af55-57fe-410c-9878-76429525a9ef"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "hHWqHyDghY7gCWYijKe5GY"
+        "value" : "2wvS52cv4kJdIeeY1HeuSb"
       }, {
         "name" : "version",
         "value" : "2"
@@ -27,7 +27,7 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "jZYzrjIOOU2ebxlHYwGZco",
+    "id" : "2GMPcZ9rubIe0AaGYWLi2b",
     "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
@@ -36,7 +36,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0101WQ2500000000000K"
+        "repoHandle" : "01000925000000000008"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,8 +47,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "9P2IPiPjtjPlMUqQ8XrWOC",
-    "name" : "SIAutomation_Kafka_2023.04.M",
+    "id" : "4QV2KcqMWECbCGiqR45XYx",
+    "name" : "SIAutomation_Tailfile_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +56,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0101WQ0B0000000000BJ"
+        "repoHandle" : "0100090B000000000021"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +67,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "7aYy4qm18wTf2XR8MV64c6",
-    "name" : "SIAutomation_Tailfile_2023.04.M",
+    "id" : "8yZzt9dW2iXblrMcemj2eB",
+    "name" : "SIAutomation_Kafka_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +76,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0101WQ0B0000000000CE"
+        "repoHandle" : "0100090B00000000001T"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
