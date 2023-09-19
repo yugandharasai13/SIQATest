@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "aiqP3kdF70flMQCZIS2esH",
+    "id" : "asoto6mLHEqiV9wr6HU9om",
     "name" : "Upgrade Email Error Handling ",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "1b54af55-57fe-410c-9878-76429525a9ef"
+        "repoHandle" : "f144b410-91db-42cd-8a31-874a156a6efa"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "2wvS52cv4kJdIeeY1HeuSb"
+        "value" : "3oJjRwEBCuHgd4TxyqbR60"
       }, {
         "name" : "version",
         "value" : "2"
@@ -26,29 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
+  "updateTime" : "2023-09-19T18:39:08.756Z",
   "objectRefs" : [ {
-    "id" : "2GMPcZ9rubIe0AaGYWLi2b",
-    "name" : "invprodcdwdl01.informatica.com",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01000925000000000008"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "4QV2KcqMWECbCGiqR45XYx",
-    "name" : "SIAutomation_Tailfile_2023.04.M",
+    "id" : "1uqBcPrMdSSlKkibaNW9CW",
+    "name" : "SIAutomation_Kafka_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -56,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100090B000000000021"
+        "repoHandle" : "010SN60B0000000000SK"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +48,28 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "8yZzt9dW2iXblrMcemj2eB",
-    "name" : "SIAutomation_Kafka_2023.04.M",
+    "id" : "5LX2QjRPMaccz5SYvcl3Gq",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SN62500000000000B"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "25JJ4XobSjKgnqhjNRRfqV",
+    "name" : "SIAutomation_Tailfile_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100090B00000000001T"
+        "repoHandle" : "010SN60B0000000000T7"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
