@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "4YVG1iKIEDsf8ktHVzrN8o",
+    "name" : "Kafka To FlatFile 1GB",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "690f4bc1-6a43-4c54-a807-955666e706fa"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "i9fNEMrZequjWSgXELbqW4"
+      }, {
+        "name" : "version",
+        "value" : "6"
+      } ],
+      "additionalInfo" : {
+        "description" : "1GB data from Source to Target",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2024-01-11T09:00:55.018Z",
+  "objectRefs" : [ {
+    "id" : "a21P1d28qBkb0FymfKMSCT",
+    "name" : "invinsisaroy01",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011ZFB25000000000FGS"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9Bgm7re6Ga8jGPB1fJJMUK",
+    "name" : "FlatFile_HugeData",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011ZFB0B0000000000Y5"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "80bHIPCOOEgcwlvuUrZ2g0",
+    "name" : "Kafka_HugeData_INsiubtu16qa01",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011ZFB0B0000000000Y6"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
