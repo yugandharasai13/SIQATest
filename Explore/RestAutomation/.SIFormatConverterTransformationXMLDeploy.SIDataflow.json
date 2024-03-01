@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "6LKl9UdP6oliounftwLlcl",
+    "name" : "SIFormatConverterTransformationXMLDeploy",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7cf7d642-36f0-4ffe-ae96-b7a65d733b4e"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "7ULNLi7voSejGdbljTtvUE"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : "TestAutomation",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2024-03-01T08:03:29.714Z",
+  "objectRefs" : [ {
+    "id" : "50gBo4CVlKZelrjO41JKSk",
+    "name" : "SIAutomation_Kafka_2023.04.M",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01006L0B000000000087"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "1tA5UKbkwQeckksPGJdHYn",
+    "name" : "invu20b2b01",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01006L25000000000007"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
