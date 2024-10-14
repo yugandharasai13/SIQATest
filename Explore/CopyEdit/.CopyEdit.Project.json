@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "bSM0ZJ7B1Kcc2JLUeDYcwr",
+    "id" : "4M8hlZvQMa8lUoLERPPYwh",
     "name" : "CopyEdit",
     "type" : "Project",
     "metadata" : {
@@ -18,5 +18,8 @@
     }
   },
   "dataFileExtension" : "json",
-  "objectRefs" : [ ]
+  "updateTime" : "2024-10-14T09:52:07.480Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
