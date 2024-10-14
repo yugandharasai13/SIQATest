@@ -16,17 +16,17 @@
         "value" : "dRJk4Ght8yDhyqyOf1BRcw"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "adding",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "null",
-  "updateTime" : "2024-10-14T09:45:16.854Z",
+  "updateTime" : "2024-10-14T09:49:47.536Z",
   "objectRefs" : [ {
     "id" : "3YWmn0cHUsLfu4pK8Ij5QG",
     "name" : "SIAutomation_RestV2_2023.04.M",
