@@ -1,0 +1,3087 @@
+{
+  "content" : {
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "ComplexJSONWithComplexArrayStructuresMapping",
+    "links" : [
+      {
+        "link" : "StructureParser -> root",
+        "groupLink" : "root -> DefaultGroup"
+      },
+      {
+        "link" : "StructureParser -> category",
+        "groupLink" : "category -> DefaultGroup"
+      },
+      {
+        "link" : "StructureParser -> book",
+        "groupLink" : "book -> DefaultGroup"
+      },
+      {
+        "link" : "StructureParser -> genre",
+        "groupLink" : "genre -> DefaultGroup"
+      },
+      {
+        "link" : "StructureParser -> review",
+        "groupLink" : "review -> DefaultGroup"
+      },
+      {
+        "link" : "StructureParser -> employee",
+        "groupLink" : "employee -> DefaultGroup"
+      },
+      {
+        "link" : "Source -> StructureParser",
+        "groupLink" : "DefaultGroup -> Input_Group"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "data"
+            },
+            "name" : "data",
+            "platformType" : {
+              "name" : "binary"
+            },
+            "precision" : 65536,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FileName"
+            },
+            "name" : "FileName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1024,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "infa.qa.bucket/sai%2F/2024.11.S%2F/src%2F/ComplextJSONWithComplexArrayStructure.json",
+            "label" : "infa.qa.bucket/sai%2F/2024.11.S%2F/src%2F/ComplextJSONWithComplexArrayStructure.json",
+            "objectName" : "ComplextJSONWithComplexArrayStructure.json",
+            "objectType" : "amazons3",
+            "path" : "infa.qa.bucket/sai%2F/2024.11.S%2F/src%2F/ComplextJSONWithComplexArrayStructure.json",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "data",
+                "fieldType" : "CONNECTOR",
+                "label" : "data",
+                "nativeName" : "data",
+                "nativeType" : "binary",
+                "original" : "false",
+                "precision" : 65536,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "ComplextJSONWithComplexArrayStructure.json"
+                  }
+                ]
+              },
+              {
+                "name" : "FileName",
+                "fieldType" : "CONNECTOR",
+                "label" : "FileName",
+                "nativeName" : "FileName",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 1024,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "ComplextJSONWithComplexArrayStructure.json"
+                  }
+                ]
+              }
+            ]
+          },
+          "readOptions" : {
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "root",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "root_PK"
+            },
+            "name" : "root_PK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "name"
+            },
+            "name" : "name",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "location"
+            },
+            "name" : "location",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Monday"
+            },
+            "name" : "Monday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Tuesday"
+            },
+            "name" : "Tuesday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Wednesday"
+            },
+            "name" : "Wednesday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Thursday"
+            },
+            "name" : "Thursday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Friday"
+            },
+            "name" : "Friday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Saturday"
+            },
+            "name" : "Saturday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Sunday"
+            },
+            "name" : "Sunday",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "dataFormat" : {
+            "formatId" : "Flat",
+            "validateHSchema" : "false",
+            "attributes" : [
+              {
+                "name" : "delimiter",
+                "value" : ","
+              },
+              {
+                "name" : "escapeChar",
+                "value" : "\\"
+              },
+              {
+                "name" : "qualifier",
+                "value" : "\""
+              },
+              {
+                "name" : "qualifierMode",
+                "value" : "MINIMAL"
+              },
+              {
+                "name" : "disableEscapeChar",
+                "value" : "true"
+              },
+              {
+                "name" : "codePage",
+                "value" : "UTF-8"
+              },
+              {
+                "name" : "headerLineNumber",
+                "value" : "1"
+              },
+              {
+                "name" : "firstDataRow",
+                "value" : "2"
+              },
+              {
+                "name" : "targetHeader",
+                "value" : "With Header"
+              },
+              {
+                "name" : "importColumnFromFirstLine",
+                "value" : "true"
+              },
+              {
+                "name" : "generateHeader",
+                "value" : "true"
+              },
+              {
+                "name" : "fixedWidthMode",
+                "value" : "false"
+              },
+              {
+                "name" : "maxRowsToPreview",
+                "value" : "0"
+              }
+            ]
+          },
+          "object" : {
+            "name" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_root.txt",
+            "label" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_root.txt",
+            "path" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_root.txt",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "root_PK",
+                "fieldType" : "PARSER",
+                "label" : "root_PK",
+                "nativeName" : "root_PK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "name",
+                "fieldType" : "PARSER",
+                "label" : "name",
+                "nativeName" : "name",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "location",
+                "fieldType" : "PARSER",
+                "label" : "location",
+                "nativeName" : "location",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Monday",
+                "fieldType" : "PARSER",
+                "label" : "Monday",
+                "nativeName" : "Monday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Tuesday",
+                "fieldType" : "PARSER",
+                "label" : "Tuesday",
+                "nativeName" : "Tuesday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Wednesday",
+                "fieldType" : "PARSER",
+                "label" : "Wednesday",
+                "nativeName" : "Wednesday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Thursday",
+                "fieldType" : "PARSER",
+                "label" : "Thursday",
+                "nativeName" : "Thursday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Friday",
+                "fieldType" : "PARSER",
+                "label" : "Friday",
+                "nativeName" : "Friday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Saturday",
+                "fieldType" : "PARSER",
+                "label" : "Saturday",
+                "nativeName" : "Saturday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "Sunday",
+                "fieldType" : "PARSER",
+                "label" : "Sunday",
+                "nativeName" : "Sunday",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_root.txt"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:48:11.202Z",
+        "name" : "StructureParser",
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "Input_Group",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          },
+          {
+            "input" : "false",
+            "name" : "root",
+            "output" : "true"
+          },
+          {
+            "input" : "false",
+            "name" : "category",
+            "output" : "true"
+          },
+          {
+            "input" : "false",
+            "name" : "book",
+            "output" : "true"
+          },
+          {
+            "input" : "false",
+            "name" : "genre",
+            "output" : "true"
+          },
+          {
+            "input" : "false",
+            "name" : "review",
+            "output" : "true"
+          },
+          {
+            "input" : "false",
+            "name" : "employee",
+            "output" : "true"
+          }
+        ],
+        "fieldMappingMode" : "MANUAL",
+        "inputType" : "FILE",
+        "isdLastModify" : "2024-10-09T10:14:08Z",
+        "isdModelId" : "@2HPQF4YYOtddzBgfUblJCI",
+        "modelString" : "ATLMDL_v2.1_ML Wed Oct 09 10:14:07 UTC 2024|eJztXdty2zYQfe9XsHq2W0m2cvGb7Tiu01rNSGo7mTrTgUXYQksRKki6VTP59wIgAZEgQAAydXEcPyQWuVic3T1YLC5KPn0TBB0yxyGMOifBJ/qJfk6mBC1S+Zk+Qcn782sqRJ91ep0D8ThJQQrnME7PZygKCYzp+9+Ll4Fs3aDBQYuqyaLNrPGjWWyyXHBV48noanhZ17cgcIoShJmeTn8wqEvEYM418L9rb6cRSJJhIfIuwfFY9FyXvUP/wtBgVxajvzN4xV8f1V/DiOsclrFUZD4fPFG3RngKUia4FdceW10r8WzcvYpQXauDZg/tph4cezH3VKNJXdxCF9nAShsp2TgqpZQHhWSbBipJmTKlXprFrKNW/HzWq9hIuAzC5t48elyjV1vPnr2bERhpWm8m6Dr85frsYmTvT5ARhXbZNSgp2zpQU8qm1Ia3mMwBm+07DsDSwug4m99CYpcvj4Fe1y6vDAbqq8YWhiEhfvaVMpYMJxs6ZzrZQpAsRWlkTnlSfFs8q9DAQV6hQW7N3jPB0siOYg0kZjRWXlabenKTN/bmJ28lOHqHSJKH2KnZI7jK23vwlctXOFuvtrVtFN6uLLQ2tvCX/XxlT1BeEoAnQ576ekLbRl1jAGfuWCTsM5RwKsjSGXaY1ncyb/S9543CnL2fOLZQdS6y2wglMxh+gGCPAizqyaUTqgodHKohhQ5VH+w9K75OCF4Twj2MieNssCD4TzhNJ3gMF4BQxJcEZwsPD+10OjHvJVTaKOTP3bOFuaRGgdPR6PSDe6biQJP9SVEV37/wTjqFOV+zTbtoXBGticqMzCkPVpuvkQu5grXyIW8pxhKBDwj+47BRI1s+MrNxHZ7Zjbcpj7K+faNItlNGmzTYqb3Doov9PDWeOdaGUoFkC0hRfL//XPHdtaw09Ni9lO0q5PQAqpIz9+9zpub2U+AUz/0YuRcZ0L7Wle0Ukgl73VjmIOVW+FdnnOdQhr9eqwwv/PME6vAc6b4W4q+8C3FhT3Ml3vC20eU0wZ7jKAKLxMUe6eRbjP9qllx3kKwbFteQVMLRPBbUSHCjjfKmEHjcIGhmesX5Zn5v5V6AmcY6pxnIq/OY1lurSZEaco/JUn9VxJdyvp6yeaniIf2KuzbrCYNqsqpzHO4r6emjOg9pNik2ch1Jcy9Kbz1S9xm+Xkgy9+SRTizrKZebHRtLJq5rIde1T7UMbbhb5XhTY5uXlp75HbO+eXNyPy+Z7TReC5wg7ZVSKbmVmLlfDJSAn3fcZojAN7SXHcfNvXCTgFuq3eB8EeEl1Dtgv2q3vv7mg+ohadEWijfR15Zqt779mv4K0ROv3fS09UkJbulAxvIaxyEwrGE2Sesj/fmEGtgCXp3U9cZPOw6TDCa7CYRBRgmEwPflR+I3GMa7ioV+y1qNxQrhlx+NySwjOwqG/r5qbWAIgF9+LN4StJtIuJVABbwvPw5jkGZkN5EwIFMiIQE+g1hkO6qf3PZ0C3hrLAqEgXgBYxTf/4BpmttSvV8/CVHNqoCqlvylTxWjpEFJipU7jq5WmCygbB3BKSbhCONU87piXPWVYleOTQoIY6Qhq4NF1pN86rJgdTFSZ2D1yHD1WD0ZZID4u2KIdxJIEIjQfzCcEMhlbrJu92g6pMM6QPEiS3On8afhTSclGbzpBMxC8YgppY/k8L2Swr2bXBu8iVlnJc3l9tydVAHtBRIoG9+BKIF6vf2qXkX3LUjQlOUQIZ7nEaoKJb+CKIMNtvDfO4HMLrLHwUAP5eim8/2GsIivXnvhOW7Gg5KfUJI2dLo6YNHrH9Rdr3bhRBpxjGWOO4ELyK8RKVo0oF7oQe2SFy81cVgnHvwwVN/FK7PVa4WEddVKOF43A7OF5ezq8o+r4cQpLig0ZJ4ufZ6WlOaHQcXD/BhJvAobQtUyjfjXO7141Ov5oSv3ln8pyCuz9jSpdYP+kF8b9POJLuluEKX4fpofSF0m1gP8niF8DAPpaLm4vBg5GVP5apAB+kAZPEsu6kNDa17Lvyxg6L8hn/uH15j77L7iIM1R90iJvab54HFssLq6uA5mAGaZRXQdulWFvNdW5pOew4Tixwlr5MXteq8h3+865iUbUJ8ZML9qbQDUa3cWbNnJxQVePx/3vXK/x2CyijqIWUQaXltfuY11ecRm8N5RS+W76KeV8d0/Xq9+b6NQ7Ktz3ZpDpKUh4b3O6L/YPChxH8MPmOMK6DHAxIUDP2CvDMAePTrL0Mp7X357G4bJriWX5Ue1flscpmmtJUjFoaUfJtOyqCVM8vDOD5VpcmrLU8Uplh8o02qpJVD5gY4fJNPaqCVI4mTDD9Rgw6Ay/5GnS+6GXKR5rHnENn/51m8nVP8pVECndL4B/OmGMJVyY5aK5E/Ys3yCOgkYGWFwhvFfwZDvGx2sZFYbl0yu1z/K5cbpQTCCgCbCBxSxbZBSk/K240nwu3gRrLpWu3+LpnkfB1WJYsOsoqSmKBdlNcFJ0Duovyn2aYSZl4SWMsFp+ECjkxGo9Jk3EZstJ/We2OvSTgfT+g7PVOhCcrXbwATfYPqLKvZZ07+yrj8J+t1+VyMnFt7MQZ2yScynIE5BQjn6UdNQLiNrrtW6t9wIktyY0whNYcBsT2qRK7UpVjQnwcAgIRcOXGmQzgglFG1Di04Qflv3l85jjpDP8G1wRvA/LnCPXeD+CskygPE9uKetvtNiVR99rD5QbTEyu9/M7OtlkjIw+I56EAY/4SQNfoTLNtgNYt0gqbN7PEfpbH1+64Zuhd+FiTm7J5wmLLA2eqsOL38svSvDNOapIY4PW8tVR80R/SWmyZXOI3HIBsPpVQuhvJijSEeJeiwnYBkxvWsGs/faFswJnM5iHOH7Ip4XYSbmmQ3lq/MZIBGCwRvwgJK28tVVnKD7WXqXRQENFF1v3/FFJnqA62UDEznFrx9L02xpe6BpltVNjGVOjwEBs+AcxzELuCK2Wi3yJANicA/rUqulG5Ni4T/sDg7ZzrPT+NIluEpxgufBD4CEKnVVeGMQwSQ4TRI8RRyNBWa/d9g9OmSnSxZPV9d/lbG2WoQxna+D0+vgMBgE768rvZfWRc1ipaWKRZ9cPZTkXtblREHfrG1VY/Mir5sLHmsEs5Wx5xFO6CpYOq9wHf+L/9ER1xJoikrfogiKmwvnmJWn/6bvxj8Pf6OTRvH5lBCwHNNqe8qqmO/+TOTXXDogDHmgQTTmpW1SunlUeik6qbymHRFA4w46pf8aYDK6uPhj8uH9BcND8aH/MC2XouI+BSusv/n8P7+GThI=",
+        "outputType" : "Relational",
+        "inputGroups" : [
+          {
+            "name" : "Input_Group",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "FilePath",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 4096,
+                "scale" : 0,
+                "uniqueName" : "FilePath"
+              },
+              {
+                "name" : "Data",
+                "platformType" : {
+                  "name" : "binary"
+                },
+                "precision" : 65536,
+                "scale" : 0,
+                "uniqueName" : "Data"
+              }
+            ]
+          }
+        ],
+        "outputGroups" : [
+          {
+            "name" : "root",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "root_PK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "1"
+              },
+              {
+                "name" : "name",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "3"
+              },
+              {
+                "name" : "location",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "4"
+              },
+              {
+                "name" : "Monday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "30"
+              },
+              {
+                "name" : "Tuesday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "31"
+              },
+              {
+                "name" : "Wednesday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "32"
+              },
+              {
+                "name" : "Thursday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "33"
+              },
+              {
+                "name" : "Friday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "34"
+              },
+              {
+                "name" : "Saturday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "35"
+              },
+              {
+                "name" : "Sunday",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "36"
+              }
+            ]
+          },
+          {
+            "name" : "category",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "category_PK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "6"
+              },
+              {
+                "name" : "name",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "7"
+              },
+              {
+                "name" : "root_FK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "1"
+              }
+            ]
+          },
+          {
+            "name" : "book",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "book_PK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "9"
+              },
+              {
+                "name" : "id",
+                "platformType" : {
+                  "name" : "bigint"
+                },
+                "precision" : 19,
+                "scale" : 0,
+                "uniqueName" : "10"
+              },
+              {
+                "name" : "title",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "11"
+              },
+              {
+                "name" : "firstName",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "13"
+              },
+              {
+                "name" : "lastName",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "14"
+              },
+              {
+                "name" : "publishedYear",
+                "platformType" : {
+                  "name" : "integer"
+                },
+                "precision" : 10,
+                "scale" : 0,
+                "uniqueName" : "15"
+              },
+              {
+                "name" : "category_FK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "6"
+              }
+            ]
+          },
+          {
+            "name" : "genre",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "genre_PK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "17"
+              },
+              {
+                "name" : "genre",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "17"
+              },
+              {
+                "name" : "book_FK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "9"
+              }
+            ]
+          },
+          {
+            "name" : "review",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "review_PK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "19"
+              },
+              {
+                "name" : "reviewer",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "20"
+              },
+              {
+                "name" : "rating",
+                "platformType" : {
+                  "name" : "bigint"
+                },
+                "precision" : 19,
+                "scale" : 0,
+                "uniqueName" : "21"
+              },
+              {
+                "name" : "comment",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "22"
+              },
+              {
+                "name" : "book_FK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "9"
+              }
+            ]
+          },
+          {
+            "name" : "employee",
+            "passthrough" : "false",
+            "fields" : [
+              {
+                "name" : "employee_PK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "24"
+              },
+              {
+                "name" : "id",
+                "platformType" : {
+                  "name" : "bigint"
+                },
+                "precision" : 19,
+                "scale" : 0,
+                "uniqueName" : "25"
+              },
+              {
+                "name" : "name",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "26"
+              },
+              {
+                "name" : "position",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "27"
+              },
+              {
+                "name" : "hireDate",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "28"
+              },
+              {
+                "name" : "root_FK",
+                "platformType" : {
+                  "name" : "string"
+                },
+                "precision" : 255,
+                "scale" : 0,
+                "uniqueName" : "1"
+              }
+            ]
+          }
+        ],
+        "dataAdapter" : {
+          "inputFields" : [
+            {
+              "name" : "FilePath",
+              "fieldType" : "CONNECTOR",
+              "label" : "FilePath",
+              "nativeName" : "FilePath",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 4096,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Data",
+              "fieldType" : "CONNECTOR",
+              "label" : "Data",
+              "nativeName" : "Data",
+              "nativeType" : "binary",
+              "original" : "false",
+              "precision" : 65536,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            }
+          ],
+          "outputFields" : [
+            {
+              "name" : "root_PK",
+              "fieldType" : "CONNECTOR",
+              "label" : "root_PK_output_field",
+              "nativeName" : "1",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "name",
+              "fieldType" : "CONNECTOR",
+              "label" : "name_output_field",
+              "nativeName" : "3",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "location",
+              "fieldType" : "CONNECTOR",
+              "label" : "location_output_field",
+              "nativeName" : "4",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Monday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Monday_output_field",
+              "nativeName" : "30",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Tuesday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Tuesday_output_field",
+              "nativeName" : "31",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Wednesday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Wednesday_output_field",
+              "nativeName" : "32",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Thursday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Thursday_output_field",
+              "nativeName" : "33",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Friday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Friday_output_field",
+              "nativeName" : "34",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Saturday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Saturday_output_field",
+              "nativeName" : "35",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "Sunday",
+              "fieldType" : "CONNECTOR",
+              "label" : "Sunday_output_field",
+              "nativeName" : "36",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "category_PK",
+              "fieldType" : "CONNECTOR",
+              "label" : "category_PK_output_field",
+              "nativeName" : "6",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "name",
+              "fieldType" : "CONNECTOR",
+              "label" : "name_output_field",
+              "nativeName" : "7",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "root_FK",
+              "fieldType" : "CONNECTOR",
+              "label" : "root_FK_output_field",
+              "nativeName" : "1",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "book_PK",
+              "fieldType" : "CONNECTOR",
+              "label" : "book_PK_output_field",
+              "nativeName" : "9",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "id",
+              "fieldType" : "CONNECTOR",
+              "label" : "id_output_field",
+              "nativeName" : "10",
+              "nativeType" : "bigint",
+              "original" : "false",
+              "precision" : 19,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "title",
+              "fieldType" : "CONNECTOR",
+              "label" : "title_output_field",
+              "nativeName" : "11",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "firstName",
+              "fieldType" : "CONNECTOR",
+              "label" : "firstName_output_field",
+              "nativeName" : "13",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "lastName",
+              "fieldType" : "CONNECTOR",
+              "label" : "lastName_output_field",
+              "nativeName" : "14",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "publishedYear",
+              "fieldType" : "CONNECTOR",
+              "label" : "publishedYear_output_field",
+              "nativeName" : "15",
+              "nativeType" : "integer",
+              "original" : "false",
+              "precision" : 10,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "category_FK",
+              "fieldType" : "CONNECTOR",
+              "label" : "category_FK_output_field",
+              "nativeName" : "6",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "genre_PK",
+              "fieldType" : "CONNECTOR",
+              "label" : "genre_PK_output_field",
+              "nativeName" : "17",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "genre",
+              "fieldType" : "CONNECTOR",
+              "label" : "genre_output_field",
+              "nativeName" : "17",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "book_FK",
+              "fieldType" : "CONNECTOR",
+              "label" : "book_FK_output_field",
+              "nativeName" : "9",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "review_PK",
+              "fieldType" : "CONNECTOR",
+              "label" : "review_PK_output_field",
+              "nativeName" : "19",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "reviewer",
+              "fieldType" : "CONNECTOR",
+              "label" : "reviewer_output_field",
+              "nativeName" : "20",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "rating",
+              "fieldType" : "CONNECTOR",
+              "label" : "rating_output_field",
+              "nativeName" : "21",
+              "nativeType" : "bigint",
+              "original" : "false",
+              "precision" : 19,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "comment",
+              "fieldType" : "CONNECTOR",
+              "label" : "comment_output_field",
+              "nativeName" : "22",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "book_FK",
+              "fieldType" : "CONNECTOR",
+              "label" : "book_FK_output_field",
+              "nativeName" : "9",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "employee_PK",
+              "fieldType" : "CONNECTOR",
+              "label" : "employee_PK_output_field",
+              "nativeName" : "24",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "id",
+              "fieldType" : "CONNECTOR",
+              "label" : "id_output_field",
+              "nativeName" : "25",
+              "nativeType" : "bigint",
+              "original" : "false",
+              "precision" : 19,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "name",
+              "fieldType" : "CONNECTOR",
+              "label" : "name_output_field",
+              "nativeName" : "26",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "position",
+              "fieldType" : "CONNECTOR",
+              "label" : "position_output_field",
+              "nativeName" : "27",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "hireDate",
+              "fieldType" : "CONNECTOR",
+              "label" : "hireDate_output_field",
+              "nativeName" : "28",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            },
+            {
+              "name" : "root_FK",
+              "fieldType" : "CONNECTOR",
+              "label" : "root_FK_output_field",
+              "nativeName" : "1",
+              "nativeType" : "string",
+              "original" : "false",
+              "precision" : 255,
+              "scale" : 0,
+              "properties" : [
+                {
+                  "name" : "parentObject",
+                  "value" : "PCNMode_ComplexJSONWithComplexArrayStructure"
+                }
+              ]
+            }
+          ]
+        },
+        "fieldMapping" : {
+          "fields" : [
+            {
+              "adapterField" : {
+                "name" : "Data"
+              },
+              "name" : "data",
+              "precision" : 0,
+              "scale" : 0
+            }
+          ]
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "category",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "category_PK"
+            },
+            "name" : "category_PK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "name"
+            },
+            "name" : "name",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "root_FK"
+            },
+            "name" : "root_FK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "dataFormat" : {
+            "formatId" : "Flat",
+            "validateHSchema" : "false",
+            "attributes" : [
+              {
+                "name" : "delimiter",
+                "value" : ","
+              },
+              {
+                "name" : "escapeChar",
+                "value" : "\\"
+              },
+              {
+                "name" : "qualifier",
+                "value" : "\""
+              },
+              {
+                "name" : "qualifierMode",
+                "value" : "MINIMAL"
+              },
+              {
+                "name" : "disableEscapeChar",
+                "value" : "true"
+              },
+              {
+                "name" : "codePage",
+                "value" : "UTF-8"
+              },
+              {
+                "name" : "headerLineNumber",
+                "value" : "1"
+              },
+              {
+                "name" : "firstDataRow",
+                "value" : "2"
+              },
+              {
+                "name" : "targetHeader",
+                "value" : "With Header"
+              },
+              {
+                "name" : "importColumnFromFirstLine",
+                "value" : "true"
+              },
+              {
+                "name" : "generateHeader",
+                "value" : "true"
+              },
+              {
+                "name" : "fixedWidthMode",
+                "value" : "false"
+              },
+              {
+                "name" : "maxRowsToPreview",
+                "value" : "0"
+              }
+            ]
+          },
+          "object" : {
+            "name" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_Category.txt",
+            "label" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_Category.txt",
+            "path" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_Category.txt",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "category_PK",
+                "fieldType" : "PARSER",
+                "label" : "category_PK",
+                "nativeName" : "category_PK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_Category.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "name",
+                "fieldType" : "PARSER",
+                "label" : "name",
+                "nativeName" : "name",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_Category.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "root_FK",
+                "fieldType" : "PARSER",
+                "label" : "root_FK",
+                "nativeName" : "root_FK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_Category.txt"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "employee",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "employee_PK"
+            },
+            "name" : "employee_PK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "id"
+            },
+            "name" : "id",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "name"
+            },
+            "name" : "name",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "position"
+            },
+            "name" : "position",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "hireDate"
+            },
+            "name" : "hireDate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "root_FK"
+            },
+            "name" : "root_FK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "dataFormat" : {
+            "formatId" : "Flat",
+            "validateHSchema" : "false",
+            "attributes" : [
+              {
+                "name" : "delimiter",
+                "value" : ","
+              },
+              {
+                "name" : "escapeChar",
+                "value" : "\\"
+              },
+              {
+                "name" : "qualifier",
+                "value" : "\""
+              },
+              {
+                "name" : "qualifierMode",
+                "value" : "MINIMAL"
+              },
+              {
+                "name" : "disableEscapeChar",
+                "value" : "true"
+              },
+              {
+                "name" : "codePage",
+                "value" : "UTF-8"
+              },
+              {
+                "name" : "headerLineNumber",
+                "value" : "1"
+              },
+              {
+                "name" : "firstDataRow",
+                "value" : "2"
+              },
+              {
+                "name" : "targetHeader",
+                "value" : "With Header"
+              },
+              {
+                "name" : "importColumnFromFirstLine",
+                "value" : "true"
+              },
+              {
+                "name" : "generateHeader",
+                "value" : "true"
+              },
+              {
+                "name" : "fixedWidthMode",
+                "value" : "false"
+              },
+              {
+                "name" : "maxRowsToPreview",
+                "value" : "0"
+              }
+            ]
+          },
+          "object" : {
+            "name" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_employee.txt",
+            "label" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_employee.txt",
+            "path" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_employee.txt",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "employee_PK",
+                "fieldType" : "PARSER",
+                "label" : "employee_PK",
+                "nativeName" : "employee_PK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_employee.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "id",
+                "fieldType" : "PARSER",
+                "label" : "id",
+                "nativeName" : "id",
+                "nativeType" : "flat_bigint",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_employee.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "name",
+                "fieldType" : "PARSER",
+                "label" : "name",
+                "nativeName" : "name",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_employee.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "position",
+                "fieldType" : "PARSER",
+                "label" : "position",
+                "nativeName" : "position",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_employee.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "hireDate",
+                "fieldType" : "PARSER",
+                "label" : "hireDate",
+                "nativeName" : "hireDate",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_employee.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "root_FK",
+                "fieldType" : "PARSER",
+                "label" : "root_FK",
+                "nativeName" : "root_FK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_employee.txt"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "review",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "review_PK"
+            },
+            "name" : "review_PK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "reviewer"
+            },
+            "name" : "reviewer",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "rating"
+            },
+            "name" : "rating",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "comment"
+            },
+            "name" : "comment",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "book_FK"
+            },
+            "name" : "book_FK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "dataFormat" : {
+            "formatId" : "Flat",
+            "validateHSchema" : "false",
+            "attributes" : [
+              {
+                "name" : "delimiter",
+                "value" : ","
+              },
+              {
+                "name" : "escapeChar",
+                "value" : "\\"
+              },
+              {
+                "name" : "qualifier",
+                "value" : "\""
+              },
+              {
+                "name" : "qualifierMode",
+                "value" : "MINIMAL"
+              },
+              {
+                "name" : "disableEscapeChar",
+                "value" : "true"
+              },
+              {
+                "name" : "codePage",
+                "value" : "UTF-8"
+              },
+              {
+                "name" : "headerLineNumber",
+                "value" : "1"
+              },
+              {
+                "name" : "firstDataRow",
+                "value" : "2"
+              },
+              {
+                "name" : "targetHeader",
+                "value" : "With Header"
+              },
+              {
+                "name" : "importColumnFromFirstLine",
+                "value" : "true"
+              },
+              {
+                "name" : "generateHeader",
+                "value" : "true"
+              },
+              {
+                "name" : "fixedWidthMode",
+                "value" : "false"
+              },
+              {
+                "name" : "maxRowsToPreview",
+                "value" : "0"
+              }
+            ]
+          },
+          "object" : {
+            "name" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_review.txt",
+            "label" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_review.txt",
+            "path" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_review.txt",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "review_PK",
+                "fieldType" : "PARSER",
+                "label" : "review_PK",
+                "nativeName" : "review_PK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_review.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "reviewer",
+                "fieldType" : "PARSER",
+                "label" : "reviewer",
+                "nativeName" : "reviewer",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_review.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "rating",
+                "fieldType" : "PARSER",
+                "label" : "rating",
+                "nativeName" : "rating",
+                "nativeType" : "flat_bigint",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_review.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "comment",
+                "fieldType" : "PARSER",
+                "label" : "comment",
+                "nativeName" : "comment",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_review.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "book_FK",
+                "fieldType" : "PARSER",
+                "label" : "book_FK",
+                "nativeName" : "book_FK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_review.txt"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "genre",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "genre_PK"
+            },
+            "name" : "genre_PK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "genre"
+            },
+            "name" : "genre",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "book_FK"
+            },
+            "name" : "book_FK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "dataFormat" : {
+            "formatId" : "Flat",
+            "validateHSchema" : "false",
+            "attributes" : [
+              {
+                "name" : "delimiter",
+                "value" : ","
+              },
+              {
+                "name" : "escapeChar",
+                "value" : "\\"
+              },
+              {
+                "name" : "qualifier",
+                "value" : "\""
+              },
+              {
+                "name" : "qualifierMode",
+                "value" : "MINIMAL"
+              },
+              {
+                "name" : "disableEscapeChar",
+                "value" : "true"
+              },
+              {
+                "name" : "codePage",
+                "value" : "UTF-8"
+              },
+              {
+                "name" : "headerLineNumber",
+                "value" : "1"
+              },
+              {
+                "name" : "firstDataRow",
+                "value" : "2"
+              },
+              {
+                "name" : "targetHeader",
+                "value" : "With Header"
+              },
+              {
+                "name" : "importColumnFromFirstLine",
+                "value" : "true"
+              },
+              {
+                "name" : "generateHeader",
+                "value" : "true"
+              },
+              {
+                "name" : "fixedWidthMode",
+                "value" : "false"
+              },
+              {
+                "name" : "maxRowsToPreview",
+                "value" : "0"
+              }
+            ]
+          },
+          "object" : {
+            "name" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_genre.txt",
+            "label" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_genre.txt",
+            "path" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_genre.txt",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "genre_PK",
+                "fieldType" : "PARSER",
+                "label" : "genre_PK",
+                "nativeName" : "genre_PK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_genre.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "genre",
+                "fieldType" : "PARSER",
+                "label" : "genre",
+                "nativeName" : "genre",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_genre.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "book_FK",
+                "fieldType" : "PARSER",
+                "label" : "book_FK",
+                "nativeName" : "book_FK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_genre.txt"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "createTime" : "2024-10-15T01:47:23.411Z",
+        "name" : "book",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "book_PK"
+            },
+            "name" : "book_PK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "id"
+            },
+            "name" : "id",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "title"
+            },
+            "name" : "title",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "firstName"
+            },
+            "name" : "firstName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "lastName"
+            },
+            "name" : "lastName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "publishedYear"
+            },
+            "name" : "publishedYear",
+            "platformType" : {
+              "name" : "integer"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "category_FK"
+            },
+            "name" : "category_FK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@i9LcT7ja0G8c9DWOMJ1OAU",
+          "connectionName" : "AWS_lin",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "dataFormat" : {
+            "formatId" : "Flat",
+            "validateHSchema" : "false",
+            "attributes" : [
+              {
+                "name" : "delimiter",
+                "value" : ","
+              },
+              {
+                "name" : "escapeChar",
+                "value" : "\\"
+              },
+              {
+                "name" : "qualifier",
+                "value" : "\""
+              },
+              {
+                "name" : "qualifierMode",
+                "value" : "MINIMAL"
+              },
+              {
+                "name" : "disableEscapeChar",
+                "value" : "true"
+              },
+              {
+                "name" : "codePage",
+                "value" : "UTF-8"
+              },
+              {
+                "name" : "headerLineNumber",
+                "value" : "1"
+              },
+              {
+                "name" : "firstDataRow",
+                "value" : "2"
+              },
+              {
+                "name" : "targetHeader",
+                "value" : "With Header"
+              },
+              {
+                "name" : "importColumnFromFirstLine",
+                "value" : "true"
+              },
+              {
+                "name" : "generateHeader",
+                "value" : "true"
+              },
+              {
+                "name" : "fixedWidthMode",
+                "value" : "false"
+              },
+              {
+                "name" : "maxRowsToPreview",
+                "value" : "0"
+              }
+            ]
+          },
+          "object" : {
+            "name" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_book.txt",
+            "label" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_book.txt",
+            "path" : "/sai/2024.11.S/trgt/CompledJSONWithComplexStructure_book.txt",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "book_PK",
+                "fieldType" : "PARSER",
+                "label" : "book_PK",
+                "nativeName" : "book_PK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "id",
+                "fieldType" : "PARSER",
+                "label" : "id",
+                "nativeName" : "id",
+                "nativeType" : "flat_bigint",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "title",
+                "fieldType" : "PARSER",
+                "label" : "title",
+                "nativeName" : "title",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "firstName",
+                "fieldType" : "PARSER",
+                "label" : "firstName",
+                "nativeName" : "firstName",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "lastName",
+                "fieldType" : "PARSER",
+                "label" : "lastName",
+                "nativeName" : "lastName",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "publishedYear",
+                "fieldType" : "PARSER",
+                "label" : "publishedYear",
+                "nativeName" : "publishedYear",
+                "nativeType" : "flat_bigint",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              },
+              {
+                "name" : "category_FK",
+                "fieldType" : "PARSER",
+                "label" : "category_FK",
+                "nativeName" : "category_FK",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "partitionOrder",
+                    "value" : "0"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "CompledJSONWithComplexStructure_book.txt"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "parent",
+                "value" : "/sai/2024.11.S/trgt"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2024-10-15 22:15:20 PDT"
+}

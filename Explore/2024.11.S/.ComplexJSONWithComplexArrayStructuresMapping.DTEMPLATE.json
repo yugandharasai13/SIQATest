@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "5bPuP5GX5ezf37zQClGZiW",
+    "name" : "ComplexJSONWithComplexArrayStructuresMapping",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011U5M170000000000B3"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-10-16T05:15:20.525Z",
+  "objectRefs" : [ {
+    "id" : "i9LcT7ja0G8c9DWOMJ1OAU",
+    "name" : "AWS_lin",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011U5M0B0000000000Z7"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "28-09-23_06-27-14",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "2HPQF4YYOtddzBgfUblJCI",
+    "name" : "PCNMode_ComplexJSONWithComplexArrayStructure",
+    "type" : "STRUCTURE_DISCOVERY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011U5M3000000000005U"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/2024.11.S"
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
+}
