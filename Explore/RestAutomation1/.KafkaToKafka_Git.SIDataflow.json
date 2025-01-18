@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "hDx0BwU3w4vcGuZP541xEd",
+    "id" : "2wKls9qS2B2dTxvafwMQEK",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,47 +9,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "9b0593c3-2129-4b7c-96bc-f9afd1de5217"
+        "repoHandle" : "0495cbdf-12a0-4d53-88ee-2865ce383dfd"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "dRrsW6OQvm0kdYR8ccJPyc"
+        "value" : "lzLKHX8b2sDkYHPZPeGWkl"
       }, {
         "name" : "version",
         "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "KafkaToKafka_Git",
+        "description" : "TestAutomation",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2024-10-16T04:16:30.296Z",
+  "updateTime" : "2025-01-18T07:21:57.154Z",
   "objectRefs" : [ {
-    "id" : "0djCQDU6CcAeb0QCDVCzo8",
-    "name" : "AgentGroup",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0117VF25000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "8yNlUgNgtmkhBQMT4F7IoW",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "id" : "0WAqqxpxUX1kiycL8k0OAp",
+    "name" : "SIAutomation_Kafka_2024.08.S",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,13 +37,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0117VF0B00000000002J"
+        "repoHandle" : "0102ML0B0000000000AX"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8EEsIYEa998l9dwwLzJVKs",
+    "name" : "invprodcdwdl02.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102ML2500000000000I"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
