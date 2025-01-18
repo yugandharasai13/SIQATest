@@ -1,0 +1,73 @@
+{
+  "objectInfo" : {
+    "id" : "jgMKJHrxVEFgXUWPLdPPIe",
+    "name" : "ex",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6de7abf6-d0cc-46a1-9c11-9301499d1637"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "0NWNi4VNROTfhQQeVVP0k5"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-01-18T07:32:43.797Z",
+  "objectRefs" : [ {
+    "id" : "aFCy2j88TDubTD1LlS3Bqy",
+    "name" : "SIAutomation_Kafka",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102ML0B00000000009R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8EEsIYEa998l9dwwLzJVKs",
+    "name" : "invprodcdwdl02.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102ML2500000000000I"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
