@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "1udKB28MpOyjwHER2un420",
+    "id" : "6woojNHbrA2codEQyQKp4E",
     "name" : "Error_email",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,46 +9,26 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "4539290c-9579-4a54-a109-c5c5e5bd139e"
+        "repoHandle" : "1705ed8d-712c-4127-af99-49ea7e86031f"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "hkdkDv74Yqhen8fChWmpeu"
+        "value" : "3TyRfo4FrOEk01WnaeNNUa"
       }, {
         "name" : "version",
-        "value" : "4"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "edit and dep",
+        "description" : null,
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2023-09-19T18:38:53.126Z",
+  "updateTime" : "2025-02-16T17:30:41.718Z",
   "objectRefs" : [ {
-    "id" : "4OGDPwWYaavbBzouMEMZS5",
-    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0113OO0B00000000004T"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "35HdaerxoqZlqNa85eR8Sv",
+    "id" : "9GFtNq2rSkHiUpENgOm2sZ",
     "name" : "kafka_alok",
     "type" : "Connection",
     "metadata" : {
@@ -57,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0113OO0B00000000000A"
+        "repoHandle" : "012PUJ0B000000000022"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "9IkdmkPIVK2c5SqiatmiGT",
-    "name" : "invprodcdwdl01.informatica.com",
+    "id" : "gn3zL2d0wq4f9iq6sghfYQ",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -77,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0113OO2500000000000H"
+        "repoHandle" : "012PUJ25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -87,5 +67,27 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  }, {
+    "id" : "2ENm6gtzumjezyaQqIRbgf",
+    "name" : "SIAutomation_Tailfile_r36_RE",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012PUJ0B00000000002C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
