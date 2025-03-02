@@ -16,16 +16,17 @@
         "value" : "5A97u0bHbC6egESX7N6620"
       }, {
         "name" : "version",
-        "value" : "5"
+        "value" : "7"
       } ],
       "additionalInfo" : {
         "description" : "",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
+  "updateTime" : "2025-03-02T14:49:39.855Z",
   "objectRefs" : [ {
     "id" : "59cCtYJXIM2dAUoDiMcwQ0",
     "name" : "SIAutomation_Kafka_r35",
@@ -86,5 +87,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
