@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "hyJHwVjN7s7krFLP7A5IAD",
+    "id" : "70aXaFU4US9dGJUw3gcPII",
     "name" : "Error email_r39",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "4a32fa93-43b1-4ae9-8e5a-8f593026d8e3"
+        "repoHandle" : "11639a0a-8d90-49cc-99a2-b2b668f8c7a8"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "9NGm6Oqo4KzdMjz0OHhdau"
+        "value" : "4iOPNXab8eMjBr5HO4ygIQ"
       }, {
         "name" : "version",
         "value" : "4"
@@ -21,13 +21,14 @@
       "additionalInfo" : {
         "description" : null,
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
+  "updateTime" : "2025-03-02T14:10:51.525Z",
   "objectRefs" : [ {
-    "id" : "1UkX3K6O56BfyB8hfvD8eU",
+    "id" : "aEPr0oLlSIKkuySgUKfFWI",
     "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
@@ -36,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0188SH2500000000000B"
+        "repoHandle" : "011QL82500000000000A"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,7 +48,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "84kkgEqeRAWj3nMg0mea4C",
+    "id" : "7bSS3AgAzMAca6dD4E1mGP",
     "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -56,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0188SH0B00000000000V"
+        "repoHandle" : "011QL80B00000000002Q"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -67,8 +68,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "1gg3BNweS1pisuX4zpPNIo",
-    "name" : "kafka_alok",
+    "id" : "8JP4YFEjaW4iRdA2zsH680",
+    "name" : "SIAutomation_Kafka_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -76,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0188SH0B000000000007"
+        "repoHandle" : "011QL80B00000000006F"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -86,5 +87,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
