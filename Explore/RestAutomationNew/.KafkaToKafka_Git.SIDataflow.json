@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "jOhlSIbycuQhATnD8MeqGx",
+    "id" : "dOcZNhgeOwPivHTv5KMqKE",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "be85afaf-2a2c-400f-80cd-792e22647095"
+        "repoHandle" : "268c8d33-b1d9-487e-baa5-86d6757c5530"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -26,30 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2024-12-19T14:06:26.962Z",
+  "updateTime" : "2025-03-04T04:49:44.766Z",
   "objectRefs" : [ {
-    "id" : "8t4PNx4GNcSkwss3iBIiS3",
-    "name" : "invwinmq201",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010HCZ250000000007Q6"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3T9GMXItQmycotAA76HCYe",
-    "name" : "SIAutomation_Kafka_2023.04.M_win",
+    "id" : "0NJwqq1TJqxcZBWVTilMQW",
+    "name" : "SIAutomation_Kafka_2025.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,13 +37,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010HCZ0B00000000006N"
+        "repoHandle" : "010HCZ0B000000000079"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9L7AS5IMHb1dKA8jzcxAYP",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010HCZ25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
