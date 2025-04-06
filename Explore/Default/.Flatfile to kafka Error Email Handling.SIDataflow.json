@@ -1,0 +1,93 @@
+{
+  "objectInfo" : {
+    "id" : "c1J7uvV9HqTb3N8Klvufua",
+    "name" : "Flatfile to kafka Error Email Handling",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "51f9aa35-99dd-4583-86a9-e437bc7d4f08"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "c2atZbnZh0yf94hwwayQmt"
+      }, {
+        "name" : "version",
+        "value" : "4"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-04-06T19:27:48.291Z",
+  "objectRefs" : [ {
+    "id" : "0sGbC5HHbCge1dVEzuVGIM",
+    "name" : "Flatfile sai",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114O10B000000000091"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "cL09AsO47E8kWyMunkRUil",
+    "name" : "KafkaSai",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114O10B00000000007U"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "98NjbcPQLNMiAjUYPPooiX",
+    "name" : "invprodcdwdl01.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0114O12500000000000L"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
