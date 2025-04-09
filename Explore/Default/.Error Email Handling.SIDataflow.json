@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "gULViQnjyAqiBBACJG0sOQ",
+    "id" : "2rBDInjbQh9fiWcI0e0hYu",
     "name" : "Error Email Handling",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "6344ff50-431f-4eed-a716-b516d3f742f3"
+        "repoHandle" : "a9d3fe5f-c459-428a-8ee2-1260574165d2"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "5kjgkSUyikYe0gYT5gltsG"
+        "value" : "81h06S2woKBkRAEHYozkm1"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -26,10 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-04-06T19:53:59.323Z",
+  "updateTime" : "2025-04-09T09:03:45.420Z",
   "objectRefs" : [ {
-    "id" : "7v65UgOiO2EeqVDZ39GqwO",
-    "name" : "invprodcdwdl02.informatica.com",
+    "id" : "hDQkpZfeM8sg38emrfX9mS",
+    "name" : "invinsisaroy01",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CX32500000000000F"
+        "repoHandle" : "0103UU250000000007Q6"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,7 +48,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "dXZjuOC7egsiki1vcilx0j",
+    "id" : "5ySrYL0bHptb2aDrJ9racP",
     "name" : "SIAutomation_Kafka_2024.08.S",
     "type" : "Connection",
     "metadata" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CX30B000000000092"
+        "repoHandle" : "0103UU0B00000000007I"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,7 +68,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "59AEZkCPB40krQh41fWIOD",
+    "id" : "01sW1mtJiuRlknjgk9ACIE",
     "name" : "SIAutomation_Tailfile_2023.04.M",
     "type" : "Connection",
     "metadata" : {
@@ -77,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012CX30B00000000007Z"
+        "repoHandle" : "0103UU0B00000000006R"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
