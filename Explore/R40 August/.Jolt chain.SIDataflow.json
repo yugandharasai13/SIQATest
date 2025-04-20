@@ -1,0 +1,73 @@
+{
+  "objectInfo" : {
+    "id" : "1PtikQXKJAakz7EqFu7a4Q",
+    "name" : "Jolt chain",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "858c72c4-2972-4571-a24c-60b9ad649333"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "ctB1mLvEisWgeowdgVluUT"
+      }, {
+        "name" : "version",
+        "value" : "2"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-04-20T04:16:04.612Z",
+  "objectRefs" : [ {
+    "id" : "fkAn0Vj4lOiilPoYUJ3Uqt",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0188SH25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6LTsckEK13QgcqWct1DUSS",
+    "name" : "Kafkainvr83pam25",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0188SH0B000000000038"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
