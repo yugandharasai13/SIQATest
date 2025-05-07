@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "5A97u0bHbC6egESX7N6620",
+    "id" : "0BIN7GBrpqHgATTvQQ8Mym",
     "name" : "saroy",
     "type" : "Project",
     "metadata" : {
@@ -18,5 +18,8 @@
     }
   },
   "dataFileExtension" : "json",
-  "objectRefs" : [ ]
+  "updateTime" : "2025-05-07T05:29:30.427Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
