@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "fjCznOY3aicfWR0TigyDOA",
+    "id" : "5hC11ywYhaziaskrKBNXYo",
     "name" : "RestV2_SwaggerFile_OnCloud",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,26 +9,26 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "29cc01f6-e425-49f2-b061-146b69eecf71"
+        "repoHandle" : "3f7798eb-180d-46f1-b5a9-021e3585675c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "5m14phVRjuffZQIrtFYLSs"
+        "value" : "emToLjURHQgjUvvPNZ1kGl"
       }, {
         "name" : "version",
-        "value" : "7"
+        "value" : "3"
       } ],
       "additionalInfo" : {
         "description" : "RestV2_BasicAuth",
-        "contentType" : null,
+        "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-05-09T04:55:13.575Z",
+  "updateTime" : "2025-05-09T05:06:06.686Z",
   "objectRefs" : [ {
-    "id" : "aPGMnAxtC2ui9Tyi1skugP",
+    "id" : "fUA8rhFm9eokLXyFtIfEON",
     "name" : "SIAutomation_RestV2_r35",
     "type" : "Connection",
     "metadata" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O10B00000000007E"
+        "repoHandle" : "012CX30B00000000006V"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,7 +48,7 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "jEA7Kui6TC3hOUOUrTuOWr",
+    "id" : "4swoH4aiHuIlXlQRTF21A6",
     "name" : "SIAutomation_Kafka",
     "type" : "Connection",
     "metadata" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O10B000000000078"
+        "repoHandle" : "012CX30B00000000007N"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,8 +68,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "98NjbcPQLNMiAjUYPPooiX",
-    "name" : "invprodcdwdl01.informatica.com",
+    "id" : "7v65UgOiO2EeqVDZ39GqwO",
+    "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -77,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0114O12500000000000L"
+        "repoHandle" : "012CX32500000000000F"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
