@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "dwupykqzLu7dDefJPHa6e9",
+    "id" : "iBY97YkGrGlhdfRBVUWJk2",
     "name" : "R38 Nov",
     "type" : "Project",
     "metadata" : {
@@ -18,5 +18,8 @@
     }
   },
   "dataFileExtension" : "json",
-  "objectRefs" : [ ]
+  "updateTime" : "2025-05-22T05:03:18.469Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
