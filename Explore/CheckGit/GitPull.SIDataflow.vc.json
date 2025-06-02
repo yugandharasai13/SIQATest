@@ -1,0 +1,66 @@
+{
+  "agentId" : "010R7R25000000000007",
+  "nodes" : [ {
+    "id" : "902cecb0-4a70-4457-b72b-9207d6f08fce",
+    "name" : "GitPull_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "batch_size",
+      "value" : "10"
+    }, {
+      "key" : "auto_acknowledge",
+      "value" : "false"
+    }, {
+      "key" : "Queue",
+      "value" : "demo"
+    } ],
+    "connectionId" : "010R7R0B000000000006",
+    "type" : "AMQP",
+    "metaMetadata" : "Generic"
+  }, {
+    "id" : "480d70d9-e7d8-4a3f-b4f2-b9e253f5ca84",
+    "name" : "GitPull_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "sdsd"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "010R7R0B000000000005",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "eb6a7cbb-8e84-4b53-82ed-6019f198fc6d",
+    "name" : "edge0",
+    "from" : "GitPull_source",
+    "to" : "GitPull_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "CheckGit",
+    "agentId" : "010R7R25000000000007",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  },
+  "description" : "added"
+}

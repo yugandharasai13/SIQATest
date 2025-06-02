@@ -16,17 +16,38 @@
         "value" : "07N3n9Z82ayiI2fJrijvIA"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "added",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
+  "updateTime" : "2025-06-02T09:54:11.122Z",
   "objectRefs" : [ {
+    "id" : "0Y1fHRBzsaTkm4e5FmFEQr",
+    "name" : "INsiubtu16qa01",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010R7R25000000000007"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "k0SHF4QI1WYeapQ6yTAmkK",
     "name" : "kafkaConnectionSai",
     "type" : "Connection",
@@ -66,25 +87,7 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "6T0mAKB5h8cbq6nqD1KbOA",
-    "name" : "pamhq1",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010R7R25000000000005"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
