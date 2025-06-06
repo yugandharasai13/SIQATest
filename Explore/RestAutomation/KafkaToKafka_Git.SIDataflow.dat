@@ -1,1 +1,13 @@
-{"parentId":"1RWIlbLB8g0kxeywkH23ww","version":1,"blob":"{\"agentId\":\"0103UU250000000007Q6\",\"nodes\":[{\"id\":\"8d9e2e9d-37c8-422a-b5e9-cea04a930a86\",\"name\":\"KafkaToKafka_git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcazurerel\"}],\"connectionId\":\"0103UU0B00000000007J\"},{\"id\":\"17763c4f-80ba-46a5-9b79-ee0ef68f4ac0\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarazurerel\"}],\"connectionId\":\"0103UU0B00000000007J\"}],\"edges\":[{\"id\":\"5e60fd01-0877-4f07-9d4d-593748ea3c55\",\"name\":\"KafkaToKafka_git_sourceKafkaToKafka_Git_target\",\"from\":\"KafkaToKafka_git_source\",\"to\":\"KafkaToKafka_Git_target\",\"config\":[]}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"config\":[]}}","description":"TestAutomation","customAttributes":{"project":"RestAutomation","environmentType":"Secure Agent"}}
+{
+  "parentId" : "9QeB19W9fXck3Ug4vbc7QZ",
+  "version" : 2,
+  "blob" : "{\"agentId\":\"010R7R250000000007Q3\",\"nodes\":[{\"id\":\"b859fad6-c8f0-437c-a861-30612ca8fb7e\",\"name\":\"KafkaToKafka_Git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"172ee2b4-da9d-40b7-952c-fd47f8a4b2ca\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"6a2ec544-f888-4d91-8822-40303f2b6769\",\"name\":\"edge0\",\"from\":\"KafkaToKafka_Git_source\",\"to\":\"KafkaToKafka_Git_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "KafkaToKafka_Git",
+  "customAttributes" : {
+    "project" : "RestAutomation",
+    "agentId" : "010R7R250000000007Q3",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  }
+}
