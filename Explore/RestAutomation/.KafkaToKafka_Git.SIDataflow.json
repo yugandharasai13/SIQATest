@@ -16,20 +16,20 @@
         "value" : "9QeB19W9fXck3Ug4vbc7QZ"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "3"
       } ],
       "additionalInfo" : {
-        "description" : "KafkaToKafka_Git",
+        "description" : "KafkaToKafka_Git aadeddd ",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-06-06T08:41:23.490Z",
+  "updateTime" : "2025-06-06T08:42:34.839Z",
   "objectRefs" : [ {
-    "id" : "1hF1oVqMvWPeRGppXNcUkm",
-    "name" : "invu20b2b02",
+    "id" : "6pf6cIXbrU1hUtRkBPL5u1",
+    "name" : "insiubtu16qa02",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010R7R250000000007Q3"
+        "repoHandle" : "010R7R250000000007Q2"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

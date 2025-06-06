@@ -1,13 +1,13 @@
 {
   "parentId" : "9QeB19W9fXck3Ug4vbc7QZ",
-  "version" : 2,
-  "blob" : "{\"agentId\":\"010R7R250000000007Q3\",\"nodes\":[{\"id\":\"b859fad6-c8f0-437c-a861-30612ca8fb7e\",\"name\":\"KafkaToKafka_Git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"172ee2b4-da9d-40b7-952c-fd47f8a4b2ca\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"6a2ec544-f888-4d91-8822-40303f2b6769\",\"name\":\"edge0\",\"from\":\"KafkaToKafka_Git_source\",\"to\":\"KafkaToKafka_Git_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
-  "description" : "KafkaToKafka_Git",
+  "version" : 3,
+  "blob" : "{\"agentId\":\"010R7R250000000007Q2\",\"nodes\":[{\"id\":\"375a638a-a079-4587-a950-d17c6f972e7c\",\"name\":\"KafkaToKafka_Git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"7b85da6a-ffac-464b-8960-e062f7c991d9\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"baabe1a4-5f69-4344-9b30-ac19cb725a68\",\"name\":\"edge0\",\"from\":\"KafkaToKafka_Git_source\",\"to\":\"KafkaToKafka_Git_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "KafkaToKafka_Git aadeddd ",
   "customAttributes" : {
     "project" : "RestAutomation",
-    "agentId" : "010R7R250000000007Q3",
+    "agentId" : "010R7R250000000007Q2",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "1"
+    "currentVersion" : "2"
   }
 }
