@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7aOBfn3e28lb794q1TokIg",
+    "id" : "iT882gMaasUhJkOcpOLgAr",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "da8e2d4f-cfda-4a91-8980-8d527aee2e60"
+        "repoHandle" : "5d2a5ec8-f1d1-46be-98a3-7e3b1f85ee86"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -26,8 +26,28 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-06-09T09:15:39.303Z",
+  "updateTime" : "2025-06-09T10:09:50.736Z",
   "objectRefs" : [ {
+    "id" : "4oYxI7nYX1HeGsfxTlfrmB",
+    "name" : "SIAutomation_Kafka_2025.4.M",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100030B00000000003C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "4w4bo6o9c8sfaG9qmAxgAX",
     "name" : "invr74pam01",
     "type" : "AgentGroup",
@@ -44,26 +64,6 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "gX6G8JnuKIblOvfdVV9P87",
-    "name" : "SIAutomation_Kafka_2024.08.S",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0100030B00000000000F"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
