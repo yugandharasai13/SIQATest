@@ -1,0 +1,57 @@
+{
+  "agentId" : "010SN625000000000006",
+  "nodes" : [ {
+    "id" : "9666da6b-e65d-4986-87ea-7ee74eaf76df",
+    "name" : "Sanity_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "src"
+    }, {
+      "key" : "consumerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "010SN60B0000000000C3",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "c3c1e986-dc92-4e6a-9ec6-b042fb662469",
+    "name" : "Sanity_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "trgt"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "010SN60B0000000000C3",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "7a784e6a-be4c-4eeb-b57f-f93b11e04707",
+    "name" : "edge0",
+    "from" : "Sanity_source",
+    "to" : "Sanity_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : { },
+  "description" : null
+}
