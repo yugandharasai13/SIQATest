@@ -1,0 +1,75 @@
+{
+  "agentId" : "01038V2500000000000E",
+  "nodes" : [ {
+    "id" : "78f1708a-e6c4-444a-a95e-5847708fe482",
+    "name" : "Email Error Handling_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "nt"
+    }, {
+      "key" : "interimDirectory",
+      "value" : "/root"
+    }, {
+      "key" : "rolloverSize",
+      "value" : "1024"
+    }, {
+      "key" : "rolloverEvents",
+      "value" : "100"
+    }, {
+      "key" : "rolloverTime",
+      "value" : "300000"
+    } ],
+    "connectionId" : "01038V0B0000000000DZ",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "84c2391c-8228-4fa5-9c89-9745ef67fbd8",
+    "name" : "Email Error Handling_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "dne"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "01038V0B0000000000E0",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "aa42573d-bd5d-4c7c-96ba-ef59f0bd9197",
+    "name" : "edge0",
+    "from" : "Email Error Handling_source",
+    "to" : "Email Error Handling_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 1,
+        "unit" : "MINUTES"
+      }
+    },
+    "rejectDir" : "/root/rd",
+    "email" : "dtambe@informatica.com",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : { },
+  "description" : null
+}
