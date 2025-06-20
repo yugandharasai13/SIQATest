@@ -1,7 +1,7 @@
 {
   "agentId" : "010SN625000000000006",
   "nodes" : [ {
-    "id" : "9666da6b-e65d-4986-87ea-7ee74eaf76df",
+    "id" : "2caefcf5-ec2c-4e7e-ac9f-42d8760d8739",
     "name" : "Sanity_source",
     "serviceType" : "source",
     "config" : [ {
@@ -15,7 +15,7 @@
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "c3c1e986-dc92-4e6a-9ec6-b042fb662469",
+    "id" : "a2ea2e35-b68e-480d-8ecd-e8b28f4d9ff4",
     "name" : "Sanity_target",
     "serviceType" : "target",
     "config" : [ {
@@ -36,7 +36,7 @@
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "7a784e6a-be4c-4eeb-b57f-f93b11e04707",
+    "id" : "3b4415f8-18fa-4499-bef0-127d075bf8ff",
     "name" : "edge0",
     "from" : "Sanity_source",
     "to" : "Sanity_target",
@@ -52,6 +52,12 @@
     "logLevel" : "INFO",
     "config" : [ ]
   },
-  "customAttributes" : { },
-  "description" : null
+  "customAttributes" : {
+    "project" : "CDI ELB test",
+    "agentId" : "010SN625000000000006",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  },
+  "description" : "added"
 }

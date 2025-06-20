@@ -16,17 +16,17 @@
         "value" : "87pvvfKTNf1l8rKwoJWg63"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "added",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-06-20T07:08:26.806Z",
+  "updateTime" : "2025-06-20T07:13:40.935Z",
   "objectRefs" : [ {
     "id" : "aMO1ZWavmiZc3531abAtC6",
     "name" : "AgentGroup2",
