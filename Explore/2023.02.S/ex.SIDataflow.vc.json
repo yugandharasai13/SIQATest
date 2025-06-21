@@ -1,0 +1,70 @@
+{
+  "agentId" : "0102ML2500000000000I",
+  "nodes" : [ {
+    "id" : "3ff933d4-d158-46d0-9929-3f846a29ccc4",
+    "name" : "ex_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0102ML0B00000000009R",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "fea9ff97-4317-4bb2-8f67-ced4a81200f5",
+    "name" : "ex_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "src"
+    }, {
+      "key" : "consumerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0102ML0B00000000009R",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "069c6fb2-4d99-4e26-8210-c21034f9d2b6",
+    "name" : "edge0",
+    "from" : "ex_source",
+    "to" : "ex_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 10,
+        "unit" : "MINUTES"
+      }
+    },
+    "rejectDir" : "/root/rd",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "2023.02.S",
+    "agentId" : "0102ML2500000000000I",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  },
+  "description" : null
+}
