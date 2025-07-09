@@ -1,0 +1,77 @@
+{
+  "agentId" : "0103UU250000000007Q6",
+  "nodes" : [ {
+    "id" : "17619937-4d49-46bc-bc52-d097ef278958",
+    "name" : "Upgrade Email Error Handling _source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "dne"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "0103UU0B00000000006R",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "3d81c5e3-bc14-451b-9900-6d1a7f9f23e7",
+    "name" : "Upgrade Email Error Handling _target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0103UU0B00000000006M",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "0964bbd5-2a06-42be-ba1a-e8fe6b4c1de0",
+    "name" : "edge0",
+    "from" : "Upgrade Email Error Handling _source",
+    "to" : "Upgrade Email Error Handling _target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 1,
+        "unit" : "MINUTES"
+      }
+    },
+    "email" : "saroy@informatica.com",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Upgrade",
+    "agentId" : "0103UU250000000007Q6",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  },
+  "description" : null
+}
