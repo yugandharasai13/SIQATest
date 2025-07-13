@@ -16,17 +16,17 @@
         "value" : "7wOZAnYazpmdlKTMajJHae"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "3"
       } ],
       "additionalInfo" : {
-        "description" : "add1",
+        "description" : "add2",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-13T16:07:10.638Z",
+  "updateTime" : "2025-07-13T16:07:35.958Z",
   "objectRefs" : [ {
     "id" : "0l1vMoEeTalbmg38hogS6Z",
     "name" : "kafkaConnectionSai",
