@@ -1,0 +1,72 @@
+{
+  "agentId" : "012CX32500000000000F",
+  "nodes" : [ {
+    "id" : "0b5ec4b8-84c4-4c43-9a1c-240db665a34e",
+    "name" : "RestV2_SwaggerFile_OnSecureAgent_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "restV2_pod2"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "012CX30B00000000007N",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "5697636c-17f7-4224-b71c-8d13d23ae6ff",
+    "name" : "RestV2_SwaggerFile_OnSecureAgent_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "getAllCourses"
+    }, {
+      "key" : "header",
+      "value" : "[]"
+    }, {
+      "key" : "alertType",
+      "value" : "Raise Alert"
+    }, {
+      "key" : "scheme",
+      "value" : "HTTP"
+    }, {
+      "key" : "schedulePeriod",
+      "value" : "10"
+    } ],
+    "connectionId" : "012CX30B00000000007O",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "86ed9b36-32a6-4e36-8d17-f3c530dfc430",
+    "name" : "edge0",
+    "from" : "RestV2_SwaggerFile_OnSecureAgent_source",
+    "to" : "RestV2_SwaggerFile_OnSecureAgent_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "2023.02.S",
+    "agentId" : "012CX32500000000000F",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "2"
+  },
+  "description" : "RestV2_BasicAuth"
+}
