@@ -1,0 +1,72 @@
+{
+  "agentId" : "0114O12500000000000L",
+  "nodes" : [ {
+    "id" : "7b2c42ef-e346-4e24-a6c9-1014b670c464",
+    "name" : "Jms_Adls_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "SIQ1"
+    }, {
+      "key" : "jmsVersion",
+      "value" : "jms20"
+    }, {
+      "key" : "destinationType",
+      "value" : "QUEUE"
+    }, {
+      "key" : "clientId",
+      "value" : null
+    } ],
+    "connectionId" : "0114O10B00000000009R",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "b74de2ed-cd68-4296-ac07-34eee189dfc6",
+    "name" : "Jms_Adls_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "writeStrategy",
+      "value" : "Append"
+    }, {
+      "key" : "filesystemNameOverride",
+      "value" : null
+    }, {
+      "key" : "_nativeName",
+      "value" : "na1.txt"
+    }, {
+      "key" : "compressionFormat",
+      "value" : "NONE"
+    }, {
+      "key" : "directoryOverride",
+      "value" : null
+    } ],
+    "connectionId" : "0114O10B0000000000BK",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "495e269a-9008-4fe3-9821-9cba30867ae4",
+    "name" : "edge0",
+    "from" : "Jms_Adls_source",
+    "to" : "Jms_Adls_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0114O12500000000000L",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  },
+  "description" : null
+}
