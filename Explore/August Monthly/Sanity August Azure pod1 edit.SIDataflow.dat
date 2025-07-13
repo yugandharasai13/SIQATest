@@ -1,1 +1,13 @@
-{"parentId":"0X6KiozRmbMi88TQ6Aaikf","version":2,"blob":"{\"agentId\":\"0102XB25000000000002\",\"nodes\":[{\"id\":\"cfbe3518-4761-4898-a923-2bfcc1335979\",\"name\":\"Sanity August Azure pod1 edit_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"trgt\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"011ZFB0B000000000038\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"e7c76b7c-2022-4be8-83cd-dc807e97d28d\",\"name\":\"Sanity August Azure pod1 edit_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"src\"},{\"key\":\"consumerProperties\",\"value\":null}],\"connectionId\":\"011ZFB0B000000000038\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"938950cc-4b96-4f53-88f6-5585ed493408\",\"name\":\"edge0\",\"from\":\"Sanity August Azure pod1 edit_source\",\"to\":\"Sanity August Azure pod1 edit_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}","description":null,"customAttributes":{}}
+{
+  "parentId" : "7wOZAnYazpmdlKTMajJHae",
+  "version" : 2,
+  "blob" : "{\"agentId\":\"0100EY2500000000000B\",\"nodes\":[{\"id\":\"24bc984f-99c1-4040-a61b-f7da9fe02d02\",\"name\":\"Sanity August Azure pod1 edit_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"src\"},{\"key\":\"consumerProperties\",\"value\":null}],\"connectionId\":\"0100EY0B000000000008\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"d78c3b5f-ae1a-4789-b79c-19c850d045ce\",\"name\":\"Sanity August Azure pod1 edit_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"trgt\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0100EY0B000000000008\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"8b379ddc-93b2-4bb8-92b4-3f4f76bd4958\",\"name\":\"edge0\",\"from\":\"Sanity August Azure pod1 edit_source\",\"to\":\"Sanity August Azure pod1 edit_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "add1",
+  "customAttributes" : {
+    "project" : "August Monthly",
+    "agentId" : "0100EY2500000000000B",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  }
+}

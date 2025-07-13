@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "4JwicccplGHe1uXPIX1r4V",
+    "id" : "8hJNjZnBjOdi4xCg8ZxUkr",
     "name" : "Sanity August Azure pod1 edit",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,26 +9,47 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "d04cbbbf-f0e6-47db-953a-151a5349d50c"
+        "repoHandle" : "791fe44e-ef64-4fae-acc7-4f9d2624020c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "0X6KiozRmbMi88TQ6Aaikf"
+        "value" : "7wOZAnYazpmdlKTMajJHae"
       }, {
         "name" : "version",
         "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "add1",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
+  "updateTime" : "2025-07-13T16:07:10.638Z",
   "objectRefs" : [ {
-    "id" : "2wNVyZmUAxvfy9hF9jGlCI",
-    "name" : "AgentGroup",
+    "id" : "0l1vMoEeTalbmg38hogS6Z",
+    "name" : "kafkaConnectionSai",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100EY0B000000000008"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "5xWoO5JHgB7eVwPaZ33GKy",
+    "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011ZFB25000000000002"
+        "repoHandle" : "0100EY2500000000000B"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -46,25 +67,7 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "8MljOciO5nOgR8bdsq9fW1",
-    "name" : "kafkaConnectionSai",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "011ZFB0B000000000038"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
