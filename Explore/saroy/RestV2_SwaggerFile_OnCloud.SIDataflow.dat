@@ -1,0 +1,7 @@
+{
+  "parentId" : "1RpT4UQIVBHjz9e8qwBbGI",
+  "version" : 1,
+  "blob" : "{\"agentId\":\"01000A2500000000000A\",\"nodes\":[{\"id\":\"b7f2232b-3498-4284-9600-d9e5b78b09c7\",\"name\":\"RestV2_SwaggerFile_OnCloud_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"300\"}],\"connectionId\":\"01000A0B00000000001M\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"5c2d4747-3b34-4168-abd1-f5f061f70ff2\",\"name\":\"RestV2_SwaggerFile_OnCloud_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"restV2_Running_sdel\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"01000A0B00000000000A\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"1eb653c5-247c-4112-a1dc-ad7f0a02a746\",\"name\":\"edge0\",\"from\":\"RestV2_SwaggerFile_OnCloud_source\",\"to\":\"RestV2_SwaggerFile_OnCloud_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "RestV2_BasicAuth",
+  "customAttributes" : { }
+}
