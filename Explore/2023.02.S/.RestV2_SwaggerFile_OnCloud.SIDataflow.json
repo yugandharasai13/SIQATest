@@ -16,17 +16,17 @@
         "value" : "7kSkI2eVZtlib3GzWz1Zso"
       }, {
         "name" : "version",
-        "value" : "4"
+        "value" : "6"
       } ],
       "additionalInfo" : {
-        "description" : "RestV2_BasicAuth",
+        "description" : "RestV2_BasicAuth c3",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-13T16:40:38.404Z",
+  "updateTime" : "2025-07-13T16:42:02.065Z",
   "objectRefs" : [ {
     "id" : "5gW0NBESVSflJkzwHeNHCa",
     "name" : "invprodcdwdl01.informatica.com",

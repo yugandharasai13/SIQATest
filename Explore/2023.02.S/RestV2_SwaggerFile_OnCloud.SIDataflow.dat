@@ -1,13 +1,13 @@
 {
   "parentId" : "7kSkI2eVZtlib3GzWz1Zso",
-  "version" : 4,
-  "blob" : "{\"agentId\":\"0102XB2500000000000H\",\"nodes\":[{\"id\":\"85ad3ae3-d974-416a-acb0-83f9131fb1b9\",\"name\":\"RestV2_SwaggerFile_OnCloud_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"3600\"}],\"connectionId\":\"0102XB0B00000000009H\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"1982a359-f871-4ad9-b2da-b1db48db61c7\",\"name\":\"RestV2_SwaggerFile_OnCloud_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"restV2_Running_azurePod1\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0102XB0B00000000009O\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"4c98883e-564b-4698-99a5-d769a9652442\",\"name\":\"edge0\",\"from\":\"RestV2_SwaggerFile_OnCloud_source\",\"to\":\"RestV2_SwaggerFile_OnCloud_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
-  "description" : "RestV2_BasicAuth",
+  "version" : 6,
+  "blob" : "{\"agentId\":\"0102XB2500000000000H\",\"nodes\":[{\"id\":\"118b8321-35d8-4e47-a57c-c47447535745\",\"name\":\"RestV2_SwaggerFile_OnCloud_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"3600\"}],\"connectionId\":\"0102XB0B00000000009H\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"1b512cd5-a309-4be6-bf5f-14714536bfe4\",\"name\":\"RestV2_SwaggerFile_OnCloud_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"restV2_Running_azurePod1\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0102XB0B00000000009O\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"d4a5bc80-9e64-4c2f-9ece-cc531c84496d\",\"name\":\"edge0\",\"from\":\"RestV2_SwaggerFile_OnCloud_source\",\"to\":\"RestV2_SwaggerFile_OnCloud_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "RestV2_BasicAuth c3",
   "customAttributes" : {
     "project" : "2023.02.S",
     "agentId" : "0102XB2500000000000H",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "3"
+    "currentVersion" : "5"
   }
 }
