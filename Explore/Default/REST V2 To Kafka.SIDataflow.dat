@@ -1,0 +1,13 @@
+{
+  "parentId" : "1TGCyuGZc3uecxwCjuxHam",
+  "version" : 3,
+  "blob" : "{\"agentId\":\"010R7R250000000007Q2\",\"nodes\":[{\"id\":\"e5d76cba-36c0-46ad-b265-8f254e8c856b\",\"name\":\"REST V2 To Kafka_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"10\"}],\"connectionId\":\"010R7R0B00000000001F\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"801b1933-ff9c-4382-ac9a-cf62d2fdac02\",\"name\":\"REST V2 To Kafka_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar1\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"010R7R0B00000000001A\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"d85005f2-15ff-45f9-9130-7e704d1488c4\",\"name\":\"edge0\",\"from\":\"REST V2 To Kafka_source\",\"to\":\"REST V2 To Kafka_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "010R7R250000000007Q2",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "2"
+  }
+}
