@@ -1,27 +1,7 @@
 {
-  "agentId" : "0100032500000000000D",
+  "agentId" : "010AEI2500000000000G",
   "nodes" : [ {
-    "id" : "6c4217d9-9ede-4e6a-b794-089f31b567e9",
-    "name" : "Restv2_Kafka_07_target",
-    "serviceType" : "target",
-    "config" : [ {
-      "key" : "_nativeName",
-      "value" : "tar"
-    }, {
-      "key" : "batchSize",
-      "value" : "1048576"
-    }, {
-      "key" : "mdFetchTimeout",
-      "value" : "5000"
-    }, {
-      "key" : "producerProperties",
-      "value" : null
-    } ],
-    "connectionId" : "0100030B00000000003S",
-    "type" : "",
-    "metaMetadata" : ""
-  }, {
-    "id" : "fee5e6fd-7a8a-4052-b5ca-3dcf77eadb2a",
+    "id" : "ad978c8f-8a7c-47f9-9157-8a778becad65",
     "name" : "Restv2_Kafka_07_source",
     "serviceType" : "source",
     "config" : [ {
@@ -40,12 +20,32 @@
       "key" : "schedulePeriod",
       "value" : "0"
     } ],
-    "connectionId" : "0100030B000000000039",
+    "connectionId" : "010AEI0B000000000052",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "4b858650-0b45-4eef-8898-338da369787f",
+    "name" : "Restv2_Kafka_07_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "010AEI0B00000000005E",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "00b7e0f5-da43-4dc4-81ec-33f86fd7e468",
+    "id" : "52fe4730-eccd-4df2-b2d9-bca684e22eaf",
     "name" : "edge0",
     "from" : "Restv2_Kafka_07_source",
     "to" : "Restv2_Kafka_07_target",
@@ -63,7 +63,7 @@
   },
   "customAttributes" : {
     "project" : "Default",
-    "agentId" : "0100032500000000000D",
+    "agentId" : "010AEI2500000000000G",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent"
   },
