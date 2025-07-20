@@ -1,0 +1,71 @@
+{
+  "agentId" : "010LOF2500000000000H",
+  "nodes" : [ {
+    "id" : "ac31ecc0-1698-4a57-a2e9-cfc2867e6013",
+    "name" : "REST V2 To S3_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "getAllCourses"
+    }, {
+      "key" : "header",
+      "value" : "[]"
+    }, {
+      "key" : "alertType",
+      "value" : "Raise Alert"
+    }, {
+      "key" : "scheme",
+      "value" : "HTTP"
+    }, {
+      "key" : "schedulePeriod",
+      "value" : "10"
+    } ],
+    "connectionId" : "010LOF0B00000000004T",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "b4b7c599-5d77-4be0-8bc4-1f35881589ff",
+    "name" : "REST V2 To S3_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "minUploadPartSize",
+      "value" : "5120"
+    }, {
+      "key" : "multipartUploadThreshold",
+      "value" : "5120"
+    }, {
+      "key" : "partitionTime",
+      "value" : "None"
+    } ],
+    "connectionId" : "010LOF0B00000000005P",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "1cf79953-799c-4e68-b4fe-574d0548b1a2",
+    "name" : "edge0",
+    "from" : "REST V2 To S3_source",
+    "to" : "REST V2 To S3_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "010LOF2500000000000H",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  },
+  "description" : null
+}
