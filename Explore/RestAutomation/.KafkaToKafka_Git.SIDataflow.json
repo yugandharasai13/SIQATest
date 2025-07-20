@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "egSQRR1dXSWhVdT9h8jH2S",
+    "id" : "4nYjefXe2cYbKYIUP75zeq",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,27 +9,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "6ebcb10a-3a33-4315-bae3-e6ae263c8294"
+        "repoHandle" : "5ebb1725-d958-4540-9c56-bcd9c8278a1d"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "9QeB19W9fXck3Ug4vbc7QZ"
+        "value" : "4W731x5UGspcRCyWUysXmV"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : "KafkaToKafka_Git aadeddd ",
+        "description" : "TestAutomation c1",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-06-06T08:42:34.839Z",
+  "updateTime" : "2025-07-20T05:59:38.747Z",
   "objectRefs" : [ {
-    "id" : "6pf6cIXbrU1hUtRkBPL5u1",
-    "name" : "insiubtu16qa02",
+    "id" : "a6E8h20PZ3abi4UUzeNEOu",
+    "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010R7R250000000007Q2"
+        "repoHandle" : "0100032500000000000B"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0LUvlX1uRyykevzAbW4bYg",
-    "name" : "SIAutomation_Kafka_r36_Rhel8_PAM",
+    "id" : "1FOU52T9h15b3wsacb3aEF",
+    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010R7R0B000000000007"
+        "repoHandle" : "0100030B000000000017"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

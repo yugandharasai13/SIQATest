@@ -1,13 +1,13 @@
 {
-  "parentId" : "9QeB19W9fXck3Ug4vbc7QZ",
-  "version" : 3,
-  "blob" : "{\"agentId\":\"010R7R250000000007Q2\",\"nodes\":[{\"id\":\"375a638a-a079-4587-a950-d17c6f972e7c\",\"name\":\"KafkaToKafka_Git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"7b85da6a-ffac-464b-8960-e062f7c991d9\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarml\"}],\"connectionId\":\"010R7R0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"baabe1a4-5f69-4344-9b30-ac19cb725a68\",\"name\":\"edge0\",\"from\":\"KafkaToKafka_Git_source\",\"to\":\"KafkaToKafka_Git_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
-  "description" : "KafkaToKafka_Git aadeddd ",
+  "parentId" : "4W731x5UGspcRCyWUysXmV",
+  "version" : 2,
+  "blob" : "{\"agentId\":\"0100032500000000000B\",\"nodes\":[{\"id\":\"bb52dea1-b40e-4ccf-b705-2fd7daf2f87c\",\"name\":\"KafkaToKafka_Git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcawsstaging\"}],\"connectionId\":\"0100030B000000000017\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"ed868400-f8f9-456b-80e3-72858c576338\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarawsstaging\"}],\"connectionId\":\"0100030B000000000017\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"8797ec38-5498-4399-b651-26757d04c48a\",\"name\":\"edge0\",\"from\":\"KafkaToKafka_Git_source\",\"to\":\"KafkaToKafka_Git_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "TestAutomation c1",
   "customAttributes" : {
     "project" : "RestAutomation",
-    "agentId" : "010R7R250000000007Q2",
+    "agentId" : "0100032500000000000B",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "2"
+    "currentVersion" : "1"
   }
 }
