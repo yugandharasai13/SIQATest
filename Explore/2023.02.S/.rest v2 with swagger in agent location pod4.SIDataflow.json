@@ -25,8 +25,8 @@
       }
     }
   },
-  "dataFileExtension" : "null",
-  "updateTime" : "2024-10-14T09:49:47.536Z",
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-07-20T04:48:37.935Z",
   "objectRefs" : [ {
     "id" : "3YWmn0cHUsLfu4pK8Ij5QG",
     "name" : "SIAutomation_RestV2_2023.04.M",
@@ -88,6 +88,6 @@
     },
     "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
