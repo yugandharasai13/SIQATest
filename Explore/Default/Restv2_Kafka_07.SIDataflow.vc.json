@@ -1,0 +1,71 @@
+{
+  "agentId" : "0100032500000000000D",
+  "nodes" : [ {
+    "id" : "6c4217d9-9ede-4e6a-b794-089f31b567e9",
+    "name" : "Restv2_Kafka_07_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0100030B00000000003S",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "fee5e6fd-7a8a-4052-b5ca-3dcf77eadb2a",
+    "name" : "Restv2_Kafka_07_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "getAllCourses"
+    }, {
+      "key" : "header",
+      "value" : "[]"
+    }, {
+      "key" : "alertType",
+      "value" : "Raise Alert"
+    }, {
+      "key" : "scheme",
+      "value" : "HTTP"
+    }, {
+      "key" : "schedulePeriod",
+      "value" : "0"
+    } ],
+    "connectionId" : "0100030B000000000039",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "00b7e0f5-da43-4dc4-81ec-33f86fd7e468",
+    "name" : "edge0",
+    "from" : "Restv2_Kafka_07_source",
+    "to" : "Restv2_Kafka_07_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0100032500000000000D",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  },
+  "description" : null
+}
