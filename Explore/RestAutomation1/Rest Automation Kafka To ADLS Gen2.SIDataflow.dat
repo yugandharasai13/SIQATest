@@ -1,0 +1,10 @@
+{
+  "parentId" : "3bsGpsMqHT2jMgJbQD5ZKO",
+  "version" : 1,
+  "blob" : "{\"agentId\":\"0100042500000000000C\",\"nodes\":[{\"id\":\"b89c3f3b-ba04-4851-b48c-9c6864ae5080\",\"name\":\"Rest Automation Kafka To ADLSGen2_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkatogen2srcsing\"},{\"key\":\"consumerProperties\",\"value\":null}],\"connectionId\":\"0100040B00000000004D\"},{\"id\":\"3c19ae1b-7da5-4208-bd0f-c2efa3109f24\",\"name\":\"Rest Automation Kafka To ADLSGen2_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"filesystemNameOverride\",\"value\":null},{\"key\":\"writeStrategy\",\"value\":\"Append\"},{\"key\":\"_nativeName\",\"value\":\"kafkatogen2tarsing\"},{\"key\":\"compressionFormat\",\"value\":\"NONE\"},{\"key\":\"directoryOverride\",\"value\":null}],\"connectionId\":\"0100040B00000000004G\"}],\"edges\":[{\"id\":\"9533d498-dc17-4849-beb1-b7254cc359ba\",\"name\":\"edge0\",\"from\":\"Rest Automation Kafka To ADLSGen2_source\",\"to\":\"Rest Automation Kafka To ADLSGen2_target\",\"config\":[]}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : {
+    "project" : "RestAutomation1",
+    "environmentType" : "Secure Agent"
+  }
+}
