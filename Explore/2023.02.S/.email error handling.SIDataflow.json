@@ -16,58 +16,18 @@
         "value" : "8eEx5I5T71Gi4VpMnongIA"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "4"
       } ],
       "additionalInfo" : {
         "description" : "",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-02-16T19:34:30.197Z",
+  "updateTime" : "2025-07-20T05:26:22.109Z",
   "objectRefs" : [ {
-    "id" : "6D1OVTo7rThkDJsHWybhIY",
-    "name" : "SIAutomation_Kafka",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010LOF0B00000000004S"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3cBjiMPtS2Alw6FHnC4UwO",
-    "name" : "SIAutomation_Tailfile_r36_RE",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010LOF0B00000000001V"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
     "id" : "9YUq7RykYOhhcSYSKyAZqW",
     "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
@@ -87,7 +47,47 @@
       }
     },
     "path" : "/SYS"
+  }, {
+    "id" : "jZjRl0nPM8MiZFjzkeGbsC",
+    "name" : "SIAutomation_Tailfile_r35",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010LOF0B00000000005U"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0cFjMJnRvA2klG6eEALpKt",
+    "name" : "SIAutomation_Kafka_SSL_2023.04.M",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010LOF0B00000000005G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
