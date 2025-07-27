@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-04-20T04:01:12.590Z",
+  "updateTime" : "2025-07-27T04:20:09.277Z",
   "objectRefs" : [ {
     "id" : "dHv9jjG3DcaiQmfLd2SMso",
     "name" : "SI_REST_V2",
@@ -88,6 +88,6 @@
     },
     "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
