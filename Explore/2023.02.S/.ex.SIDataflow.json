@@ -16,17 +16,17 @@
         "value" : "feNI0Ek6Aebg81pJHDAkgK"
       }, {
         "name" : "version",
-        "value" : "4"
+        "value" : "5"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "added",
         "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-27T04:05:24.854Z",
+  "updateTime" : "2025-07-27T04:05:48.120Z",
   "objectRefs" : [ {
     "id" : "aA4cI8uDPcydTKjd8lj70S",
     "name" : "SIAutomation_Kafka",
