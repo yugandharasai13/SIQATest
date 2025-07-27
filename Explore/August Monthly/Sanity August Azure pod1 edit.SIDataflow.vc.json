@@ -1,21 +1,7 @@
 {
-  "agentId" : "0100EY2500000000000B",
+  "agentId" : "0102XB25000000000002",
   "nodes" : [ {
-    "id" : "18a2fd80-4619-45ff-b71b-67bb76bbed4e",
-    "name" : "Sanity August Azure pod1 edit_source",
-    "serviceType" : "source",
-    "config" : [ {
-      "key" : "_nativeName",
-      "value" : "src"
-    }, {
-      "key" : "consumerProperties",
-      "value" : null
-    } ],
-    "connectionId" : "0100EY0B000000000008",
-    "type" : "",
-    "metaMetadata" : ""
-  }, {
-    "id" : "0d496cfa-b889-4a05-b084-3fcacee9d850",
+    "id" : "e76cdc83-7c3a-4b19-8f21-98161ad5ad27",
     "name" : "Sanity August Azure pod1 edit_target",
     "serviceType" : "target",
     "config" : [ {
@@ -31,12 +17,26 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "0100EY0B000000000008",
+    "connectionId" : "0101AX0B00000000001O",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "ad8b8e9e-6194-481a-a65a-707243584000",
+    "name" : "Sanity August Azure pod1 edit_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "src"
+    }, {
+      "key" : "consumerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0101AX0B00000000001O",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "33cc423c-1550-4f89-99d8-aaec0856c567",
+    "id" : "f4a29151-3330-4504-aef1-50b86d9cadaa",
     "name" : "edge0",
     "from" : "Sanity August Azure pod1 edit_source",
     "to" : "Sanity August Azure pod1 edit_target",
@@ -52,12 +52,6 @@
     "logLevel" : "INFO",
     "config" : [ ]
   },
-  "customAttributes" : {
-    "project" : "August Monthly",
-    "agentId" : "0100EY2500000000000B",
-    "messageFormat" : "binary",
-    "environmentType" : "Secure Agent",
-    "currentVersion" : "2"
-  },
-  "description" : "add2"
+  "customAttributes" : { },
+  "description" : null
 }
