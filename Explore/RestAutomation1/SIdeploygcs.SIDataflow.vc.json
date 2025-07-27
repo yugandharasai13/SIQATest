@@ -1,21 +1,16 @@
 {
-  "agentId" : "0101AX2500000000000C",
+  "agentId" : "011QL82500000000000A",
   "nodes" : [ {
-    "id" : "67608b89-7af0-498b-b457-494177d2e05d",
+    "id" : "324dded1-2052-4b6a-b947-b6bb5282ee31",
     "name" : "SIdeploygcs_source",
     "serviceType" : "source",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "kafkadeploysrcgcspdel"
-    }, {
-      "key" : "consumerProperties",
-      "value" : null
+      "value" : "kafkadeploysrcgcsgcp"
     } ],
-    "connectionId" : "0101AX0B00000000007E",
-    "type" : "",
-    "metaMetadata" : ""
+    "connectionId" : "011QL80B00000000007B"
   }, {
-    "id" : "882c8849-0a52-4e53-928f-d8faa6db666b",
+    "id" : "a2983200-b2af-4112-862d-c40c5284bdb3",
     "name" : "SIdeploygcs_target",
     "serviceType" : "target",
     "config" : [ {
@@ -23,7 +18,7 @@
       "value" : ""
     }, {
       "key" : "nativeName",
-      "value" : "testgcstrgtpdel"
+      "value" : "testgcstrgtgcp"
     }, {
       "key" : "gcsObjectAcl",
       "value" : ""
@@ -46,33 +41,27 @@
       "key" : "gcpProxyHost",
       "value" : ""
     } ],
-    "connectionId" : "0101AX0B00000000007G",
+    "connectionId" : "011QL80B00000000007D",
     "type" : "googlestoragev2",
     "metaMetadata" : "Generic"
   } ],
   "edges" : [ {
-    "id" : "ff56db06-07bd-44a0-9538-a0bdfca63376",
-    "name" : "edge0",
+    "id" : "bac3d050-392e-4c6c-ae24-5a315f2c9727",
+    "name" : "SIdeploygcs_sourcetestgcs_target",
     "from" : "SIdeploygcs_source",
     "to" : "SIdeploygcs_target",
-    "type" : "success",
-    "config" : [ ],
-    "metaMetadata" : ""
+    "config" : [ ]
   } ],
   "runtimeOptions" : {
     "maxLogSize" : {
       "value" : 10,
       "unit" : "MB"
     },
-    "logLevel" : "INFO",
     "config" : [ ]
   },
   "customAttributes" : {
     "project" : "RestAutomation1",
-    "agentId" : "0101AX2500000000000C",
-    "messageFormat" : "binary",
-    "environmentType" : "Secure Agent",
-    "currentVersion" : "1"
+    "environmentType" : "Secure Agent"
   },
   "description" : "TestAutomation"
 }
