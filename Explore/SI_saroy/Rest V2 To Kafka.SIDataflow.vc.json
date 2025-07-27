@@ -1,27 +1,7 @@
 {
   "agentId" : "01000L25000000000002",
   "nodes" : [ {
-    "id" : "320b007d-4db7-404b-9c5d-127717751371",
-    "name" : "Rest V2 To Kafka_target",
-    "serviceType" : "target",
-    "config" : [ {
-      "key" : "_nativeName",
-      "value" : "tar"
-    }, {
-      "key" : "batchSize",
-      "value" : "1048576"
-    }, {
-      "key" : "mdFetchTimeout",
-      "value" : "5000"
-    }, {
-      "key" : "producerProperties",
-      "value" : null
-    } ],
-    "connectionId" : "01000L0B000000000002",
-    "type" : "",
-    "metaMetadata" : ""
-  }, {
-    "id" : "1750d87c-432d-4a73-97f5-3d6cc3183852",
+    "id" : "90787c48-0dba-4ce7-856e-027ea3257b27",
     "name" : "Rest V2 To Kafka_source",
     "serviceType" : "source",
     "config" : [ {
@@ -43,9 +23,29 @@
     "connectionId" : "01000L0B000000000003",
     "type" : "",
     "metaMetadata" : ""
+  }, {
+    "id" : "9c1e7094-6c2d-4ace-990b-b747d7271ba9",
+    "name" : "Rest V2 To Kafka_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "01000L0B000000000002",
+    "type" : "",
+    "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "cf481ac0-49be-45bb-bebd-0464a96a6440",
+    "id" : "a619d249-22e5-4e60-b781-c15489f0fc9e",
     "name" : "edge0",
     "from" : "Rest V2 To Kafka_source",
     "to" : "Rest V2 To Kafka_target",
@@ -61,6 +61,12 @@
     "logLevel" : "INFO",
     "config" : [ ]
   },
-  "customAttributes" : { },
-  "description" : null
+  "customAttributes" : {
+    "project" : "SI_saroy",
+    "agentId" : "01000L25000000000002",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "3"
+  },
+  "description" : "added"
 }
