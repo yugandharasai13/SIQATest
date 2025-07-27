@@ -1,7 +1,7 @@
 {
-  "agentId" : "0102XB2500000000000H",
+  "agentId" : "012XML2500000000000F",
   "nodes" : [ {
-    "id" : "118b8321-35d8-4e47-a57c-c47447535745",
+    "id" : "8cea18ae-2b95-4e40-b919-7736ec0beb2f",
     "name" : "RestV2_SwaggerFile_OnCloud_source",
     "serviceType" : "source",
     "config" : [ {
@@ -18,18 +18,18 @@
       "value" : "HTTP"
     }, {
       "key" : "schedulePeriod",
-      "value" : "3600"
+      "value" : "1200"
     } ],
-    "connectionId" : "0102XB0B00000000009H",
+    "connectionId" : "012XML0B000000000055",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "1b512cd5-a309-4be6-bf5f-14714536bfe4",
+    "id" : "d7158502-9796-40da-b5f0-5632a7b7292d",
     "name" : "RestV2_SwaggerFile_OnCloud_target",
     "serviceType" : "target",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "restV2_Running_azurePod1"
+      "value" : "restV2_Running_sdel"
     }, {
       "key" : "batchSize",
       "value" : "1048576"
@@ -40,12 +40,12 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "0102XB0B00000000009O",
+    "connectionId" : "012XML0B000000000054",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "d4a5bc80-9e64-4c2f-9ece-cc531c84496d",
+    "id" : "ddcbcc75-c55e-4d9c-951a-1eee5f881f02",
     "name" : "edge0",
     "from" : "RestV2_SwaggerFile_OnCloud_source",
     "to" : "RestV2_SwaggerFile_OnCloud_target",
@@ -63,10 +63,10 @@
   },
   "customAttributes" : {
     "project" : "2023.02.S",
-    "agentId" : "0102XB2500000000000H",
+    "agentId" : "012XML2500000000000F",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "5"
+    "currentVersion" : "2"
   },
-  "description" : "RestV2_BasicAuth c3"
+  "description" : "RestV2_BasicAuth"
 }
