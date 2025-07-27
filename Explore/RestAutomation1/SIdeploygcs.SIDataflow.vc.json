@@ -1,0 +1,78 @@
+{
+  "agentId" : "0101AX2500000000000C",
+  "nodes" : [ {
+    "id" : "67608b89-7af0-498b-b457-494177d2e05d",
+    "name" : "SIdeploygcs_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "kafkadeploysrcgcspdel"
+    }, {
+      "key" : "consumerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0101AX0B00000000007E",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "882c8849-0a52-4e53-928f-d8faa6db666b",
+    "name" : "SIdeploygcs_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "gcsContentType",
+      "value" : ""
+    }, {
+      "key" : "nativeName",
+      "value" : "testgcstrgtpdel"
+    }, {
+      "key" : "gcsObjectAcl",
+      "value" : ""
+    }, {
+      "key" : "gcpProxyPort",
+      "value" : "0"
+    }, {
+      "key" : "gcsContentDispositionType",
+      "value" : "inline"
+    }, {
+      "key" : "gcpRetryCount",
+      "value" : "6"
+    }, {
+      "key" : "gcsBucket",
+      "value" : "sitestbucketgcs"
+    }, {
+      "key" : "gcsServerSideEncryptionKey",
+      "value" : ""
+    }, {
+      "key" : "gcpProxyHost",
+      "value" : ""
+    } ],
+    "connectionId" : "0101AX0B00000000007G",
+    "type" : "googlestoragev2",
+    "metaMetadata" : "Generic"
+  } ],
+  "edges" : [ {
+    "id" : "ff56db06-07bd-44a0-9538-a0bdfca63376",
+    "name" : "edge0",
+    "from" : "SIdeploygcs_source",
+    "to" : "SIdeploygcs_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "RestAutomation1",
+    "agentId" : "0101AX2500000000000C",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  },
+  "description" : "TestAutomation"
+}
