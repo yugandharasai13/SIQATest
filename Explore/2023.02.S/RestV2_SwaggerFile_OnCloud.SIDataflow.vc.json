@@ -1,7 +1,7 @@
 {
   "agentId" : "012XML2500000000000F",
   "nodes" : [ {
-    "id" : "8cea18ae-2b95-4e40-b919-7736ec0beb2f",
+    "id" : "441b9d19-4771-42ea-b615-14772a32c02c",
     "name" : "RestV2_SwaggerFile_OnCloud_source",
     "serviceType" : "source",
     "config" : [ {
@@ -24,7 +24,7 @@
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "d7158502-9796-40da-b5f0-5632a7b7292d",
+    "id" : "61429ed8-5bbc-48fc-9cb6-6118f2648a19",
     "name" : "RestV2_SwaggerFile_OnCloud_target",
     "serviceType" : "target",
     "config" : [ {
@@ -45,7 +45,7 @@
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "ddcbcc75-c55e-4d9c-951a-1eee5f881f02",
+    "id" : "44881540-e15b-4828-8275-fb2ec579aab9",
     "name" : "edge0",
     "from" : "RestV2_SwaggerFile_OnCloud_source",
     "to" : "RestV2_SwaggerFile_OnCloud_target",
@@ -66,7 +66,7 @@
     "agentId" : "012XML2500000000000F",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "2"
+    "currentVersion" : "3"
   },
-  "description" : "RestV2_BasicAuth"
+  "description" : "RestV2_BasicAuth added"
 }

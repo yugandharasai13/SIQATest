@@ -1,13 +1,13 @@
 {
   "parentId" : "ateOwXp3yOKl27APJN110k",
-  "version" : 3,
-  "blob" : "{\"agentId\":\"012XML2500000000000F\",\"nodes\":[{\"id\":\"8cea18ae-2b95-4e40-b919-7736ec0beb2f\",\"name\":\"RestV2_SwaggerFile_OnCloud_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"1200\"}],\"connectionId\":\"012XML0B000000000055\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"d7158502-9796-40da-b5f0-5632a7b7292d\",\"name\":\"RestV2_SwaggerFile_OnCloud_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"restV2_Running_sdel\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"012XML0B000000000054\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"ddcbcc75-c55e-4d9c-951a-1eee5f881f02\",\"name\":\"edge0\",\"from\":\"RestV2_SwaggerFile_OnCloud_source\",\"to\":\"RestV2_SwaggerFile_OnCloud_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
-  "description" : "RestV2_BasicAuth",
+  "version" : 4,
+  "blob" : "{\"agentId\":\"012XML2500000000000F\",\"nodes\":[{\"id\":\"441b9d19-4771-42ea-b615-14772a32c02c\",\"name\":\"RestV2_SwaggerFile_OnCloud_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"1200\"}],\"connectionId\":\"012XML0B000000000055\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"61429ed8-5bbc-48fc-9cb6-6118f2648a19\",\"name\":\"RestV2_SwaggerFile_OnCloud_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"restV2_Running_sdel\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"012XML0B000000000054\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"44881540-e15b-4828-8275-fb2ec579aab9\",\"name\":\"edge0\",\"from\":\"RestV2_SwaggerFile_OnCloud_source\",\"to\":\"RestV2_SwaggerFile_OnCloud_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "RestV2_BasicAuth added",
   "customAttributes" : {
     "project" : "2023.02.S",
     "agentId" : "012XML2500000000000F",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "2"
+    "currentVersion" : "3"
   }
 }
