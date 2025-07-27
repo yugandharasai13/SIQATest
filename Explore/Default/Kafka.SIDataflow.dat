@@ -1,0 +1,12 @@
+{
+  "parentId" : "4xuBu7pUeuCcg2o6NOsiS3",
+  "version" : 1,
+  "blob" : "{\"agentId\":\"010GGF2500000000000E\",\"nodes\":[{\"id\":\"2fd5102b-ecbe-4250-b022-39bbbc477f67\",\"name\":\"Kafka_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"src\"},{\"key\":\"consumerProperties\",\"value\":null}],\"connectionId\":\"010GGF0B000000000061\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"034bef3e-47c6-4f4e-a383-beec560a9be2\",\"name\":\"Kafka_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"010GGF0B000000000061\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"8571df24-c7ed-4aec-be8d-c04463986a1c\",\"name\":\"edge0\",\"from\":\"Kafka_source\",\"to\":\"Kafka_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "010GGF2500000000000E",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  }
+}
