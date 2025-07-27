@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "8mNeZeOCBIPdAlrrJiogwf",
+    "id" : "5gGEBGPFqwVguO5H9JafI6",
     "name" : "Rest Automation Kafka To ADLS Gen2",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "7cfdaf00-b819-41a3-9522-9b6493293e23"
+        "repoHandle" : "ccda78ad-4deb-4562-8a90-8b5c8464f106"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3bsGpsMqHT2jMgJbQD5ZKO"
+        "value" : "a5WBVnaaEC0haAdlmGLYcB"
       }, {
         "name" : "version",
         "value" : "1"
@@ -26,49 +26,9 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-20T06:12:22.053Z",
+  "updateTime" : "2025-07-27T04:20:23.445Z",
   "objectRefs" : [ {
-    "id" : "07Hifl2wF1NkuLcNyjWgO5",
-    "name" : "invprodcdwdl01.informatica.com",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0100042500000000000C"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "8Bvv10IXYmVliMQtjqGooL",
-    "name" : "SIAutomation_Kafka_2024.08.S",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0100040B00000000004D"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "95N160Uk73McWL1PnpF1Mz",
+    "id" : "5qcPWF6uEkEfGExAF8fJQ8",
     "name" : "SIAutomation_ADLSGen2_2025.04.M",
     "type" : "Connection",
     "metadata" : {
@@ -77,13 +37,53 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100040B00000000004G"
+        "repoHandle" : "01039M0B00000000006C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "cktDgxo6ISaiOFeoN9kCSL",
+    "name" : "SIAutomation_Kafka_2024.08.S",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01039M0B000000000068"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "aoCDFo9XBo5bv63ggqWdm8",
+    "name" : "invprodcdwdl02.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01039M2500000000000H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"

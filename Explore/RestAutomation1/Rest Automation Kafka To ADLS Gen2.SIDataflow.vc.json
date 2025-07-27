@@ -1,19 +1,19 @@
 {
-  "agentId" : "0100042500000000000C",
+  "agentId" : "01039M2500000000000H",
   "nodes" : [ {
-    "id" : "b89c3f3b-ba04-4851-b48c-9c6864ae5080",
+    "id" : "5b8b2a0f-5206-4b08-bdd2-3367747365eb",
     "name" : "Rest Automation Kafka To ADLSGen2_source",
     "serviceType" : "source",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "kafkatogen2srcsing"
+      "value" : "kafkatogen2srcntt"
     }, {
       "key" : "consumerProperties",
       "value" : null
     } ],
-    "connectionId" : "0100040B00000000004D"
+    "connectionId" : "01039M0B000000000068"
   }, {
-    "id" : "3c19ae1b-7da5-4208-bd0f-c2efa3109f24",
+    "id" : "8d5dd2b8-43e0-40d0-a716-770dfd5eb5d7",
     "name" : "Rest Automation Kafka To ADLSGen2_target",
     "serviceType" : "target",
     "config" : [ {
@@ -24,7 +24,7 @@
       "value" : "Append"
     }, {
       "key" : "_nativeName",
-      "value" : "kafkatogen2tarsing"
+      "value" : "kafkatogen2tarntt"
     }, {
       "key" : "compressionFormat",
       "value" : "NONE"
@@ -32,10 +32,10 @@
       "key" : "directoryOverride",
       "value" : null
     } ],
-    "connectionId" : "0100040B00000000004G"
+    "connectionId" : "01039M0B00000000006C"
   } ],
   "edges" : [ {
-    "id" : "9533d498-dc17-4849-beb1-b7254cc359ba",
+    "id" : "7213f480-8100-4290-b7e9-41307132ab87",
     "name" : "edge0",
     "from" : "Rest Automation Kafka To ADLSGen2_source",
     "to" : "Rest Automation Kafka To ADLSGen2_target",
