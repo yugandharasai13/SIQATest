@@ -1,0 +1,12 @@
+{
+  "parentId" : "81h06S2woKBkRAEHYozkm1",
+  "version" : 2,
+  "blob" : "{\"agentId\":\"0103UU250000000007RN\",\"nodes\":[{\"id\":\"c47895be-1f41-4eb6-92c6-6ef6d61477ed\",\"name\":\"Restv2_Kafka_10M11_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"0\"}],\"connectionId\":\"0103UU0B000000000057\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"a4e5c392-e1e6-489a-a1b1-e2addf876f99\",\"name\":\"Restv2_Kafka_10M11_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0103UU0B00000000007J\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"acb86252-0d36-4d0b-a9ad-3929d3f289f1\",\"name\":\"edge0\",\"from\":\"Restv2_Kafka_10M11_source\",\"to\":\"Restv2_Kafka_10M11_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0103UU250000000007RN",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  }
+}
