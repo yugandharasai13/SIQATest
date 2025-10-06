@@ -1,13 +1,7 @@
 {
-  "parentId" : "feNI0Ek6Aebg81pJHDAkgK",
-  "version" : 5,
-  "blob" : "{\"agentId\":\"0188SH2500000000000B\",\"nodes\":[{\"id\":\"90b31a03-5992-4ba9-9e2f-79580923b11c\",\"name\":\"ex_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"src\"},{\"key\":\"consumerProperties\",\"value\":null}],\"connectionId\":\"0188SH0B00000000003N\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"496d0028-e2ba-4db1-9c91-a96e75592f6e\",\"name\":\"ex_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0188SH0B00000000003N\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"8f7a9f4e-4c0f-4456-9a97-097d48aa4264\",\"name\":\"edge0\",\"from\":\"ex_source\",\"to\":\"ex_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"errorTolerance\":{\"errorCount\":null,\"time\":{\"value\":10,\"unit\":\"MINUTES\"}},\"rejectDir\":\"/root/rd\",\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
-  "description" : "added",
-  "customAttributes" : {
-    "project" : "2023.02.S",
-    "agentId" : "0188SH2500000000000B",
-    "messageFormat" : "binary",
-    "environmentType" : "Secure Agent",
-    "currentVersion" : "4"
-  }
+  "parentId" : "hg0puTtUoKgj9g9xBieZAd",
+  "version" : 1,
+  "blob" : "{\"agentId\":\"0100042500000000000D\",\"nodes\":[{\"id\":\"c624e0de-12fa-40bc-9d21-86d19294a00c\",\"name\":\"ex_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0100040B00000000004V\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"fa2c1c0b-67b1-4082-9d80-dc88dd2f369d\",\"name\":\"ex_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"src\"},{\"key\":\"consumerProperties\",\"value\":null}],\"connectionId\":\"0100040B00000000004V\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"65f112c5-dedd-41bd-99f0-938eaecd0c71\",\"name\":\"edge0\",\"from\":\"ex_source\",\"to\":\"ex_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"errorTolerance\":{\"errorCount\":null,\"time\":{\"value\":10,\"unit\":\"MINUTES\"}},\"rejectDir\":\"/root/rd\",\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : { }
 }

@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "38hd9z6ET49kkHXvA2tZyI",
+    "id" : "lGRj03pLZAFgI2N9d8TMMw",
     "name" : "ex",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,26 +9,26 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "a9b3f0d6-8512-499d-a324-d350cfeebc38"
+        "repoHandle" : "815d8b65-038a-4a4c-83bb-e40439506a2d"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "feNI0Ek6Aebg81pJHDAkgK"
+        "value" : "hg0puTtUoKgj9g9xBieZAd"
       }, {
         "name" : "version",
-        "value" : "5"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "added",
+        "description" : null,
         "contentType" : "Binary",
-        "documentState" : "VALID"
+        "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-27T04:05:48.120Z",
+  "updateTime" : "2025-10-06T13:03:28.649Z",
   "objectRefs" : [ {
-    "id" : "aA4cI8uDPcydTKjd8lj70S",
+    "id" : "91zHztqD6yFi91VGxqMq2X",
     "name" : "SIAutomation_Kafka",
     "type" : "Connection",
     "metadata" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0188SH0B00000000003N"
+        "repoHandle" : "0100040B00000000004V"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "1UkX3K6O56BfyB8hfvD8eU",
-    "name" : "invprodcdwdl02.informatica.com",
+    "id" : "8ixZn4uZk2Cgg0kNHOzD4b",
+    "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0188SH2500000000000B"
+        "repoHandle" : "0100042500000000000D"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
