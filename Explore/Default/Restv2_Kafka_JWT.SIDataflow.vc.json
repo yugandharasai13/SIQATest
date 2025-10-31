@@ -1,7 +1,7 @@
 {
-  "agentId" : "010SA325000000000003",
+  "agentId" : "01000325000000000004",
   "nodes" : [ {
-    "id" : "568f26a9-fa0a-496d-8b9f-4b156212e7cc",
+    "id" : "7e6fac4b-08aa-443b-842b-514da641fe03",
     "name" : "Restv2_Kafka_JWT_source",
     "serviceType" : "source",
     "config" : [ {
@@ -20,11 +20,11 @@
       "key" : "schedulePeriod",
       "value" : "0"
     } ],
-    "connectionId" : "010SA30B00000000001A",
+    "connectionId" : "0100030B00000000003R",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "da37197e-8792-4b74-9038-6d3bc4a7b9ae",
+    "id" : "e3ab5bfe-aa1e-48da-8e32-92fcbb396831",
     "name" : "Restv2_Kafka_JWT_target",
     "serviceType" : "target",
     "config" : [ {
@@ -40,12 +40,12 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "010SA30B000000000046",
+    "connectionId" : "0100030B000000000046",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "663a8335-bcaf-43a1-a7f6-96b820632a97",
+    "id" : "ba02bcf8-b187-4770-b556-47deabdcf7e7",
     "name" : "edge0",
     "from" : "Restv2_Kafka_JWT_source",
     "to" : "Restv2_Kafka_JWT_target",
@@ -63,7 +63,7 @@
   },
   "customAttributes" : {
     "project" : "Default",
-    "agentId" : "010SA325000000000003",
+    "agentId" : "01000325000000000004",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent"
   },

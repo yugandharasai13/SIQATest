@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "ahTND9wOEOCjv6gxvhTf83",
+    "id" : "f3WuHBALqeChSHUSR8xia2",
     "name" : "Restv2_Kafka_JWT",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "ec0dba02-8ee9-485e-aa8c-266f1f05f64d"
+        "repoHandle" : "a63a9057-9840-425a-975d-d9520b0a3b74"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "53c0p8rSaw6bBwHiTGp06E"
+        "value" : "hsNYEJlb3I8hd70QNcQfG1"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -26,30 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-10-31T06:32:55.695Z",
+  "updateTime" : "2025-10-31T06:38:27.472Z",
   "objectRefs" : [ {
-    "id" : "5UX2dRTskFbkRI43YH6WwN",
-    "name" : "invprodcdwdl02.informatica.com",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010SA325000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "4vtC7fr3v66j1lPmHQ5BuS",
-    "name" : "SIAutomation_Kafka_2025.10.M",
+    "id" : "dYMW95UpEmWg6aQHZoBaER",
+    "name" : "SIAutomation_Kafka_2025.07.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SA30B000000000046"
+        "repoHandle" : "0100030B000000000046"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,8 +48,28 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "83n7BZrkPY1fEAyp5TsTy5",
-    "name" : "SIAutomation_RestV2_2023.04.M",
+    "id" : "4w4bo6o9c8sfaG9qmAxgAX",
+    "name" : "invr74pam01",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000325000000000004"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3pXFHUBzjkGf7sk0VT6UyI",
+    "name" : "SIAutomation_RestV2_2025.4.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -77,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010SA30B00000000001A"
+        "repoHandle" : "0100030B00000000003R"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
