@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "kr9V5v20DqziBSKws7t4iJ",
+    "id" : "72knUPeSjEsge98K6ZGIgH",
     "name" : "RestV2_Kafka_Jwt",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "6a6a3c1e-b740-4973-97b5-83b3fde9d111"
+        "repoHandle" : "0d009fba-233d-4609-93fb-5e395e76d218"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "3z4NI046haJjU2PkLy5ncX"
+        "value" : "4iOPNXab8eMjBr5HO4ygIQ"
       }, {
         "name" : "version",
         "value" : "1"
@@ -26,10 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-11-12T10:15:38.126Z",
+  "updateTime" : "2025-11-12T10:23:26.247Z",
   "objectRefs" : [ {
-    "id" : "a6E8h20PZ3abi4UUzeNEOu",
-    "name" : "invprodcdwdl01.informatica.com",
+    "id" : "aEPr0oLlSIKkuySgUKfFWI",
+    "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100032500000000000B"
+        "repoHandle" : "011QL82500000000000A"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "7LfGqVpeSNiiAN0pVgDc0D",
-    "name" : "SIAutomation_Kafka_2025.10.M",
+    "id" : "cAyaQ3Qvokyh6ySYMJL2cG",
+    "name" : "SIAutomation_RestV2_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100030B00000000002T"
+        "repoHandle" : "011QL80B00000000006Z"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,8 +68,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "7Np2wL4oaIhfeRPkJtsfu3",
-    "name" : "SIAutomation_RestV2_2023.04.M",
+    "id" : "4MY8oTUBCDkfHE5lmUj6wC",
+    "name" : "SIAutomation_Kafka_2025.10.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -77,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100030B00000000001Z"
+        "repoHandle" : "011QL80B00000000007Q"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
