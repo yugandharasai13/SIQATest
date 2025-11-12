@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "f3WuHBALqeChSHUSR8xia2",
+    "id" : "0k6rRKaNzyjc73XNffo6QQ",
     "name" : "Restv2_Kafka_JWT",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "a63a9057-9840-425a-975d-d9520b0a3b74"
+        "repoHandle" : "3bfe8cf6-020b-4731-866f-4a86d5154b55"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "hsNYEJlb3I8hd70QNcQfG1"
+        "value" : "dusxhzxb721gdtsaYUu5Qu"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -26,10 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-10-31T06:38:27.472Z",
+  "updateTime" : "2025-11-12T09:11:17.546Z",
   "objectRefs" : [ {
-    "id" : "dYMW95UpEmWg6aQHZoBaER",
-    "name" : "SIAutomation_Kafka_2025.07.M",
+    "id" : "l7rlA2sXPgIgIKeOXzPZEl",
+    "name" : "SIAutomation_RestV2_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100030B000000000046"
+        "repoHandle" : "0100090B000000000020"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "4w4bo6o9c8sfaG9qmAxgAX",
-    "name" : "invr74pam01",
+    "id" : "2GMPcZ9rubIe0AaGYWLi2b",
+    "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01000325000000000004"
+        "repoHandle" : "01000925000000000008"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,8 +68,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "3pXFHUBzjkGf7sk0VT6UyI",
-    "name" : "SIAutomation_RestV2_2025.4.M",
+    "id" : "1erB4tI8ZIWiWlVNLHL6Us",
+    "name" : "SIAutomation_Kafka_2025.07.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -77,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100030B00000000003R"
+        "repoHandle" : "0100090B00000000002V"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
