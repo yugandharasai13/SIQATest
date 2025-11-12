@@ -1,0 +1,12 @@
+{
+  "parentId" : "c2atZbnZh0yf94hwwayQmt",
+  "version" : 1,
+  "blob" : "{\"agentId\":\"0114O12500000000000L\",\"nodes\":[{\"id\":\"2da99d49-c13b-4208-8b9a-e5fbd65ede47\",\"name\":\"RestV2_Kafka_Jwt_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0114O10B0000000000CH\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"cb9e4db0-25cb-4988-8f1a-4eba8f31f5c5\",\"name\":\"RestV2_Kafka_Jwt_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"getAllCourses\"},{\"key\":\"header\",\"value\":\"[]\"},{\"key\":\"alertType\",\"value\":\"Raise Alert\"},{\"key\":\"scheme\",\"value\":\"HTTP\"},{\"key\":\"schedulePeriod\",\"value\":\"0\"}],\"connectionId\":\"0114O10B00000000009S\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"876d84b4-3982-4c28-bb8b-4ce269bb6925\",\"name\":\"edge0\",\"from\":\"RestV2_Kafka_Jwt_source\",\"to\":\"RestV2_Kafka_Jwt_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0114O12500000000000L",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  }
+}
