@@ -1,0 +1,13 @@
+{
+  "parentId" : "74bhx9x43eCeVZa5YzK2Wv",
+  "version" : 6,
+  "blob" : "{\"agentId\":\"01000L25000000000002\",\"nodes\":[{\"id\":\"b67d27eb-a4be-4aad-9254-4de9b81a5717\",\"name\":\"Upgrade Email Error Handling _source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"dne\"},{\"key\":\"initialPosition\",\"value\":\"Current Time\"},{\"key\":\"rolloverPattern\",\"value\":null},{\"key\":\"tailingMode\",\"value\":\"Single file\"}],\"connectionId\":\"01000L0B000000000004\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"264ec74c-b1cb-4f1a-896c-a8e15bc5a032\",\"name\":\"Upgrade Email Error Handling _target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"01000L0B000000000002\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"c6bbc714-15f4-465a-9b13-e33ffc841ce3\",\"name\":\"edge0\",\"from\":\"Upgrade Email Error Handling _source\",\"to\":\"Upgrade Email Error Handling _target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"errorTolerance\":{\"errorCount\":null,\"time\":{\"value\":1,\"unit\":\"MINUTES\"}},\"email\":\"saroy@informatica.com,dtambe@informatica.com\",\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : "added",
+  "customAttributes" : {
+    "project" : "SI_saroy",
+    "agentId" : "01000L25000000000002",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "4"
+  }
+}
