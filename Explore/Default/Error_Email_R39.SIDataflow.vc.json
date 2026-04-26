@@ -1,0 +1,77 @@
+{
+  "agentId" : "010AEI2500000000000G",
+  "nodes" : [ {
+    "id" : "a2e6d85c-1101-46cb-978f-fd1571b384bb",
+    "name" : "Error_Email_R39_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "emea"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "010AEI0B00000000000E",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "82348260-df35-4a1a-8829-861337479c85",
+    "name" : "Error_Email_R39_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "Topics/tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "010AEI0B00000000005E",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "7a81e198-677b-4025-963a-02dcb2d557d4",
+    "name" : "edge0",
+    "from" : "Error_Email_R39_source",
+    "to" : "Error_Email_R39_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 1,
+        "unit" : "MINUTES"
+      }
+    },
+    "email" : "saroy@informatica.com,dtambe@informatica.com",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "010AEI2500000000000G",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "3"
+  },
+  "description" : null
+}

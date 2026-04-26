@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7XGwQHPiOkid5XZZ2OdpEq",
+    "id" : "3wDrhbSl3wyhjlp1EJZgq8",
     "name" : "Error_Email_R39",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "2f50d2f7-be00-4040-a25c-d83272d28a9d"
+        "repoHandle" : "e9160bd3-ef72-4257-8ccd-2c157f11444d"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "1wj7CA4reiIgKhrHreJMuS"
+        "value" : "5EZMUSnrZTReyYBDvIwWOr"
       }, {
         "name" : "version",
         "value" : "4"
@@ -26,10 +26,50 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-05-22T05:18:26.706Z",
+  "updateTime" : "2026-04-26T05:19:28.368Z",
   "objectRefs" : [ {
-    "id" : "9YUq7RykYOhhcSYSKyAZqW",
-    "name" : "invprodcdwdl02.informatica.com",
+    "id" : "9SFIRbmwzeXehGgsK8QFEF",
+    "name" : "SIAutomation_Tailfile_r36_RE",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010AEI0B00000000000E"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6de1ToVox2Dd1AKBmCdJOu",
+    "name" : "SIAutomation_Kafka_2024.08.S",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010AEI0B00000000005E"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "cboAPArZQ83l5fgyphu5sc",
+    "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010LOF2500000000000H"
+        "repoHandle" : "010AEI2500000000000G"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -47,47 +87,7 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "25A2zF9k76VcyOPlvQXxkJ",
-    "name" : "SIAutomation_Kafka_2023.04.M",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010LOF0B000000000050"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "0DEuqEkPY7ahNkT1xNNkUo",
-    "name" : "SIAutomation_Tailfile_2023.04.M",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010LOF0B00000000005D"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
