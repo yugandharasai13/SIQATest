@@ -1,51 +1,41 @@
 {
-  "agentId" : "0100032500000000000B",
+  "agentId" : "010SN62500000000000B",
   "nodes" : [ {
-    "id" : "bb52dea1-b40e-4ccf-b705-2fd7daf2f87c",
-    "name" : "KafkaToKafka_Git_source",
+    "id" : "ca4b0319-c990-4dfa-b53e-3a3b7bc4b1e3",
+    "name" : "KafkaToKafka_git_source",
     "serviceType" : "source",
     "config" : [ {
       "key" : "_nativeName",
       "value" : "kafkagitsrcawsstaging"
     } ],
-    "connectionId" : "0100030B000000000017",
-    "type" : "",
-    "metaMetadata" : ""
+    "connectionId" : "010SN60B0000000000X2"
   }, {
-    "id" : "ed868400-f8f9-456b-80e3-72858c576338",
+    "id" : "da179788-28dc-450a-a7e5-32f88ed9d44d",
     "name" : "KafkaToKafka_Git_target",
     "serviceType" : "target",
     "config" : [ {
       "key" : "_nativeName",
       "value" : "kafkastopgittarawsstaging"
     } ],
-    "connectionId" : "0100030B000000000017",
-    "type" : "",
-    "metaMetadata" : ""
+    "connectionId" : "010SN60B0000000000X2"
   } ],
   "edges" : [ {
-    "id" : "8797ec38-5498-4399-b651-26757d04c48a",
-    "name" : "edge0",
-    "from" : "KafkaToKafka_Git_source",
+    "id" : "dec3f32d-a8e1-4a2b-9109-da13153d907a",
+    "name" : "KafkaToKafka_git_sourceKafkaToKafka_Git_target",
+    "from" : "KafkaToKafka_git_source",
     "to" : "KafkaToKafka_Git_target",
-    "type" : "success",
-    "config" : [ ],
-    "metaMetadata" : ""
+    "config" : [ ]
   } ],
   "runtimeOptions" : {
     "maxLogSize" : {
       "value" : 10,
       "unit" : "MB"
     },
-    "logLevel" : "INFO",
     "config" : [ ]
   },
   "customAttributes" : {
     "project" : "RestAutomation",
-    "agentId" : "0100032500000000000B",
-    "messageFormat" : "binary",
-    "environmentType" : "Secure Agent",
-    "currentVersion" : "1"
+    "environmentType" : "Secure Agent"
   },
-  "description" : "TestAutomation c1"
+  "description" : "TestAutomation"
 }

@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "4nYjefXe2cYbKYIUP75zeq",
+    "id" : "7jBVM6z7nivcam5bf69deE",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,27 +9,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "5ebb1725-d958-4540-9c56-bcd9c8278a1d"
+        "repoHandle" : "ae94e2a8-96ea-492b-ba8c-c4226569ba46"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "4W731x5UGspcRCyWUysXmV"
+        "value" : "jOvUZZ4fL44b3xgMHM9QEB"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "TestAutomation c1",
+        "description" : "TestAutomation",
         "contentType" : "Binary",
-        "documentState" : "VALID"
+        "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-20T05:59:38.747Z",
+  "updateTime" : "2026-05-19T06:33:28.232Z",
   "objectRefs" : [ {
-    "id" : "a6E8h20PZ3abi4UUzeNEOu",
-    "name" : "invprodcdwdl01.informatica.com",
+    "id" : "5LX2QjRPMaccz5SYvcl3Gq",
+    "name" : "AgentGroup",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100032500000000000B"
+        "repoHandle" : "010SN62500000000000B"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "1FOU52T9h15b3wsacb3aEF",
-    "name" : "SIAutomation_Kafka_r39_Rhel8_PAM",
+    "id" : "4Ak9keSuKQok56baE8JQkx",
+    "name" : "SIAutomation_Kafka_2025.10.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0100030B000000000017"
+        "repoHandle" : "010SN60B0000000000X2"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
