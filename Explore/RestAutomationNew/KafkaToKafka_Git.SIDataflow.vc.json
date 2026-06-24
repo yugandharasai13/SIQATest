@@ -1,7 +1,7 @@
 {
   "agentId" : "0168U4250000000000LB",
   "nodes" : [ {
-    "id" : "707a711b-93a4-4ec0-86af-3d9e5ec3c11d",
+    "id" : "68ec894f-5f34-4d96-8146-64769b8d993a",
     "name" : "KafkaToKafka_git_source",
     "serviceType" : "source",
     "config" : [ {
@@ -10,7 +10,7 @@
     } ],
     "connectionId" : "0168U40B0000000000FV"
   }, {
-    "id" : "2d5455c2-6451-4359-9af7-dbd8cd05b94f",
+    "id" : "0fe4f85a-a475-42f7-aa3f-7e41d0c0b7c4",
     "name" : "KafkaToKafka_Git_target",
     "serviceType" : "target",
     "config" : [ {
@@ -20,7 +20,7 @@
     "connectionId" : "0168U40B0000000000FV"
   } ],
   "edges" : [ {
-    "id" : "25c277fc-e2ad-4814-8923-ed2c23fe8c36",
+    "id" : "0c53cf15-2f5c-4c57-8603-51405cfc2100",
     "name" : "KafkaToKafka_git_sourceKafkaToKafka_Git_target",
     "from" : "KafkaToKafka_git_source",
     "to" : "KafkaToKafka_Git_target",
