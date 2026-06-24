@@ -1,7 +1,7 @@
 {
   "parentId" : "a8CsgtSujPrggXXir9B3ov",
   "version" : 1,
-  "blob" : "{\"agentId\":\"0168U4250000000000LB\",\"nodes\":[{\"id\":\"68ec894f-5f34-4d96-8146-64769b8d993a\",\"name\":\"KafkaToKafka_git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcmrel\"}],\"connectionId\":\"0168U40B0000000000FV\"},{\"id\":\"0fe4f85a-a475-42f7-aa3f-7e41d0c0b7c4\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarmrel\"}],\"connectionId\":\"0168U40B0000000000FV\"}],\"edges\":[{\"id\":\"0c53cf15-2f5c-4c57-8603-51405cfc2100\",\"name\":\"KafkaToKafka_git_sourceKafkaToKafka_Git_target\",\"from\":\"KafkaToKafka_git_source\",\"to\":\"KafkaToKafka_Git_target\",\"config\":[]}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"config\":[]}}",
+  "blob" : "{\"agentId\":\"0168U4250000000000LB\",\"nodes\":[{\"id\":\"f5ef964f-e889-49b0-ab4d-e68338f6af18\",\"name\":\"KafkaToKafka_git_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkagitsrcmrel\"}],\"connectionId\":\"0168U40B0000000000FV\"},{\"id\":\"32a0bb47-7ca6-4869-b703-5ced15743fe9\",\"name\":\"KafkaToKafka_Git_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"kafkastopgittarmrel\"}],\"connectionId\":\"0168U40B0000000000FV\"}],\"edges\":[{\"id\":\"b3b6f852-9f6f-4a9d-8696-031826bda93f\",\"name\":\"KafkaToKafka_git_sourceKafkaToKafka_Git_target\",\"from\":\"KafkaToKafka_git_source\",\"to\":\"KafkaToKafka_Git_target\",\"config\":[]}],\"runtimeOptions\":{\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"config\":[]}}",
   "description" : "TestAutomation",
   "customAttributes" : {
     "project" : "RestAutomationNew",
