@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "9ZFn3woVeCWlamPzgFc4Eu",
+    "id" : "3k9Q20yBqOQiUJ1mEEfUmi",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "b40db467-1858-4938-9ea7-c4f85bb206a9"
+        "repoHandle" : "535a3e2c-5259-4813-9d5f-ba39133ef37c"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2026-07-02T18:14:07.642Z",
+  "updateTime" : "2026-07-03T03:30:46.360Z",
   "objectRefs" : [ {
     "id" : "eiFJJUITHubk37Rxe57iI8",
     "name" : "invsivm01.informatica.com",
