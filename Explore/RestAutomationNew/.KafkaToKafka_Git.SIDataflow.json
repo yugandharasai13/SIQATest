@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "3bR18tmdHvPfsxEEkXvs0J",
+    "id" : "79GEGL7IlKHcw2wKHTCaWp",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "2d589121-4bf8-4fe2-922f-70427539463d"
+        "repoHandle" : "61c2c286-ef92-4719-95a4-579dd3a9eb37"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -26,10 +26,10 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2026-07-04T20:42:06.435Z",
+  "updateTime" : "2026-07-06T21:02:23.758Z",
   "objectRefs" : [ {
-    "id" : "dagmYKISdiZknSG3XaS4Os",
-    "name" : "invr74pam01.informatica.com",
+    "id" : "eiFJJUITHubk37Rxe57iI8",
+    "name" : "invsivm01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0168U425000000000004"
+        "repoHandle" : "0168U4250000000000LB"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
