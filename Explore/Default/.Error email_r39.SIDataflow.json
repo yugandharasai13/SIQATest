@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "70aXaFU4US9dGJUw3gcPII",
+    "id" : "0qn3sneFXUFhFx58jiF6SA",
     "name" : "Error email_r39",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "11639a0a-8d90-49cc-99a2-b2b668f8c7a8"
+        "repoHandle" : "d0f607bb-41d0-4944-87be-a7126f1d8502"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "4iOPNXab8eMjBr5HO4ygIQ"
+        "value" : "2RT3Dx4CH3ibD8jShLggmv"
       }, {
         "name" : "version",
-        "value" : "6"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -26,9 +26,9 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-04-20T06:10:37.991Z",
+  "updateTime" : "2026-07-26T03:59:33.352Z",
   "objectRefs" : [ {
-    "id" : "aEPr0oLlSIKkuySgUKfFWI",
+    "id" : "0FwMM0GDtITj3B8PmcuAqS",
     "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
@@ -37,7 +37,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011QL82500000000000A"
+        "repoHandle" : "0101AX2500000000000C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +48,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "7bSS3AgAzMAca6dD4E1mGP",
-    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
+    "id" : "5szT4ZXYGclenT8Dq9lOk7",
+    "name" : "KafkaSai",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011QL80B00000000002Q"
+        "repoHandle" : "0101AX0B00000000005K"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,8 +68,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "8JP4YFEjaW4iRdA2zsH680",
-    "name" : "SIAutomation_Kafka_2023.04.M",
+    "id" : "4tkzrEaSt6LkCLeFR4cPkm",
+    "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -77,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "011QL80B00000000006F"
+        "repoHandle" : "0101AX0B00000000001Z"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -88,6 +88,6 @@
     },
     "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }

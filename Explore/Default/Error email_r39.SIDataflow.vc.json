@@ -1,0 +1,77 @@
+{
+  "agentId" : "0101AX2500000000000C",
+  "nodes" : [ {
+    "id" : "26384674-03f9-4ea5-b76e-b75b9c494526",
+    "name" : "Error email_r39_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "pdel"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "0101AX0B00000000001Z",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "1db6ffa4-40ee-4530-9653-8c8cfa6d1446",
+    "name" : "Error email_r39_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "0101AX0B00000000005K",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "a9bcefbe-4cb3-4064-a7cd-93572313f3ea",
+    "name" : "edge0",
+    "from" : "Error email_r39_source",
+    "to" : "Error email_r39_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 2,
+        "unit" : "MINUTES"
+      }
+    },
+    "email" : "shub@informatica.com",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0101AX2500000000000C",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  },
+  "description" : null
+}
