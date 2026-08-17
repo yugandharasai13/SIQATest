@@ -1,9 +1,6 @@
 {
   "objectInfo" : {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "a5i8ILOzSOGcjh8sKONKOi",
+    "id" : "41BMlTEX3PDhpKKpfxsSmb",
     "name" : "KafkaToKafka_Git",
     "type" : "SIDataflow",
     "metadata" : {
@@ -12,11 +9,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "2e91c452-19dd-4228-a665-f40aabed0fc4"
+        "repoHandle" : "05e5ae27-eb73-4110-ab5c-c12eb486d368"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "a8CsgtSujPrggXXir9B3ov"
+        "value" : "aCWWO86Sg54ifgaCiT6sc0"
       }, {
         "name" : "version",
         "value" : "1"
@@ -29,35 +26,9 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2026-08-10T02:16:29.451Z",
+  "updateTime" : "2026-08-17T11:24:01.387Z",
   "objectRefs" : [ {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "eiFJJUITHubk37Rxe57iI8",
-    "name" : "invsivm01.informatica.com",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0168U4250000000000LB"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "5QGmA1klKP8fHerYIgdHky",
+    "id" : "4xyuq2urXuykNZ3CU5XpC2",
     "name" : "SIAutomation_Kafka_2025.10.M",
     "type" : "Connection",
     "metadata" : {
@@ -66,13 +37,33 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0168U40B0000000000FV"
+        "repoHandle" : "010HCZ0B000000000087"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9L7AS5IMHb1dKA8jzcxAYP",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010HCZ25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
