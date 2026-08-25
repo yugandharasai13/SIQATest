@@ -1,7 +1,13 @@
 {
-  "parentId" : "agXYsfM414PbpVVSDw1MKK",
-  "version" : 1,
-  "blob" : "{\"agentId\":\"0168U4250000000000LB\",\"nodes\":[{\"id\":\"e1031028-bd04-4c88-9001-692cbf6ce3fb\",\"name\":\"email error handling_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"Topics/tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"0168U40B00000000000R\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"811d07d0-2501-4025-8f0f-4e5dedb484aa\",\"name\":\"email error handling_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"dne\"},{\"key\":\"initialPosition\",\"value\":\"Current Time\"},{\"key\":\"rolloverPattern\",\"value\":null},{\"key\":\"tailingMode\",\"value\":\"Single file\"}],\"connectionId\":\"0168U40B0000000000GM\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"477cdb8d-2b45-4407-a543-426c17af9967\",\"name\":\"edge0\",\"from\":\"email error handling_source\",\"to\":\"email error handling_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"errorTolerance\":{\"errorCount\":null,\"time\":{\"value\":1,\"unit\":\"MINUTES\"}},\"email\":\"dtambe@informatica.com\",\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "parentId" : "2Gz8j1ScQmPiSMJ31LNecw",
+  "version" : 2,
+  "blob" : "{\"agentId\":\"010HCZ25000000000002\",\"nodes\":[{\"id\":\"7280d09b-0998-41da-9b94-c31434adbaa0\",\"name\":\"email error handling_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"Topics/tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"010HCZ0B00000000008O\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"b1fa8258-841c-4ca7-8244-039af7cc1c05\",\"name\":\"email error handling_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"dne\"},{\"key\":\"initialPosition\",\"value\":\"Current Time\"},{\"key\":\"rolloverPattern\",\"value\":null},{\"key\":\"tailingMode\",\"value\":\"Single file\"}],\"connectionId\":\"010HCZ0B00000000008P\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"c804bcad-3ab0-4f2a-a957-ef9fd5ae9b07\",\"name\":\"edge0\",\"from\":\"email error handling_source\",\"to\":\"email error handling_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"errorTolerance\":{\"errorCount\":null,\"time\":{\"value\":1,\"unit\":\"MINUTES\"}},\"email\":\"dtambe@salesforce.com, saroy@informatica.com\",\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
   "description" : "added",
-  "customAttributes" : { }
+  "customAttributes" : {
+    "project" : "saroy",
+    "agentId" : "010HCZ25000000000002",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "1"
+  }
 }
