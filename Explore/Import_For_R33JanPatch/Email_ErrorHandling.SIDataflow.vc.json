@@ -1,0 +1,77 @@
+{
+  "agentId" : "010SN62500000000000B",
+  "nodes" : [ {
+    "id" : "8e9580a6-f2d2-4205-be2d-417a50cab7cf",
+    "name" : "Email_ErrorHandling_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "dne"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "010SN60B00000000000H",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "1ece3368-a4dc-4092-bdae-d2ff1b2ff4fc",
+    "name" : "Email_ErrorHandling_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "dne"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "010SN60B00000000000N",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "1318d7f7-5493-4427-a063-a57054fbdec6",
+    "name" : "edge0",
+    "from" : "Email_ErrorHandling_source",
+    "to" : "Email_ErrorHandling_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 1,
+        "unit" : "MINUTES"
+      }
+    },
+    "email" : "dtambe@informatica.com",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Import_For_R33JanPatch",
+    "agentId" : "010SN62500000000000B",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "3"
+  },
+  "description" : null
+}
