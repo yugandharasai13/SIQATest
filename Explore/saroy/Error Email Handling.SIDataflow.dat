@@ -1,0 +1,7 @@
+{
+  "parentId" : "1RpT4UQIVBHjz9e8qwBbGI",
+  "version" : 4,
+  "blob" : "{\"agentId\":\"01000A2500000000000A\",\"nodes\":[{\"id\":\"30996914-1b06-4341-a1ff-f7fcc7d2e5d2\",\"name\":\"Error Email Handling_target\",\"serviceType\":\"target\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"tar\"},{\"key\":\"batchSize\",\"value\":\"1048576\"},{\"key\":\"mdFetchTimeout\",\"value\":\"5000\"},{\"key\":\"producerProperties\",\"value\":null}],\"connectionId\":\"01000A0B000000000007\",\"type\":\"\",\"metaMetadata\":\"\"},{\"id\":\"e5e15402-b46f-4fcb-ba14-2f8066336661\",\"name\":\"Error Email Handling_source\",\"serviceType\":\"source\",\"config\":[{\"key\":\"_nativeName\",\"value\":\"dne\"},{\"key\":\"initialPosition\",\"value\":\"Current Time\"},{\"key\":\"rolloverPattern\",\"value\":null},{\"key\":\"tailingMode\",\"value\":\"Single file\"}],\"connectionId\":\"01000A0B000000000005\",\"type\":\"\",\"metaMetadata\":\"\"}],\"edges\":[{\"id\":\"6eeb5e04-9dfe-43fc-8b16-0f570c55c6ad\",\"name\":\"edge0\",\"from\":\"Error Email Handling_source\",\"to\":\"Error Email Handling_target\",\"type\":\"success\",\"config\":[],\"metaMetadata\":\"\"}],\"runtimeOptions\":{\"errorTolerance\":{\"errorCount\":null,\"time\":{\"value\":1,\"unit\":\"MINUTES\"}},\"email\":\"saroy@informatica.com,dtambe@informatica.com\",\"maxLogSize\":{\"value\":10,\"unit\":\"MB\"},\"logLevel\":\"INFO\",\"config\":[]}}",
+  "description" : null,
+  "customAttributes" : { }
+}
