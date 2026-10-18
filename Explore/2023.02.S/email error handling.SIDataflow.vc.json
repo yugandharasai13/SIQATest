@@ -1,7 +1,7 @@
 {
-  "agentId" : "010LOF2500000000000H",
+  "agentId" : "0102XB2500000000000H",
   "nodes" : [ {
-    "id" : "b48a97b6-ff6c-4cc4-9dd0-a21869a7953b",
+    "id" : "cfb8a6fb-126f-42f1-9664-0b2d4783c53c",
     "name" : "email error handling_target",
     "serviceType" : "target",
     "config" : [ {
@@ -17,11 +17,11 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "010LOF0B00000000005G",
+    "connectionId" : "0102XB0B00000000009V",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "a893c8c6-6f3a-48d3-8b72-72ec559d0bcd",
+    "id" : "439b45f4-fc22-44fa-b5e4-727a207b47d0",
     "name" : "email error handling_source",
     "serviceType" : "source",
     "config" : [ {
@@ -37,12 +37,12 @@
       "key" : "tailingMode",
       "value" : "Single file"
     } ],
-    "connectionId" : "010LOF0B00000000005U",
+    "connectionId" : "0102XB0B00000000000C",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "a14a911a-cc00-4fc1-be54-cccaa5695191",
+    "id" : "09ba9f3b-9260-4dca-a5b6-425355247c5d",
     "name" : "edge0",
     "from" : "email error handling_source",
     "to" : "email error handling_target",
@@ -68,10 +68,10 @@
   },
   "customAttributes" : {
     "project" : "2023.02.S",
-    "agentId" : "010LOF2500000000000H",
+    "agentId" : "0102XB2500000000000H",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "3"
+    "currentVersion" : "1"
   },
-  "description" : ""
+  "description" : null
 }

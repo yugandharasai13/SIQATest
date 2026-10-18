@@ -1,6 +1,9 @@
 {
   "objectInfo" : {
-    "id" : "4wnVoiiNhqylustnqMXWAQ",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "cTLMijH8FwKb0MeW6Do54d",
     "name" : "email error handling",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,46 +12,29 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "54cd3039-30fe-4ba1-ba61-2d908db4476a"
+        "repoHandle" : "06083bba-9aab-4172-b496-140d6dac066d"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "8eEx5I5T71Gi4VpMnongIA"
+        "value" : "7kSkI2eVZtlib3GzWz1Zso"
       }, {
         "name" : "version",
-        "value" : "4"
+        "value" : "2"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : null,
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-07-20T05:26:22.109Z",
+  "updateTime" : "2026-10-18T16:37:44.546Z",
   "objectRefs" : [ {
-    "id" : "9YUq7RykYOhhcSYSKyAZqW",
-    "name" : "invprodcdwdl02.informatica.com",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010LOF2500000000000H"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "jZjRl0nPM8MiZFjzkeGbsC",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "9M6zFkPpppbdmtrcuheHOO",
     "name" : "SIAutomation_Tailfile_r35",
     "type" : "Connection",
     "metadata" : {
@@ -57,7 +43,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010LOF0B00000000005U"
+        "repoHandle" : "0102XB0B00000000000C"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,7 +54,10 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0cFjMJnRvA2klG6eEALpKt",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "4B8lmYPw3CafNV5qKGLT6p",
     "name" : "SIAutomation_Kafka_SSL_2023.04.M",
     "type" : "Connection",
     "metadata" : {
@@ -77,13 +66,36 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010LOF0B00000000005G"
+        "repoHandle" : "0102XB0B00000000009V"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "5gW0NBESVSflJkzwHeNHCa",
+    "name" : "invprodcdwdl01.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102XB2500000000000H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
