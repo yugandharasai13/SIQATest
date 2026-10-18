@@ -1,32 +1,12 @@
 {
-  "agentId" : "0101AX2500000000000C",
+  "agentId" : "011QL82500000000000A",
   "nodes" : [ {
-    "id" : "26384674-03f9-4ea5-b76e-b75b9c494526",
-    "name" : "Error email_r39_source",
-    "serviceType" : "source",
-    "config" : [ {
-      "key" : "_nativeName",
-      "value" : "pdel"
-    }, {
-      "key" : "initialPosition",
-      "value" : "Current Time"
-    }, {
-      "key" : "rolloverPattern",
-      "value" : null
-    }, {
-      "key" : "tailingMode",
-      "value" : "Single file"
-    } ],
-    "connectionId" : "0101AX0B00000000001Z",
-    "type" : "",
-    "metaMetadata" : ""
-  }, {
-    "id" : "1db6ffa4-40ee-4530-9653-8c8cfa6d1446",
+    "id" : "559b1780-695a-4bd7-a23f-beb70b86d0d0",
     "name" : "Error email_r39_target",
     "serviceType" : "target",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "tar"
+      "value" : "Topics/tar"
     }, {
       "key" : "batchSize",
       "value" : "1048576"
@@ -37,12 +17,32 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "0101AX0B00000000005K",
+    "connectionId" : "011QL80B00000000006F",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "2214119f-05bd-4d3b-bbc7-96b2f6725176",
+    "name" : "Error email_r39_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "gcp"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "011QL80B00000000002Q",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "a9bcefbe-4cb3-4064-a7cd-93572313f3ea",
+    "id" : "0d98c870-8370-47d9-879b-a5e15a65b45e",
     "name" : "edge0",
     "from" : "Error email_r39_source",
     "to" : "Error email_r39_target",
@@ -54,11 +54,11 @@
     "errorTolerance" : {
       "errorCount" : null,
       "time" : {
-        "value" : 2,
+        "value" : 1,
         "unit" : "MINUTES"
       }
     },
-    "email" : "shub@informatica.com",
+    "email" : "dtambe@informatica.com,saroy@informatica.com",
     "maxLogSize" : {
       "value" : 10,
       "unit" : "MB"
@@ -68,10 +68,10 @@
   },
   "customAttributes" : {
     "project" : "Default",
-    "agentId" : "0101AX2500000000000C",
+    "agentId" : "011QL82500000000000A",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "1"
+    "currentVersion" : "6"
   },
   "description" : null
 }
