@@ -1,6 +1,9 @@
 {
   "objectInfo" : {
-    "id" : "60Cdou9CiRAekOpZDTwcs0",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "43z3OeGpsEnbfkJZlWSjwg",
     "name" : "Error_Email_R39",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,27 +12,30 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0ba2995b-4435-4343-997f-3ee24c97c15a"
+        "repoHandle" : "68840b5e-38b0-4664-b86f-4a7083c3995f"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "f4Dw1tdXEWKlEFMQ13PUq2"
+        "value" : "bNfR0uSX1c3iGHkxJ7sZ64"
       }, {
         "name" : "version",
-        "value" : "7"
+        "value" : "8"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "edit and dep",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2026-07-26T04:20:43.672Z",
+  "updateTime" : "2026-10-18T17:23:12.873Z",
   "objectRefs" : [ {
-    "id" : "lkSj6qQBNE7fMELzMGIsoO",
-    "name" : "kafka_alok",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "1HZiDbnZajDi9PpHLye2Me",
+    "name" : "SIAutomation_Kafka_2023.04.M",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +43,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012XML0B000000000004"
+        "repoHandle" : "0100040B00000000003U"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,8 +54,11 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "98AxTVi9UPWg06o4KFEQKc",
-    "name" : "invprodcdwdl02.informatica.com",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "8ixZn4uZk2Cgg0kNHOzD4b",
+    "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -57,7 +66,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012XML2500000000000F"
+        "repoHandle" : "0100042500000000000D"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,7 +77,10 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "2NdNa5DLlsPggL1uPmPPIV",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "9KYZ424YbLzcJpItUkJSYY",
     "name" : "SIAutomation_Tailfile_r36_RE_Rhel8_PAM",
     "type" : "Connection",
     "metadata" : {
@@ -77,7 +89,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "012XML0B00000000000C"
+        "repoHandle" : "0100040B00000000000L"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

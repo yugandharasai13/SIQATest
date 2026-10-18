@@ -1,12 +1,12 @@
 {
-  "agentId" : "012XML2500000000000F",
+  "agentId" : "0100042500000000000D",
   "nodes" : [ {
-    "id" : "4c917a52-1044-4a4c-9871-3c86d160c9af",
+    "id" : "8df62012-619e-40cc-9f60-98e6f20e0e0d",
     "name" : "Error_Email_R39_source",
     "serviceType" : "source",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "pod6"
+      "value" : "uk"
     }, {
       "key" : "initialPosition",
       "value" : "Current Time"
@@ -17,16 +17,16 @@
       "key" : "tailingMode",
       "value" : "Single file"
     } ],
-    "connectionId" : "012XML0B00000000000C",
+    "connectionId" : "0100040B00000000000L",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "b4883bfa-1de8-43f5-a681-c1e959f90a35",
+    "id" : "7e6d662f-f047-436a-8dca-46cb5e196777",
     "name" : "Error_Email_R39_target",
     "serviceType" : "target",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "tar"
+      "value" : "Topics/tar"
     }, {
       "key" : "batchSize",
       "value" : "1048576"
@@ -37,12 +37,12 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "012XML0B000000000004",
+    "connectionId" : "0100040B00000000003U",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "159f92c2-d66c-41b6-aa9f-9b47543200a6",
+    "id" : "9690dded-35e2-4608-b3ef-f55b4633926b",
     "name" : "edge0",
     "from" : "Error_Email_R39_source",
     "to" : "Error_Email_R39_target",
@@ -58,14 +58,20 @@
         "unit" : "MINUTES"
       }
     },
-    "email" : "dtambe@informatica.com",
+    "email" : "saroy@informatica.com,dtambe@informatica.com",
     "maxLogSize" : {
-      "value" : 10,
+      "value" : 11,
       "unit" : "MB"
     },
     "logLevel" : "INFO",
     "config" : [ ]
   },
-  "customAttributes" : { },
-  "description" : null
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0100042500000000000D",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "7"
+  },
+  "description" : "edit and dep"
 }
