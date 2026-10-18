@@ -1,5 +1,8 @@
 {
   "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "c1J7uvV9HqTb3N8Klvufua",
     "name" : "Flatfile to kafka Error Email Handling",
     "type" : "SIDataflow",
@@ -26,8 +29,11 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-04-06T19:27:48.291Z",
+  "updateTime" : "2026-10-18T19:50:43.523Z",
   "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "0sGbC5HHbCge1dVEzuVGIM",
     "name" : "Flatfile sai",
     "type" : "Connection",
@@ -48,6 +54,9 @@
     },
     "path" : "/SYS"
   }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "cL09AsO47E8kWyMunkRUil",
     "name" : "KafkaSai",
     "type" : "Connection",
@@ -68,6 +77,9 @@
     },
     "path" : "/SYS"
   }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "98NjbcPQLNMiAjUYPPooiX",
     "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
@@ -88,6 +100,6 @@
     },
     "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
