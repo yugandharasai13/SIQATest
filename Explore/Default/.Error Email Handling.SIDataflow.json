@@ -1,6 +1,9 @@
 {
   "objectInfo" : {
-    "id" : "2rBDInjbQh9fiWcI0e0hYu",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "gULViQnjyAqiBBACJG0sOQ",
     "name" : "Error Email Handling",
     "type" : "SIDataflow",
     "metadata" : {
@@ -9,14 +12,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "a9d3fe5f-c459-428a-8ee2-1260574165d2"
+        "repoHandle" : "6344ff50-431f-4eed-a716-b516d3f742f3"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "81h06S2woKBkRAEHYozkm1"
+        "value" : "5kjgkSUyikYe0gYT5gltsG"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "3"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -26,10 +29,13 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-04-09T09:03:45.420Z",
+  "updateTime" : "2026-10-18T19:42:32.446Z",
   "objectRefs" : [ {
-    "id" : "hDQkpZfeM8sg38emrfX9mS",
-    "name" : "invinsisaroy01",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "7v65UgOiO2EeqVDZ39GqwO",
+    "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -37,7 +43,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UU250000000007Q6"
+        "repoHandle" : "012CX32500000000000F"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -48,7 +54,10 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "5ySrYL0bHptb2aDrJ9racP",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "dXZjuOC7egsiki1vcilx0j",
     "name" : "SIAutomation_Kafka_2024.08.S",
     "type" : "Connection",
     "metadata" : {
@@ -57,7 +66,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UU0B00000000007I"
+        "repoHandle" : "012CX30B000000000092"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -68,7 +77,10 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "01sW1mtJiuRlknjgk9ACIE",
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "59AEZkCPB40krQh41fWIOD",
     "name" : "SIAutomation_Tailfile_2023.04.M",
     "type" : "Connection",
     "metadata" : {
@@ -77,7 +89,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0103UU0B00000000006R"
+        "repoHandle" : "012CX30B00000000007Z"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -88,6 +100,6 @@
     },
     "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }

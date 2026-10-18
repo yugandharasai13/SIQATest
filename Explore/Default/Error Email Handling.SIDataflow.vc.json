@@ -1,0 +1,71 @@
+{
+  "agentId" : "012CX32500000000000F",
+  "nodes" : [ {
+    "id" : "b7abf64f-2d9f-4640-b907-be814b453df8",
+    "name" : "Error Email Handling_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "Topics/tar"
+    }, {
+      "key" : "batchSize",
+      "value" : "1048576"
+    }, {
+      "key" : "mdFetchTimeout",
+      "value" : "5000"
+    }, {
+      "key" : "producerProperties",
+      "value" : null
+    } ],
+    "connectionId" : "012CX30B000000000092",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "b741ac3b-aa01-42be-951e-290a2c62480a",
+    "name" : "Error Email Handling_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "dne"
+    }, {
+      "key" : "initialPosition",
+      "value" : "Current Time"
+    }, {
+      "key" : "rolloverPattern",
+      "value" : null
+    }, {
+      "key" : "tailingMode",
+      "value" : "Single file"
+    } ],
+    "connectionId" : "012CX30B00000000007Z",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "9bb53e50-b703-45eb-ac18-9fbe1fcbe2ba",
+    "name" : "edge0",
+    "from" : "Error Email Handling_source",
+    "to" : "Error Email Handling_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "errorTolerance" : {
+      "errorCount" : null,
+      "time" : {
+        "value" : 1,
+        "unit" : "MINUTES"
+      }
+    },
+    "email" : "saroy@informatica.com,dtambe@informatica.com",
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : { },
+  "description" : null
+}
