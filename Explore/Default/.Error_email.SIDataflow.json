@@ -1,5 +1,8 @@
 {
   "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "eH3EFPmmtE1iCJ4HrI3vYu",
     "name" : "Error_email",
     "type" : "SIDataflow",
@@ -26,8 +29,11 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-04-13T05:09:15.902Z",
+  "updateTime" : "2026-10-25T05:33:34.201Z",
   "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "7wX4gvHdrv7di7139bF9qe",
     "name" : "invprodcdwdl02.informatica.com",
     "type" : "AgentGroup",
@@ -48,6 +54,9 @@
     },
     "path" : "/SYS"
   }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "hKhdNHZY5kshWwrm8VZY0s",
     "name" : "kafka_alok",
     "type" : "Connection",
@@ -68,6 +77,9 @@
     },
     "path" : "/SYS"
   }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
     "id" : "5rzdmUoBdDKfKgyYwufzCE",
     "name" : "SIAutomation_Tailfile_r36_RE",
     "type" : "Connection",
@@ -88,6 +100,6 @@
     },
     "path" : "/SYS"
   } ],
-  "readableFileExtension" : null,
-  "readableFilePresent" : false
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
