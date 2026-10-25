@@ -1,12 +1,12 @@
 {
-  "agentId" : "012PUJ2500000000000D",
+  "agentId" : "010LOF2500000000000H",
   "nodes" : [ {
-    "id" : "fc0f5800-60f3-4c67-b27a-e7931a2bb861",
+    "id" : "5ba7ff34-20a7-4c5e-9b45-8c42c6a944b6",
     "name" : "Error_Email_R39_source",
     "serviceType" : "source",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "xyz"
+      "value" : "ger"
     }, {
       "key" : "initialPosition",
       "value" : "Current Time"
@@ -17,16 +17,16 @@
       "key" : "tailingMode",
       "value" : "Single file"
     } ],
-    "connectionId" : "012PUJ0B00000000002C",
+    "connectionId" : "010LOF0B00000000005D",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "b60ae7f0-17ae-475f-9d2b-644f42202ba4",
+    "id" : "173d8e5a-538f-4bd6-af5d-5e8f4d5045e5",
     "name" : "Error_Email_R39_target",
     "serviceType" : "target",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "tar"
+      "value" : "Topics/tar"
     }, {
       "key" : "batchSize",
       "value" : "1048576"
@@ -37,12 +37,12 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "012PUJ0B00000000005H",
+    "connectionId" : "010LOF0B000000000050",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "44a97c94-1ebe-4c39-b98c-0879f6023751",
+    "id" : "4e86fd47-fbd0-4f15-8044-97ebd73a49b4",
     "name" : "edge0",
     "from" : "Error_Email_R39_source",
     "to" : "Error_Email_R39_target",
@@ -66,6 +66,12 @@
     "logLevel" : "INFO",
     "config" : [ ]
   },
-  "customAttributes" : { },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "010LOF2500000000000H",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent",
+    "currentVersion" : "2"
+  },
   "description" : null
 }
