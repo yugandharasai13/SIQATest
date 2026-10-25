@@ -1,12 +1,12 @@
 {
-  "agentId" : "0100042500000000000D",
+  "agentId" : "0100032500000000000D",
   "nodes" : [ {
-    "id" : "8df62012-619e-40cc-9f60-98e6f20e0e0d",
+    "id" : "452cdaf5-d15e-43bd-901e-c239ca608586",
     "name" : "Error_Email_R39_source",
     "serviceType" : "source",
     "config" : [ {
       "key" : "_nativeName",
-      "value" : "uk"
+      "value" : "emea"
     }, {
       "key" : "initialPosition",
       "value" : "Current Time"
@@ -17,11 +17,11 @@
       "key" : "tailingMode",
       "value" : "Single file"
     } ],
-    "connectionId" : "0100040B00000000000L",
+    "connectionId" : "0100030B00000000003W",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "7e6d662f-f047-436a-8dca-46cb5e196777",
+    "id" : "e316a9b6-58c5-4394-a85b-2122ba43de25",
     "name" : "Error_Email_R39_target",
     "serviceType" : "target",
     "config" : [ {
@@ -37,12 +37,12 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "0100040B00000000003U",
+    "connectionId" : "0100030B000000000038",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "9690dded-35e2-4608-b3ef-f55b4633926b",
+    "id" : "24b032bf-cd37-4705-8a89-557bb17cebf5",
     "name" : "edge0",
     "from" : "Error_Email_R39_source",
     "to" : "Error_Email_R39_target",
@@ -60,7 +60,7 @@
     },
     "email" : "saroy@informatica.com,dtambe@informatica.com",
     "maxLogSize" : {
-      "value" : 11,
+      "value" : 10,
       "unit" : "MB"
     },
     "logLevel" : "INFO",
@@ -68,10 +68,10 @@
   },
   "customAttributes" : {
     "project" : "Default",
-    "agentId" : "0100042500000000000D",
+    "agentId" : "0100032500000000000D",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
     "currentVersion" : "7"
   },
-  "description" : "edit and dep"
+  "description" : null
 }
