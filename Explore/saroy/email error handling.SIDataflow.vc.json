@@ -1,7 +1,7 @@
 {
-  "agentId" : "010HCZ25000000000002",
+  "agentId" : "010AEI2500000000000G",
   "nodes" : [ {
-    "id" : "7280d09b-0998-41da-9b94-c31434adbaa0",
+    "id" : "e79f631c-3d59-4f94-b75e-3ab90fab74c3",
     "name" : "email error handling_target",
     "serviceType" : "target",
     "config" : [ {
@@ -17,11 +17,11 @@
       "key" : "producerProperties",
       "value" : null
     } ],
-    "connectionId" : "010HCZ0B00000000008O",
+    "connectionId" : "010AEI0B00000000004J",
     "type" : "",
     "metaMetadata" : ""
   }, {
-    "id" : "b1fa8258-841c-4ca7-8244-039af7cc1c05",
+    "id" : "3a327e4f-4cfe-47fd-9d43-e6625790fef3",
     "name" : "email error handling_source",
     "serviceType" : "source",
     "config" : [ {
@@ -37,12 +37,12 @@
       "key" : "tailingMode",
       "value" : "Single file"
     } ],
-    "connectionId" : "010HCZ0B00000000008P",
+    "connectionId" : "010AEI0B000000000061",
     "type" : "",
     "metaMetadata" : ""
   } ],
   "edges" : [ {
-    "id" : "c804bcad-3ab0-4f2a-a957-ef9fd5ae9b07",
+    "id" : "27c07f8a-6a6c-4774-96ec-f9a359be8fa1",
     "name" : "edge0",
     "from" : "email error handling_source",
     "to" : "email error handling_target",
@@ -58,7 +58,7 @@
         "unit" : "MINUTES"
       }
     },
-    "email" : "dtambe@salesforce.com, saroy@informatica.com",
+    "email" : "dtambe@informatica.com, saroy@informatica.com",
     "maxLogSize" : {
       "value" : 10,
       "unit" : "MB"
@@ -68,10 +68,10 @@
   },
   "customAttributes" : {
     "project" : "saroy",
-    "agentId" : "010HCZ25000000000002",
+    "agentId" : "010AEI2500000000000G",
     "messageFormat" : "binary",
     "environmentType" : "Secure Agent",
-    "currentVersion" : "1"
+    "currentVersion" : "2"
   },
   "description" : "added"
 }
