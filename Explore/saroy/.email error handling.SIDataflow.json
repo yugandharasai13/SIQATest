@@ -3,7 +3,7 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "jr3IIXiAbsteyBMiFfAVCC",
+    "id" : "9Ef5bIOVj3ZiIuD27YEUMd",
     "name" : "email error handling",
     "type" : "SIDataflow",
     "metadata" : {
@@ -12,14 +12,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "acbef464-6610-46a1-b4f8-94d794a83efd"
+        "repoHandle" : "7ea9c406-f364-40c1-a797-8d8c8eca7a15"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
-        "value" : "8xfQyMjxE0hg5MSx5CHaih"
+        "value" : "591thDFUIO3cX1xOKoDA6L"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : "added",
@@ -29,12 +29,12 @@
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2026-10-25T06:20:43.149Z",
+  "updateTime" : "2026-10-30T06:39:21.964Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "4AYK6nHoiFGj6Q7B4v2tWT",
+    "id" : "4YCdiarMl7rluMR6e32K0M",
     "name" : "tail_saroy",
     "type" : "Connection",
     "metadata" : {
@@ -43,7 +43,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010AEI0B000000000061"
+        "repoHandle" : "01000L0B000000000020"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -57,7 +57,7 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "4EMI7olcDURhsuvCOKsFIG",
+    "id" : "9ixEwwiC3UzdG5qmTbPjgi",
     "name" : "SIAutomation_Kafka_2023.04.M",
     "type" : "Connection",
     "metadata" : {
@@ -66,7 +66,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010AEI0B00000000004J"
+        "repoHandle" : "01000L0B000000000021"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -80,7 +80,7 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "cboAPArZQ83l5fgyphu5sc",
+    "id" : "kQZB67tfYA7jkpvKmclFSt",
     "name" : "invprodcdwdl01.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
@@ -89,7 +89,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010AEI2500000000000G"
+        "repoHandle" : "01000L25000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
